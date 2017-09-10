@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.mygdx.game.MyBaseClasses;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -13,7 +13,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.Loading.LoadingScreen;
-import com.mygdx.game.MyBaseClasses.MyScreen;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Stack;
@@ -24,7 +23,7 @@ public class MyGdxGame extends Game {
 
 	public Label.LabelStyle getLabelStyle() {
 		Label.LabelStyle style;
-		style = new com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle();
+		style = new Label.LabelStyle();
 		style.font = Assets.manager.get(Assets.ACMEREGULAR_FONT);
 		style.fontColor = Color.YELLOW;
 		Pixmap p = new Pixmap(1,1, Pixmap.Format.RGB888);
@@ -75,7 +74,7 @@ public class MyGdxGame extends Game {
 	@Override
 	public void create () {
 		Assets.prepare();
-		setScreen(new LoadingScreen(this));
+		//setScreen(new LoadingScreen(this));
 	}
 
 	@Override
@@ -103,7 +102,7 @@ public class MyGdxGame extends Game {
 	public void setScreenBackByStackPop(){
 		if (backButtonStack.size()>1){
 			try {
-				setScreen((MyScreen) backButtonStack.pop().getConstructor(MyGdxGame.class).newInstance(this),false);
+				setScreen((com.mygdx.game.MyBaseClasses.MyScreen) backButtonStack.pop().getConstructor(MyGdxGame.class).newInstance(this),false);
 			} catch (InstantiationException e) {
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
