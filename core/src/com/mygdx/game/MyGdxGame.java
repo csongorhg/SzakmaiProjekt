@@ -12,7 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.mygdx.game.GlobalClasses.Assets;
-import com.mygdx.game.Loading.LoadingScreen;
+import com.mygdx.game.DemoLoading.LoadingScreen;
 import com.mygdx.game.MyBaseClasses.MyScreen;
 
 import java.lang.reflect.InvocationTargetException;
@@ -25,7 +25,7 @@ public class MyGdxGame extends Game {
 	public Label.LabelStyle getLabelStyle() {
 		Label.LabelStyle style;
 		style = new com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle();
-		style.font = Assets.manager.get(Assets.ACMEREGULAR_FONT);
+		style.font = Assets.manager.get(Assets.ALEGREYAREGULAR_FONT);
 		style.fontColor = Color.YELLOW;
 		Pixmap p = new Pixmap(1,1, Pixmap.Format.RGB888);
 		p.setColor(0.4f,0.2f,0.8f, 0.5f);
@@ -35,11 +35,11 @@ public class MyGdxGame extends Game {
 
 	public TextField.TextFieldStyle getTextFieldStyle() {
 		TextField.TextFieldStyle style = new TextField.TextFieldStyle();
-		style.background = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.TEST_TEXTURE)));
+		style.background = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.TEXTBOX_TEXTURE)));
 		style.background.setLeftWidth(style.background.getLeftWidth()+20);
 		style.background.setRightWidth(style.background.getRightWidth()+20);
-		style.font = Assets.manager.get(Assets.ACMEREGULAR_FONT);
-		style.cursor = new TextureRegionDrawable(new TextureRegion(new TextureRegion(Assets.manager.get(Assets.TEST_TEXTURE))));
+		style.font = Assets.manager.get(Assets.ALEGREYAREGULAR_FONT);
+		style.cursor = new TextureRegionDrawable(new TextureRegion(new TextureRegion(Assets.manager.get(Assets.CURSOR_TEXTURE))));
 		style.cursor.setMinWidth(50);
 		style.fontColor = Color.BLACK;
 		Pixmap p = new Pixmap(1,1, Pixmap.Format.RGB888);
@@ -53,7 +53,7 @@ public class MyGdxGame extends Game {
 	public TextButton.TextButtonStyle getTextButtonStyle() {
 
 		TextButton.TextButtonStyle textButtonStyle = new TextButton.TextButtonStyle();
-		textButtonStyle.font = Assets.manager.get(Assets.ACMEREGULAR_FONT);
+		textButtonStyle.font = Assets.manager.get(Assets.ALEGREYAREGULAR_FONT);
 
 		Pixmap p = new Pixmap(1,1, Pixmap.Format.RGB888);
 		p.setColor(0.1f,0.2f,0.2f, 0.5f);
@@ -67,7 +67,6 @@ public class MyGdxGame extends Game {
 		p.setColor(1f,0.5f,0.8f, 1f);
 		p.fill();
 		textButtonStyle.down = new TextureRegionDrawable(new TextureRegion(new Texture(p)));
-
 		return textButtonStyle;
 	}
 
@@ -76,6 +75,8 @@ public class MyGdxGame extends Game {
 	public void create () {
 		Assets.prepare();
 		setScreen(new LoadingScreen(this));
+		Gdx.input.setCatchBackKey(true);
+		Gdx.input.setCatchMenuKey(true);
 	}
 
 	@Override
@@ -125,12 +126,7 @@ public class MyGdxGame extends Game {
 		Screen prevScreen = getScreen();
 		if (prevScreen!=null) {
 			if (pushToStack) {backButtonStack.push(prevScreen.getClass());}
-			try {
-				prevScreen.dispose();
-			}
-			catch (Exception e){
-				e.printStackTrace();
-			}
+			prevScreen.dispose();
 		}
 		super.setScreen(screen);
 	}

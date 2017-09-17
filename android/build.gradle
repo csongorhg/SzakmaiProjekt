@@ -1,5 +1,5 @@
 android {
-    buildToolsVersion '26.0.1'
+    buildToolsVersion "24.0.2"
     compileSdkVersion 24
     sourceSets {
         main {
@@ -14,21 +14,10 @@ android {
 
         instrumentTest.setRoot('tests')
     }
-    packagingOptions {
-        exclude 'META-INF/robovm/ios/robovm.xml'
-    }
     defaultConfig {
         applicationId "com.mygdx.game"
-        minSdkVersion 9
+        minSdkVersion 8
         targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
     }
 }
 
