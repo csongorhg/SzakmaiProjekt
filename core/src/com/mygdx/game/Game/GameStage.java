@@ -1,4 +1,4 @@
-package com.mygdx.game.DemoGame;
+package com.mygdx.game.Game;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -16,6 +16,12 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.mygdx.game.DemoGame.BulletActor;
+import com.mygdx.game.DemoGame.HillsActor;
+import com.mygdx.game.DemoGame.HouseActor;
+import com.mygdx.game.DemoGame.UfoActor;
+import com.mygdx.game.DemoGame.WheelActor;
+import com.mygdx.game.DemoGame.WheelActorKinematic;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyBaseClasses.WorldBodyEditorLoader;
 import com.mygdx.game.MyGdxGame;
