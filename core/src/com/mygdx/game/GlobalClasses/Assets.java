@@ -13,7 +13,6 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGeneratorLoader;
 import com.badlogic.gdx.graphics.g2d.freetype.FreetypeFontLoader;
-import com.mygdx.game.DemoGame.AssetsGroupDemoGame;
 
 
 public class Assets {
@@ -78,12 +77,6 @@ public class Assets {
 		manager.load(STAR_TEXTUREATLAS);
 
 		manager.load(STAR_SOUND);
-
-		manager.load(AssetsGroupDemoGame.HILLS_TEXTURE);
-		manager.load(AssetsGroupDemoGame.HOUSE_TEXTURE);
-		manager.load(AssetsGroupDemoGame.UFO2_TEXTURE);
-		manager.load(AssetsGroupDemoGame.UFO_TEXTURE);
-		manager.load(AssetsGroupDemoGame.WHEEL_TEXTURE);
 		/*
         manager.load(MUSIC);
         */

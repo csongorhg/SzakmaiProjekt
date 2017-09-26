@@ -6,12 +6,9 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.Game.GameScreen;
-import com.mygdx.game.DemoInput.InputScreen;
 import com.mygdx.game.MyBaseClasses.MyButton;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
-import com.mygdx.game.DemoOtherScr.OtherScreen;
 import com.mygdx.game.MyBaseClasses.ShapeType;
 import com.mygdx.game.MyGdxGame;
 
@@ -41,7 +38,8 @@ public class MenuStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                game.setScreen(new OtherScreen(game));
+                //game.setScreen(new OtherScreen(game));
+                //valamelyik másik screenre át kell léptetni
             }
         });
 
@@ -50,7 +48,8 @@ public class MenuStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                game.setScreen(new InputScreen(game));
+                //game.setScreen(new InputScreen(game));
+                //valamelyik másik screenre át kell léptetni
             }
         });
 
@@ -59,7 +58,7 @@ public class MenuStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                game.setScreen(new com.mygdx.game.DemoWorld.WorldDemoScreen(game));
+                //game.setScreen(new com.mygdx.game.DemoWorld.WorldDemoScreen(game));
             }
         });
 
@@ -68,7 +67,8 @@ public class MenuStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                game.setScreen(new GameScreen(game));
+                //game.setScreen(new GameScreen(game));
+                //valamelyik másik screenre át kell léptetni
             }
         });
 
