@@ -80,9 +80,6 @@ public class MenuStage extends MyStage {
         textButton.debug();
         addActor(textButton);
 
-        textButton.setPosition(600,600);
-        addActor(textButton);
-
         textButton2.setPosition(200,200);
         textButton2.debug();
         addActor(textButton2);
