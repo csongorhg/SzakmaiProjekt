@@ -43,6 +43,8 @@ public class MenuStage extends MyStage {
             }
         });
 
+
+
         textButton2 = new MyButton("Űrlap", game.getTextButtonStyle());
         textButton2.addListener(new ClickListener(){
             @Override
@@ -77,6 +79,10 @@ public class MenuStage extends MyStage {
         textButton.setPosition(200,100);
         textButton.debug();
         addActor(textButton);
+
+        textButton.setPosition(600,600);
+        addActor(textButton);
+
         textButton2.setPosition(200,200);
         textButton2.debug();
         addActor(textButton2);
