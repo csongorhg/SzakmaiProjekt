@@ -33,7 +33,7 @@ public class MenuStage extends MyStage {
         addBackEventStackListener();
         badlActor = new BadlActor();
         crossActor = new CrossActor();
-        textButton = new MyButton("Előre", game.getTextButtonStyle());
+        textButton = new MyButton("Előre", game.getSkin());
         textButton.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -45,7 +45,7 @@ public class MenuStage extends MyStage {
 
 
 
-        textButton2 = new MyButton("Űrlap", game.getTextButtonStyle());
+        textButton2 = new MyButton("Űrlap", game.getSkin());
         textButton2.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -55,7 +55,7 @@ public class MenuStage extends MyStage {
             }
         });
 
-        textButton3 = new MyButton("Box2D teszt", game.getTextButtonStyle());
+        textButton3 = new MyButton("Box2D teszt", game.getSkin());
         textButton3.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -64,7 +64,7 @@ public class MenuStage extends MyStage {
             }
         });
 
-        textButton4 = new MyButton("Box2d Demo", game.getTextButtonStyle());
+        textButton4 = new MyButton("Box2d Demo", game.getSkin());
         textButton4.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -78,9 +78,6 @@ public class MenuStage extends MyStage {
         addActor(crossActor);
         textButton.setPosition(200,100);
         textButton.debug();
-        addActor(textButton);
-
-        textButton.setPosition(600,600);
         addActor(textButton);
 
         textButton2.setPosition(200,200);

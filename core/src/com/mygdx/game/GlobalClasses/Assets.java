@@ -1,9 +1,12 @@
 //https://github.com/tuskeb/mester
 package com.mygdx.game.GlobalClasses;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetDescriptor;
+import com.badlogic.gdx.assets.AssetLoaderParameters;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.assets.loaders.FileHandleResolver;
+import com.badlogic.gdx.assets.loaders.SkinLoader;
 import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
@@ -13,6 +16,8 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGeneratorLoader;
 import com.badlogic.gdx.graphics.g2d.freetype.FreetypeFontLoader;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.ObjectMap;
 
 
 public class Assets {
@@ -32,6 +37,21 @@ public class Assets {
 		fontParameter.fontParameters.characters = CHARS;
 		fontParameter.fontParameters.color = Color.WHITE;
 	}
+	static final SkinLoader.SkinParameter skinparameter;
+	static {
+		FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("arial.ttf"));
+		FreeTypeFontGenerator.FreeTypeFontParameter p = new FreeTypeFontGenerator.FreeTypeFontParameter();
+		p.color = Color.WHITE;
+		p.size = (1280 * 22 / 1280);
+		p.characters = CHARS;
+
+		BitmapFont font = generator.generateFont(p);
+		generator.dispose();
+		ObjectMap<String, Object> fontMap = new ObjectMap<String, Object>();
+		fontMap.put("default-font", font);
+		skinparameter = new SkinLoader.SkinParameter(fontMap);
+	}
+	public static final AssetDescriptor<Skin> SKIN = new AssetDescriptor<Skin>("uiskin.json",Skin.class,skinparameter);
 	public static final AssetDescriptor<BitmapFont> ALEGREYAREGULAR_FONT
 			= new AssetDescriptor<BitmapFont>(fontParameter.fontFileName, BitmapFont.class, fontParameter);
 
@@ -72,7 +92,7 @@ public class Assets {
 		manager.load(BADLOGIC_TEXTURE);
 		manager.load(TEXTBOX_TEXTURE);
 		manager.load(CURSOR_TEXTURE);
-
+		manager.load(SKIN);
 		manager.load(EXPLOSION_TEXTUREATLAS);
 		manager.load(STAR_TEXTUREATLAS);
 

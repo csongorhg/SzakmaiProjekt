@@ -3,6 +3,7 @@ package com.mygdx.game.MyBaseClasses;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 
@@ -11,8 +12,8 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
  */
 public class MyButton extends TextButton implements InitableInterface{
 
-    public MyButton(String text, TextButtonStyle style) {
-        super(text, style);
+    public MyButton(String text, Skin skin) {
+        super(text, skin);
         init();
     }
 
