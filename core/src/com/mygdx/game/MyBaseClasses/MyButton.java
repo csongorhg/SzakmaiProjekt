@@ -16,6 +16,11 @@ public class MyButton extends TextButton implements InitableInterface{
         super(text, skin);
         init();
     }
+    public MyButton(String text,TextButtonStyle style)
+    {
+        super(text,style);
+        init();
+    }
 
     public void init() {
     }

@@ -3,6 +3,7 @@ package com.mygdx.game.DemoMenu;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -16,11 +17,8 @@ import com.mygdx.game.MyGdxGame;
  * Created by tuskeb on 2016. 09. 30..
  */
 public class MenuStage extends MyStage {
-    private BadlActor badlActor;
-    private CrossActor crossActor;
-    private TextButton textButton, textButton2, textButton3, textButton4;
-    private ExplosionActor explosionActor;
-    private Label utkozesMyLabel;
+    private TextButton playButton, settingsButton, exitButton;
+    private Table table;
 
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
@@ -31,100 +29,24 @@ public class MenuStage extends MyStage {
     public void init()
     {
         addBackEventStackListener();
-        badlActor = new BadlActor();
-        crossActor = new CrossActor();
-        textButton = new MyButton("Előre", game.getSkin());
-        textButton.addListener(new ClickListener(){
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                //game.setScreen(new OtherScreen(game));
-                //valamelyik másik screenre át kell léptetni
-            }
-        });
+        playButton = new MyButton("Play",game.getSkin());
+        settingsButton = new MyButton("Settings",game.getSkin());
+        exitButton = new MyButton("Exit",game.getSkin());
+        table = new Table();
+        table.setFillParent(true);
+        table.center().add(playButton).size(200,200);
+        table.row();
+        table.add(settingsButton).size(200,200);
+        table.row();
+        table.add(exitButton).size(200,200);
+        this.addActor(table);
 
-
-
-        textButton2 = new MyButton("Űrlap", game.getSkin());
-        textButton2.addListener(new ClickListener(){
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                //game.setScreen(new InputScreen(game));
-                //valamelyik másik screenre át kell léptetni
-            }
-        });
-
-        textButton3 = new MyButton("Box2D teszt", game.getSkin());
-        textButton3.addListener(new ClickListener(){
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                //game.setScreen(new com.mygdx.game.DemoWorld.WorldDemoScreen(game));
-            }
-        });
-
-        textButton4 = new MyButton("Box2d Demo", game.getSkin());
-        textButton4.addListener(new ClickListener(){
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                //game.setScreen(new GameScreen(game));
-                //valamelyik másik screenre át kell léptetni
-            }
-        });
-
-        addActor(badlActor);
-        addActor(crossActor);
-        textButton.setPosition(200,100);
-        textButton.debug();
-        addActor(textButton);
-
-        textButton2.setPosition(200,200);
-        textButton2.debug();
-        addActor(textButton2);
-        textButton3.setPosition(200,300);
-        textButton3.debug();
-        addActor(textButton3);
-        textButton4.setPosition(200,400);
-        textButton4.debug();
-        addActor(textButton4);
-        addActor(new StarActor());
-        explosionActor = new ExplosionActor();
-        explosionActor.setPosition(0, getHeight() - explosionActor.getHeight());
-        addActor(explosionActor);
-        utkozesMyLabel = new Label("",game.getLabelStyle());
-        utkozesMyLabel.setPosition(getViewport().getWorldWidth()/2, getViewport().getWorldHeight()-25);
-        addActor(utkozesMyLabel);
-
-        addActor(new CrossActor());
-        getActors().get(getActors().size-1).setPosition(-300, 100);
-
-        OneSpriteAnimatedActor a = new OneSpriteAnimatedActor("walk.atlas"){
-            @Override
-            public void act(float delta) {
-                super.act(delta);
-                setX(getX()+delta*70);
-            }
-        };
-
-        a.setFps(5);
-        addActor(a);
-        addActor(new OneSpriteAnimatedActor("walk.atlas"));
     }
 
 
     @Override
     public void act(float delta) {
         super.act(delta);
-        if (badlActor.overlaps(ShapeType.Rectangle, crossActor))
-        {
-            utkozesMyLabel.setText("Ütközés!");
-        }
-        else
-        {
-            utkozesMyLabel.setText("Nincs ütközés.");
-        }
     }
 
     @Override
