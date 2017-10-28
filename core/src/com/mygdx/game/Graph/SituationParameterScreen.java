@@ -1,4 +1,4 @@
-package com.mygdx.game.DemoMenu;
+package com.mygdx.game.Graph;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;

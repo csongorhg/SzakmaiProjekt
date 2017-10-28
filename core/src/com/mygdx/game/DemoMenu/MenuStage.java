@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.GlobalClasses.Assets;
+import com.mygdx.game.Graph.SituationParameterScreen;
 import com.mygdx.game.MyBaseClasses.ImgButton;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
@@ -44,7 +45,7 @@ public class MenuStage extends MyStage {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         System.out.println("Klikkelve");
-
+                        game.setScreen(new SituationParameterScreen(game));
 
 
                         super.clicked(event, x, y);
@@ -61,6 +62,8 @@ public class MenuStage extends MyStage {
 
 
         this.addActor(table);
+
+
     }
 
 

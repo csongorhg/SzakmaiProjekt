@@ -1,4 +1,4 @@
-a
+a aéskdjalsdjkaslkd kép
 aa
 aaa
 aaaa
@@ -27,6 +27,3 @@ acba
 acbb
 acc
 acca
--
-aaab x aa
-aac x aaba
