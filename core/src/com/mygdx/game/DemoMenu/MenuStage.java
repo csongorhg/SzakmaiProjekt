@@ -45,18 +45,15 @@ public class MenuStage extends MyStage {
                 super.clicked(event, x, y);
             }
         });
-        playButton = new MyButton("Play",game.getSkin());
-        settingsButton = new MyButton("Settings",game.getSkin());
-        exitButton = new MyButton("Exit",game.getSkin());
+
+
+
         table = new Table();
         table.setFillParent(true);
-        table.center().add(playButton).size(100,100);
+        table.center().add(button).size(100,100);
         table.row();
-        table.add(settingsButton).size(100,100);
-        table.row();
-        table.add(exitButton).size(100,100);
-        table.add(button).size(100,100);
-        addActor(table);
+
+        this.addActor(table);
 
     }
 
