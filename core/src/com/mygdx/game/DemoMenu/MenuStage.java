@@ -1,6 +1,7 @@
 package com.mygdx.game.DemoMenu;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -33,7 +34,7 @@ public class MenuStage extends MyStage {
     public void init()
     {
         addBackEventStackListener();
-        button = new ImgButton(new TextureAtlas(Gdx.files.internal("buttons.pack")));
+        button = new ImgButton(new Texture("textbox.png"));
         button.addListener(new ClickListener()
         {
 

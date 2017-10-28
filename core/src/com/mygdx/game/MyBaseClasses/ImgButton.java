@@ -17,8 +17,8 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 public class ImgButton extends Actor implements InitableInterface{
     private Sprite img;
-    public ImgButton(final TextureAtlas atlas) {
-        img = atlas.createSprite("up");
+    public ImgButton(final Texture texture) {
+        img = new Sprite(texture);
         img.getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
         img.setBounds(this.getX(),this.getY(),this.getWidth(),this.getHeight());
         this.addListener(new ClickListener() {
@@ -30,14 +30,14 @@ public class ImgButton extends Actor implements InitableInterface{
 
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                img.set(atlas.createSprite("down"));
+                img.setAlpha(0.4f);
                 return super.touchDown(event, x, y, pointer, button);
 
             }
 
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-                img.set(atlas.createSprite("up"));
+                img.setAlpha(1f);
                 super.touchUp(event, x, y, pointer, button);
             }
         });
