@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyBaseClasses.ImgButton;
 import com.mygdx.game.MyBaseClasses.MyButton;
 import com.mygdx.game.MyBaseClasses.MyStage;
@@ -34,7 +35,7 @@ public class MenuStage extends MyStage {
     public void init()
     {
         addBackEventStackListener();
-        button = new ImgButton(new Texture("textbox.png"));
+        button = new ImgButton(Assets.manager.get(Assets.PLAYBUTTON_TEXTURE));
         button.addListener(new ClickListener()
         {
 
@@ -55,7 +56,7 @@ public class MenuStage extends MyStage {
         table.row();
         table.add(exitButton).size(100,100);
         table.add(button).size(100,100);
-        this.addActor(table);
+        addActor(table);
 
     }
 

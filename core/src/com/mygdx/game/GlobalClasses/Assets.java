@@ -62,6 +62,9 @@ public class Assets {
 			= new AssetDescriptor<Texture>("cursor.png", Texture.class);
 	public static final AssetDescriptor<Texture> TEXTBOX_TEXTURE
 			= new AssetDescriptor<Texture>("textbox.png", Texture.class);
+	public static final AssetDescriptor<Texture> PLAYBUTTON_TEXTURE
+			= new AssetDescriptor<Texture>("playButton.png", Texture.class);
+
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
@@ -95,6 +98,7 @@ public class Assets {
 		manager.load(SKIN);
 		manager.load(EXPLOSION_TEXTUREATLAS);
 		manager.load(STAR_TEXTUREATLAS);
+		manager.load(PLAYBUTTON_TEXTURE);
 
 		manager.load(STAR_SOUND);
 		/*
