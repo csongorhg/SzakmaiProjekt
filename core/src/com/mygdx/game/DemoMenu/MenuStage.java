@@ -63,10 +63,10 @@ public class MenuStage extends MyStage {
 
         table = new Table();
         table.setFillParent(true);
-        table.center();
         table.add(playButton).size(200,200).spaceRight(50);
         table.add(settingsButton).size(200,200).spaceRight(50);
         table.add(exitButton).size(200,200);
+        table.center();
 
         this.addActor(table);
 
