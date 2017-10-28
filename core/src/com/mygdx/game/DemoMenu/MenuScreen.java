@@ -24,7 +24,6 @@ public class MenuScreen extends MyScreen {
         super.render(delta);
         menuStage.act(delta);
         menuStage.draw();
-        System.out.println(Gdx.input.getX()+"  "+Gdx.input.getY());
     }
 
     @Override
