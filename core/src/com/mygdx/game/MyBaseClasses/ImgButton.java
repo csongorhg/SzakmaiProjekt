@@ -17,8 +17,8 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 public class ImgButton extends Actor implements InitableInterface{
     private Sprite img;
-    public ImgButton(final Texture texture) {
-        img = new Sprite(texture);
+    public ImgButton(final Sprite sprite) {
+        img = sprite;
         img.getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
         img.setBounds(this.getX(),this.getY(),this.getWidth(),this.getHeight());
         this.addListener(new ClickListener() {

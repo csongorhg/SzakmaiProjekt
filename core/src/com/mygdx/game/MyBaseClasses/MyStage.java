@@ -3,6 +3,7 @@ package com.mygdx.game.MyBaseClasses;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
@@ -132,7 +133,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
     @Override
     public void init() {
-        settingsButton = new ImgButton(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE));
+        settingsButton = new ImgButton(new Sprite(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE)));
         settingsButton.addListener(new ClickListener()
         {
 
