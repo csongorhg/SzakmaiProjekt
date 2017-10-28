@@ -17,7 +17,6 @@ import com.mygdx.game.MyGdxGame;
 public class MenuStage extends MyStage {
 
     private Table table;
-    private ImgButton playButton, settingsButton, exitButton;
 
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
@@ -27,48 +26,22 @@ public class MenuStage extends MyStage {
 
     public void init()
     {
+        super.init();
         addBackEventStackListener();
-        playButton = new ImgButton(Assets.manager.get(Assets.PLAYBUTTON_TEXTURE));
-        playButton.addListener(new ClickListener()
-        {
 
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                System.out.println("Klikkelve");
-                super.clicked(event, x, y);
-            }
-        });
 
-        settingsButton = new ImgButton(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE));
-        settingsButton.addListener(new ClickListener()
-        {
 
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                System.out.println("Klikkelve");
-                super.clicked(event, x, y);
-            }
-        });
 
-        exitButton = new ImgButton(Assets.manager.get(Assets.EXITBUTTON_TEXTURE));
-        exitButton.addListener(new ClickListener()
-        {
 
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                System.out.println("Klikkelve");
-                super.clicked(event, x, y);
-            }
-        });
+        /*
 
         table = new Table();
         table.setFillParent(true);
         table.add(playButton).size(200,200).spaceRight(50);
-        table.add(settingsButton).size(200,200).spaceRight(50);
-        table.add(exitButton).size(200,200);
         table.center();
 
         this.addActor(table);
+        */
 
     }
 

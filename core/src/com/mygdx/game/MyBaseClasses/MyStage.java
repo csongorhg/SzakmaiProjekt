@@ -7,8 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyGdxGame;
 
 
@@ -17,6 +19,7 @@ import com.mygdx.game.MyGdxGame;
  */
 abstract public class MyStage extends Stage implements InitableInterface {
     public final MyGdxGame game;
+    private ImgButton settingsButton;
 
     public MyStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch);
@@ -125,5 +128,23 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
         }
 
+    }
+
+    @Override
+    public void init() {
+        settingsButton = new ImgButton(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE));
+        settingsButton.addListener(new ClickListener()
+        {
+
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                System.out.println("Klikkelve");
+                super.clicked(event, x, y);
+            }
+        });
+        settingsButton.setSize(75,75);
+        settingsButton.setPosition(getViewport().getWorldWidth() - settingsButton.getWidth(),
+                getViewport().getWorldHeight() - settingsButton.getHeight());
+        this.addActor(settingsButton);
     }
 }
