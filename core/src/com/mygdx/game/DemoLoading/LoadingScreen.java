@@ -43,6 +43,8 @@ public class LoadingScreen extends MyScreen {
 
 	@Override
 	public void init() {
-		setBackGroundColor(0f, 0f, 0f);
+		setBackGroundColor(1f, 1f, 1f);
 	}
+
+
 }
