@@ -8,6 +8,7 @@ import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.assets.loaders.FileHandleResolver;
 import com.badlogic.gdx.assets.loaders.SkinLoader;
 import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -75,10 +76,20 @@ public class Assets {
 	public static final AssetDescriptor<TextureAtlas> STAR_TEXTUREATLAS
 			= new AssetDescriptor<TextureAtlas>("star.atlas", TextureAtlas.class);
 
-	/*
+	//zene
     public static final AssetDescriptor<Music> MUSIC
-            = new AssetDescriptor<Music>("***.mp3", Music.class);
-*/
+            = new AssetDescriptor<Music>("music/music.mp3", Music.class);
+	public static final AssetDescriptor<Texture> MINUS_TEXTURE
+			= new AssetDescriptor<Texture>("music/sminus.png", Texture.class);
+	public static final AssetDescriptor<Texture> PLUS_TEXTURE
+			= new AssetDescriptor<Texture>("music/splus.png", Texture.class);
+	public static final AssetDescriptor<Texture> EMPTYBAR_TEXTURE
+			= new AssetDescriptor<Texture>("music/sempty.png", Texture.class);
+	public static final AssetDescriptor<Texture> FULLBAR_TEXTURE
+			= new AssetDescriptor<Texture>("music/sfull.png", Texture.class);
+
+	//zene vége
+
     public static final AssetDescriptor<Sound> STAR_SOUND
             = new AssetDescriptor<Sound>("star.wav", Sound.class);
 
@@ -106,10 +117,15 @@ public class Assets {
 		manager.load(EXITBUTTON_TEXTURE);
 
 		manager.load(STAR_SOUND);
-		/*
-        manager.load(MUSIC);
-        */
 		manager.load(ALEGREYAREGULAR_FONT);
+
+		//zene
+		manager.load(MUSIC);
+		manager.load(MINUS_TEXTURE);
+		manager.load(PLUS_TEXTURE);
+		manager.load(EMPTYBAR_TEXTURE);
+		manager.load(FULLBAR_TEXTURE);
+		//zene vége
 	}
 
     public static void afterLoaded() {

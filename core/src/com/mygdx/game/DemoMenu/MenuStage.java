@@ -10,10 +10,12 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.Graph.SituationParameterScreen;
+import com.mygdx.game.Music.MusicClass;
 import com.mygdx.game.MyBaseClasses.ImgButton;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
 import com.mygdx.game.MyGdxGame;
+import com.mygdx.game.Settings.SettingsScreen;
 
 import java.util.ArrayList;
 
@@ -23,6 +25,7 @@ import java.util.ArrayList;
 public class MenuStage extends MyStage {
 
     private Table table;
+    public static MusicClass music;
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
@@ -33,6 +36,11 @@ public class MenuStage extends MyStage {
     {
         super.init();
         addBackEventStackListener();
+
+        //zene
+        music = new MusicClass();
+        music.playMusic();
+        //zene vége
 
         table = new Table();
         table.setFillParent(true);
@@ -45,7 +53,8 @@ public class MenuStage extends MyStage {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         System.out.println("Klikkelve");
-                        game.setScreen(new SituationParameterScreen(game));
+                        game.setScreen(new SettingsScreen(game));
+                        //game.setScreen(new SituationParameterScreen(game));
 
 
                         super.clicked(event, x, y);

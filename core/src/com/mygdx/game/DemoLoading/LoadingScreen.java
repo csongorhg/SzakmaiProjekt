@@ -4,6 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.mygdx.game.DemoMenu.MenuScreen;
+import com.mygdx.game.Music.MusicClass;
 import com.mygdx.game.MyBaseClasses.MyScreen;
 import com.mygdx.game.GlobalClasses.*;
 import com.mygdx.game.MyGdxGame;
