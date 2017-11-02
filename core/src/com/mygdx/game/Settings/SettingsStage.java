@@ -7,7 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.DemoMenu.MenuStage;
+import com.mygdx.game.DemoLoading.LoadingScreen;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyBaseClasses.MyButton;
 import com.mygdx.game.MyBaseClasses.MyStage;
@@ -57,8 +57,8 @@ public class SettingsStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                if(MenuStage.music.getVolume() >= 0f)
-                    MenuStage.music.musicVolume(MenuStage.music.getVolume()-0.1f);
+                if(LoadingScreen.music.getVolume() >= 0f)
+                    LoadingScreen.music.musicVolume(LoadingScreen.music.getVolume()-0.1f);
                 volumeBarDraw(pozXandSize, pozY);
             }
         });
@@ -71,8 +71,8 @@ public class SettingsStage extends MyStage {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                if(MenuStage.music.getVolume() <= 0.9f)
-                    MenuStage.music.musicVolume(MenuStage.music.getVolume()+0.1f);
+                if(LoadingScreen.music.getVolume() <= 0.9f)
+                    LoadingScreen.music.musicVolume(LoadingScreen.music.getVolume()+0.1f);
                 volumeBarDraw(pozXandSize, pozY);
             }
         });
@@ -88,7 +88,7 @@ public class SettingsStage extends MyStage {
             if(actor == barSpriteActor)
                 actor.remove();
         }
-        int volume = (int)(MenuStage.music.getVolume()*10);
+        int volume = (int)(LoadingScreen.music.getVolume()*10);
         for(int i = 1; i <= 9; i++){
             if(volume != 0 && i <= volume){
                 barSpriteActor = new OneSpriteStaticActor(Assets.manager.get(Assets.FULLBAR_TEXTURE));

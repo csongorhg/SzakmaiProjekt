@@ -1,6 +1,5 @@
 package com.mygdx.game.DemoLoading;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.mygdx.game.DemoMenu.MenuScreen;
@@ -11,6 +10,8 @@ import com.mygdx.game.MyGdxGame;
 
 
 public class LoadingScreen extends MyScreen {
+
+	public static MusicClass music;
 
 
     public LoadingScreen(MyGdxGame game) {
@@ -33,6 +34,12 @@ public class LoadingScreen extends MyScreen {
 		spriteBatch.end();
 		if (Assets.manager.update()) {
 			Assets.afterLoaded();
+
+			//zene
+			music = new MusicClass();
+			music.playMusic();
+			//zene vége
+
 			game.setScreen(new MenuScreen(game));
 		}
 	}
