@@ -57,24 +57,12 @@ public class Assets {
 			= new AssetDescriptor<BitmapFont>(fontParameter.fontFileName, BitmapFont.class, fontParameter);
 
 
-	public static final AssetDescriptor<Texture> BADLOGIC_TEXTURE
-			= new AssetDescriptor<Texture>("badlogic.jpg", Texture.class);
-	public static final AssetDescriptor<Texture> CURSOR_TEXTURE
-			= new AssetDescriptor<Texture>("cursor.png", Texture.class);
-	public static final AssetDescriptor<Texture> TEXTBOX_TEXTURE
-			= new AssetDescriptor<Texture>("textbox.png", Texture.class);
-	public static final AssetDescriptor<Texture> PLAYBUTTON_TEXTURE
-			= new AssetDescriptor<Texture>("playButton.png", Texture.class);
 	public static final AssetDescriptor<Texture> SETTINGSBUTTON_TEXTURE
 			= new AssetDescriptor<Texture>("settingsButton.png", Texture.class);
-	public static final AssetDescriptor<Texture> EXITBUTTON_TEXTURE
-			= new AssetDescriptor<Texture>("exitButton.png", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
 			= new AssetDescriptor<TextureAtlas>("explosion.atlas", TextureAtlas.class);
-	public static final AssetDescriptor<TextureAtlas> STAR_TEXTUREATLAS
-			= new AssetDescriptor<TextureAtlas>("star.atlas", TextureAtlas.class);
 
 	//zene
     public static final AssetDescriptor<Music> MUSIC
@@ -106,17 +94,9 @@ public class Assets {
 		manager.setLoader(BitmapFont.class, ".ttf", new FreetypeFontLoader(resolver));
 		manager.setLoader(BitmapFont.class, ".otf", new FreetypeFontLoader(resolver));
 
-		manager.load(BADLOGIC_TEXTURE);
-		manager.load(TEXTBOX_TEXTURE);
-		manager.load(CURSOR_TEXTURE);
 		manager.load(SKIN);
 		manager.load(EXPLOSION_TEXTUREATLAS);
-		manager.load(STAR_TEXTUREATLAS);
-		manager.load(PLAYBUTTON_TEXTURE);
 		manager.load(SETTINGSBUTTON_TEXTURE);
-		manager.load(EXITBUTTON_TEXTURE);
-
-		manager.load(STAR_SOUND);
 		manager.load(ALEGREYAREGULAR_FONT);
 
 		//zene
