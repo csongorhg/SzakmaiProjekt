@@ -3,7 +3,6 @@ package com.mygdx.game.Settings;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -47,7 +46,7 @@ public class SettingsStage extends MyStage {
     }
 
 
-    //a zenének a hangosítása / halkítása --- rajzzal együtt
+    //a zenének a hangosítása / halkítása, + és - rajz
     private void musicVolume(){
         OneSpriteStaticActor plusSpriteActor, minusSpriteActor;
         final float pozXandSize = ((ExtendViewport)getViewport()).getMinWorldWidth()/13; // 3. - és 14 +  (0-tól van az index)
@@ -82,25 +81,23 @@ public class SettingsStage extends MyStage {
         volumeBarDraw(pozXandSize, pozY);
     }
 
+    //+ és a - közötti állapotsáv kirajzolása
     private void volumeBarDraw(float pozXandSize, float pozY){ //a - és a + közötti kis rublikákat rajzolja ki
-        OneSpriteStaticActor barSpriteActor = null;
+        BarSpriteActor barSpriteActor = null;
         for (Actor actor:getActors()) {
-            if(actor == barSpriteActor)
+            if(actor instanceof BarSpriteActor){
                 actor.remove();
+            }
         }
         int volume = (int)(LoadingScreen.music.getVolume()*10);
         for(int i = 1; i <= 9; i++){
             if(volume != 0 && i <= volume){
-                barSpriteActor = new OneSpriteStaticActor(Assets.manager.get(Assets.FULLBAR_TEXTURE));
+                barSpriteActor = new BarSpriteActor(Assets.manager.get(Assets.FULLBAR_TEXTURE), pozXandSize*(i+1),pozY-pozXandSize/2, pozXandSize);
                 addActor(barSpriteActor);
-                barSpriteActor.setSize(pozXandSize, pozXandSize);
-                barSpriteActor.setPosition(pozXandSize*(i+1),pozY-pozXandSize/2);
             }
             else{
-                barSpriteActor = new OneSpriteStaticActor(Assets.manager.get(Assets.EMPTYBAR_TEXTURE));
+                barSpriteActor = new BarSpriteActor(Assets.manager.get(Assets.EMPTYBAR_TEXTURE), pozXandSize*(i+1),pozY-pozXandSize/2, pozXandSize);
                 addActor(barSpriteActor);
-                barSpriteActor.setSize(pozXandSize, pozXandSize);
-                barSpriteActor.setPosition(pozXandSize*(i+1),pozY-pozXandSize/2);
             }
         }
     }

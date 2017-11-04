@@ -13,6 +13,7 @@ import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyGdxGame;
+import com.mygdx.game.Settings.SettingsScreen;
 
 
 /**
@@ -139,7 +140,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                System.out.println("Klikkelve");
+                game.setScreen(new SettingsScreen(game));
                 super.clicked(event, x, y);
             }
         });

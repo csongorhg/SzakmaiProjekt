@@ -46,8 +46,7 @@ public class MenuStage extends MyStage {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         System.out.println("Klikkelve");
-                        game.setScreen(new SettingsScreen(game));
-                        //game.setScreen(new SituationParameterScreen(game));
+                        game.setScreen(new SituationParameterScreen(game));
 
 
                         super.clicked(event, x, y);
