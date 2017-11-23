@@ -5,7 +5,6 @@ aaaa
 aaab
 aab
 aaba
-aa
 aac
 aaca
 aacaa
