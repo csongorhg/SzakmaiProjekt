@@ -20,16 +20,38 @@ public class SituationParameterStage extends MyStage {
     public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
         situationParameters = new ArrayList<GraphElement>();
-
+        this.setDebugAll(true);
+        int row = 0;
+        int index = 0;
+        String[] data = new String[100];
         try {
             BufferedReader br = new BufferedReader(new FileReader(new File("param.txt")));
             while (br.ready()) {
-                GraphElement graphElement = new GraphElement(br.readLine());
-                situationParameters.add(graphElement);
-                System.out.println(graphElement);
+                data[index] = br.readLine();
+                System.out.println(index+"  "+data[index]);
+                index++;
             }
         br.close();
         } catch(Exception e) {}
+        int max = 0;
+        for(int i = 0; i < index; i++)
+        {
+            if(max < data[i].length())
+            {
+                max = data[i].length();
+            }
+        }
+        System.out.println("Max :"+max);
+        int[] coll = new int[max];
+        for(int i = 0; i < index;i++)
+        {
+            row = data[i].length()-1;
+            System.out.println("Row : "+(data[i].length()-1)+"     "+i);
+            GraphElement element = new GraphElement(data[i],row,coll[row]);
+            this.addActor(element);
+            coll[row]++;
+        }
+
     }
     @Override
     public void init() {
