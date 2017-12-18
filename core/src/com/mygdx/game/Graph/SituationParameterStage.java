@@ -56,6 +56,7 @@ public class SituationParameterStage extends MyStage {
     @Override
     public void init() {
         super.init();
+        addBackEventStackListener();
     }
     @Override
     public void act(float delta) {

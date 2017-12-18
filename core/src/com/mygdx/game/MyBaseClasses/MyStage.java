@@ -15,6 +15,8 @@ import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyGdxGame;
 import com.mygdx.game.Settings.SettingsScreen;
 
+import static com.badlogic.gdx.scenes.scene2d.InputEvent.Type.keyTyped;
+
 
 /**
  * Created by tuskeb on 2016. 09. 30..
@@ -35,7 +37,8 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
             @Override
             public boolean keyDown(InputEvent event, int keycode) {
-                if(keycode== Input.Keys.BACK) {
+                //System.out.println("Lenyomott gomb: "+Input.Keys.toString(keycode));
+                if(keycode == Input.Keys.BACK || keycode == Input.Keys.BACKSPACE) {
                     game.setScreenBackByStackPop();
                 }
                 return true;

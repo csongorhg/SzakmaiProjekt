@@ -45,7 +45,6 @@ public class MenuStage extends MyStage {
                 currentImgButton.addListener(new ClickListener() {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
-                        System.out.println("Klikkelve");
                         game.setScreen(new SituationParameterScreen(game));
 
 

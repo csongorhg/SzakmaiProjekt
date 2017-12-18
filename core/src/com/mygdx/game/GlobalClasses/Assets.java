@@ -59,6 +59,10 @@ public class Assets {
 
 	public static final AssetDescriptor<Texture> SETTINGSBUTTON_TEXTURE
 			= new AssetDescriptor<Texture>("settingsButton.png", Texture.class);
+	public static final AssetDescriptor<Texture> LOADINGBACKGROUND_TEXTURE
+			= new AssetDescriptor<Texture>("loading/jedlik.png", Texture.class);
+	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
+			= new AssetDescriptor<Texture>("menu/background.jpg", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
@@ -98,6 +102,8 @@ public class Assets {
 		manager.load(EXPLOSION_TEXTUREATLAS);
 		manager.load(SETTINGSBUTTON_TEXTURE);
 		manager.load(ALEGREYAREGULAR_FONT);
+		manager.load(LOADINGBACKGROUND_TEXTURE);
+		manager.load(BACKGROUND_TEXTURE);
 
 		//zene
 		manager.load(MUSIC);

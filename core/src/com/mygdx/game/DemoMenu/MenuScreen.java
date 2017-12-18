@@ -5,15 +5,19 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
+import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyBaseClasses.MyScreen;
+import com.mygdx.game.MyBaseClasses.MyStage;
+import com.mygdx.game.MyBaseClasses.OneSpriteStaticActor;
 import com.mygdx.game.MyGdxGame;
 
 /**
  * Created by tuskeb on 2016. 09. 30..
  */
 public class MenuScreen extends MyScreen {
-    protected MenuStage menuStage;
 
+    protected MenuStage menuStage;
+    private MyStage bgStage;
 
     public MenuScreen(MyGdxGame game) {
         super(game);
@@ -22,6 +26,8 @@ public class MenuScreen extends MyScreen {
     @Override
     public void render(float delta) {
         super.render(delta);
+
+
         menuStage.act(delta);
         menuStage.draw();
     }
@@ -43,5 +49,6 @@ public class MenuScreen extends MyScreen {
         menuStage  = new MenuStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game);
         Gdx.input.setInputProcessor(menuStage);
         setBackGroundColor(1f, 1f, 1f);
+
     }
 }

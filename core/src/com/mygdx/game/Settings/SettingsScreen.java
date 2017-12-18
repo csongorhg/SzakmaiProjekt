@@ -34,8 +34,8 @@ public class SettingsScreen extends MyScreen {
 
     @Override
     public void dispose() {
-        settingsStage.dispose();
         super.dispose();
+        System.out.println("SettingsScreen disposed!");
     }
 
     @Override

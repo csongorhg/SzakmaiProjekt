@@ -105,5 +105,6 @@ public class SettingsStage extends MyStage {
     @Override
     public void dispose() {
         super.dispose();
+        System.out.println("SettingsStage disposed!");
     }
 }

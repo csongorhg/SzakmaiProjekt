@@ -32,7 +32,7 @@ public class SituationParameterScreen extends MyScreen {
 
     @Override
     public void dispose() {
-        param.dispose();
+        //param.dispose();
         super.dispose();
     }
 
