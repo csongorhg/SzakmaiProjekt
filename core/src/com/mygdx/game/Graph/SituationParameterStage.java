@@ -1,6 +1,8 @@
 package com.mygdx.game.Graph;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyGdxGame;
@@ -41,16 +43,23 @@ public class SituationParameterStage extends MyStage {
                 max = data[i].length();
             }
         }
-        System.out.println("Max :"+max);
         int[] coll = new int[max];
-        for(int i = 0; i < index;i++)
-        {
-            row = data[i].length()-1;
-            System.out.println("Row : "+(data[i].length()-1)+"     "+i);
-            GraphElement element = new GraphElement(data[i],row,coll[row]);
+        for(int i = 0; i < index;i++) {
+            row = data[i].length() - 1;
+            GraphElement element = new GraphElement(data[i], row, coll[row]);
             this.addActor(element);
+            situationParameters.add(element);
             coll[row]++;
         }
+            for (int i = 0; i < coll.length; i++) {
+                for(int j = 0; j < index; j++) {
+                    if(situationParameters.get(j).row == i) {
+                        float x = situationParameters.get(j).getX();
+                        float newx = x-(coll[i]*60)/2;
+                        situationParameters.get(j).setX(newx);
+                    }
+                }
+            }
 
     }
     @Override

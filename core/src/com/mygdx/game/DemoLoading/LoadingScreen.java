@@ -1,5 +1,6 @@
 package com.mygdx.game.DemoLoading;
 
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.mygdx.game.DemoMenu.MenuScreen;
@@ -28,7 +29,7 @@ public class LoadingScreen extends MyScreen {
 		loadingImage.setPosition(stage.getViewport().getWorldWidth() / 2 - loadingImage.getWidth() / 2,
 				stage.getViewport().getWorldHeight() / 2  - loadingImage.getHeight() / 2 + 10);
 		stage.addActor(loadingImage);
-
+		loadingImage.getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
 		loadingLine = new OneSpriteStaticActor("Loading/blackLine.png");
 		loadingLine.setSize(0, loadingLine.getHeight() / 2);
 		loadingLine.setPosition(0,0);

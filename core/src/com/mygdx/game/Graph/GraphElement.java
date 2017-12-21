@@ -9,7 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 
 public class GraphElement extends Actor {
 
-    private int row, coll;
+    public int row, coll;
     private String situationId;
 
     public GraphElement(String s, int row,int coll) {
@@ -18,6 +18,8 @@ public class GraphElement extends Actor {
         this.coll = coll;
         this.setWidth(50);
         this.setHeight(50);
+        this.setX(500+coll*60);
+        this.setY(500-row*60);
 
     }
 
@@ -32,8 +34,6 @@ public class GraphElement extends Actor {
     @Override
     public void draw(Batch batch, float parentAlpha) {
         super.draw(batch, parentAlpha);
-        this.setX(500+coll*60);
-        this.setY(500-row*60);
     }
 
     @Override
