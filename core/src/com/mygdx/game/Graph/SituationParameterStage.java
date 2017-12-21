@@ -46,7 +46,7 @@ public class SituationParameterStage extends MyStage {
         int[] coll = new int[max];
         for(int i = 0; i < index;i++) {
             row = data[i].length() - 1;
-            GraphElement element = new GraphElement(data[i], row, coll[row]);
+            GraphElement element = new GraphElement(data[i], row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
             this.addActor(element);
             situationParameters.add(element);
             coll[row]++;
@@ -57,6 +57,7 @@ public class SituationParameterStage extends MyStage {
                         float x = situationParameters.get(j).getX();
                         float newx = x-(coll[i]*60)/2;
                         situationParameters.get(j).setX(newx);
+
                     }
                 }
             }

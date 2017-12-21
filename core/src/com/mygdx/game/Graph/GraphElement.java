@@ -12,14 +12,15 @@ public class GraphElement extends Actor {
     public int row, coll;
     private String situationId;
 
-    public GraphElement(String s, int row,int coll) {
+
+    public GraphElement(String s, int row,int coll, float worldWidth, float worldHeight) {
         situationId = s.split(" ")[0];
         this.row = row;
         this.coll = coll;
         this.setWidth(50);
         this.setHeight(50);
-        this.setX(500+coll*60);
-        this.setY(500-row*60);
+        this.setX((worldWidth / 2 + 35) + coll * 60); // approximately
+        this.setY((worldHeight / 2 - 25)- row * 60);
 
     }
 
