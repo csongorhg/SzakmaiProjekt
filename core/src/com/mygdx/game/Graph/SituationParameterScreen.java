@@ -13,8 +13,11 @@ import com.mygdx.game.MyGdxGame;
 public class SituationParameterScreen extends MyScreen {
     protected SituationParameterStage param;
 
-    public SituationParameterScreen(MyGdxGame game) {
+    private String parameter;
+    public SituationParameterScreen(MyGdxGame game ,String parameter) {
         super(game);
+        this.parameter = parameter;
+        param  = new SituationParameterStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game,parameter);
     }
 
     @Override
@@ -38,7 +41,6 @@ public class SituationParameterScreen extends MyScreen {
 
     @Override
     public void init() {
-        param  = new SituationParameterStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game);
         Gdx.input.setInputProcessor(param);
         setBackGroundColor(1f, 1f, 1f);
     }

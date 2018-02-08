@@ -19,15 +19,16 @@ import java.util.ArrayList;
 public class SituationParameterStage extends MyStage {
     private ArrayList<GraphElement> situationParameters;
 
-    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game) {
+    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game,String parameter) {
         super(viewport, batch, game);
+        System.out.println(parameter);
         situationParameters = new ArrayList<GraphElement>();
         this.setDebugAll(true);
         int row = 0;
         int index = 0;
         String[] data = new String[100];
         try {
-            BufferedReader br = new BufferedReader(new FileReader(new File("param.txt")));
+            BufferedReader br = new BufferedReader(new FileReader(new File(parameter)));
             while (br.ready()) {
                 data[index] = br.readLine();
                 System.out.println(index+"  "+data[index]);

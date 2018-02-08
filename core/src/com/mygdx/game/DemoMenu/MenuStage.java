@@ -41,11 +41,10 @@ public class MenuStage extends MyStage {
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 4; j++) {
                 ImgButton currentImgButton = new ImgButton(Assets.manager.get(Assets.EXPLOSION_TEXTUREATLAS).createSprite(""+(i+j)));
-
                 currentImgButton.addListener(new ClickListener() {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
-                        game.setScreen(new SituationParameterScreen(game));
+                        game.setScreen(new SituationParameterScreen(game ,"param2"+".txt"));
 
 
                         super.clicked(event, x, y);
