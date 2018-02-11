@@ -26,7 +26,7 @@ public class GraphElement extends Actor {
         this.setHeight(50);
         this.setX((worldWidth / 2 + 35) + coll * 60); // approximately
         this.setY((worldHeight / 2 - 25)- row * 60);
-        this.text = new Texture(Gdx.files.internal("iskola//"+situationId+".PNG"));
+        this.text = new Texture(Gdx.files.internal("iskola//"+situationId+".png"));
 
     }
 

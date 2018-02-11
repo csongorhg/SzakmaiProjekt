@@ -2822,24 +2822,7 @@ mert beszélgetsz<y:LabelModel>
     <node id="n160">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="37.67273525846707" width="169.06832655971493" x="-2396.2606139590384" y="-314.83959158936307"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.40234375" x="4.832991404857694" y="9.485781691733564">az órai jegyzet nem lesz meg<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n161">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="40.550010980392244" width="188.25016470588207" x="-2550.674411035687" y="-138.36668064462174"/>
+          <y:Geometry height="40.550010980392244" width="188.25016470588207" x="-2547.8257815063616" y="-199.61221552512404"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="137.39453125" x="25.427816727941263" y="3.573833615196122">következő órára meglesz
@@ -2854,30 +2837,13 @@ a jegyzeted<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n162">
+    <node id="n161">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="193.04562424242386" x="-2519.0243780945107" y="-381.0169331936412"/>
+          <y:Geometry height="61.65003294117645" width="249.16971025937255" x="-2411.7275530221345" y="-316.86292213751415"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="170.083984375" x="11.4808199337117" y="5.6494140625">lesz ceruzád a következő órára<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n163">
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="61.65003294117645" width="131.6637421746882" x="-2376.119683905563" y="-243.86679044854333"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.4140625" x="19.124839837344098" y="21.474430533088224">otthon bepótolod<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.40234375" x="44.883683254686275" y="21.474430533088253">az órai jegyzet nem lesz meg<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2888,10 +2854,10 @@ a jegyzeted<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n164">
+    <node id="n162">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="42.46819479500891" width="189.20925661319052" x="-2269.660482194333" y="-105.75755579613678"/>
+          <y:Geometry height="42.46819479500891" width="189.20925661319052" x="-2266.8118526650073" y="-167.0030906766391"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="168.091796875" x="10.55872986909526" y="11.883511460004456">nem pótolod be, így lemaradsz<y:LabelModel>
@@ -2905,10 +2871,10 @@ a jegyzeted<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n165">
+    <node id="n163">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="52.059113868092595" width="186.33198089126563" x="-2565.2936481996435" y="-33.82566274800854"/>
+          <y:Geometry height="52.059113868092595" width="186.33198089126563" x="-2562.445018670318" y="-95.07119762851084"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.7421875" x="26.794896695632815" y="9.328385059046298">sok időt elvett a pótlása,
@@ -2923,10 +2889,10 @@ nem lesz másra időd<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n166">
+    <node id="n164">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="37.67273525846713" width="176.7410618181816" x="-2257.4251459536545" y="-17.257427165775596"/>
+          <y:Geometry height="37.67273525846713" width="176.7410618181816" x="-2254.576516424329" y="-78.5029620462779"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.38671875" x="39.67717153409103" y="2.135195754233564">dolgozatnál rossz
@@ -2941,10 +2907,10 @@ jegyet szerzel<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n167">
+    <node id="n165">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="42.46819479500891" width="180.5774294474154" x="-2260.3024216755794" y="70.97902830659518"/>
+          <y:Geometry height="42.46819479500891" width="180.5774294474154" x="-2257.453792146254" y="9.733493426092878"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.71484375" x="42.931292848707926" y="11.883511460004456">szüleid leszidnak<y:LabelModel>
@@ -2958,7 +2924,7 @@ jegyet szerzel<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n168">
+    <node id="n166">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="46.30456242424242" width="153.72285604278068" x="-3832.1412527018083" y="179.79745425442871"/>
@@ -2975,7 +2941,7 @@ jegyet szerzel<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n169">
+    <node id="n167">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="80.14016890434795" width="243.36242086956554" x="-5197.95870922157" y="506.6927158539088"/>
@@ -2993,7 +2959,7 @@ osztálytársaid mégis átfutnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n170">
+    <node id="n168">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="95.07553836521674" x="-5397.729943881824" y="674.5733806747764"/>
@@ -3010,7 +2976,7 @@ osztálytársaid mégis átfutnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n171">
+    <node id="n169">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="154.81701620869626" x="-5181.167086699217" y="674.5733806747764"/>
@@ -3027,7 +2993,7 @@ osztálytársaid mégis átfutnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n172">
+    <node id="n170">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="134.54758622608733" x="-4940.067551116607" y="674.5733806747764"/>
@@ -3045,7 +3011,7 @@ osztálytársaid mégis átfutnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n173">
+    <node id="n171">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="73.7392962782609" width="195.3558761739132" x="-5339.588684194869" y="743.1078775095591"/>
@@ -3063,7 +3029,7 @@ meggondolod magad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n174">
+    <node id="n172">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="95.07553836521674" x="-5717.773575186183" y="990.0912414052135"/>
@@ -3080,7 +3046,7 @@ meggondolod magad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n175">
+    <node id="n173">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="95.07553836521674" x="-5397.729943881824" y="884.2019591791253"/>
@@ -3097,7 +3063,7 @@ meggondolod magad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n176">
+    <node id="n174">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="42.268339200000014" width="169.75238566956523" x="-5196.102456160086" y="880.468116813908"/>
@@ -3114,7 +3080,7 @@ meggondolod magad<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n177">
+    <node id="n175">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="154.81701620869626" x="-5319.31925421226" y="990.0912414052133"/>
@@ -3132,7 +3098,7 @@ egy rendőr látta az egészet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n178">
+    <node id="n176">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.26724841740088" width="95.07553836521674" x="-4910.596866733998" y="884.4686622052075"/>
@@ -3149,7 +3115,7 @@ egy rendőr látta az egészet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n179">
+    <node id="n177">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="107.66392119652119" x="-5724.067766601835" y="1075.5240419728643"/>
@@ -3166,7 +3132,7 @@ egy rendőr látta az egészet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n180">
+    <node id="n178">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.26724841740088" width="154.81701620869626" x="-5397.729943881824" y="1079.791290390246"/>
@@ -3184,7 +3150,7 @@ valamint leszid<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n181">
+    <node id="n179">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="56.456940187826035" width="186.82137933913054" x="-4940.067551116607" y="1054.3584898226143"/>
@@ -3203,7 +3169,7 @@ téged pedig megdicsért<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n182">
+    <node id="n180">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.19311696139118" width="109.200130626783" x="-4164.170704313725" y="667.9659043618527"/>
@@ -3220,7 +3186,7 @@ téged pedig megdicsért<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n183">
+    <node id="n181">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="49.62934272000007" width="186.82137933913054" x="-3690.5594705885073" y="667.7952144251569"/>
@@ -3238,7 +3204,7 @@ udvariasan átadod a helyed neki<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n184">
+    <node id="n182">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="94.00872626086965" width="261.7115890643472" x="-3965.824886313972" y="504.0111080849849"/>
@@ -3257,7 +3223,7 @@ nehéz táskákkal felszáll<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n185">
+    <node id="n183">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="87.6078536347826" width="267.8990992695649" x="-4096.873529741255" y="772.972219792815"/>
@@ -3276,7 +3242,7 @@ majd megkérdezi, hogy
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n186">
+    <node id="n184">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="134.54758622608733" x="-4364.795208878642" y="922.5072724591552"/>
@@ -3294,7 +3260,7 @@ nem adod át a helyedet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n187">
+    <node id="n185">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.734933147826155" width="112.1445320347998" x="-3771.4958379151776" y="932.6419874504595"/>
@@ -3311,7 +3277,7 @@ nem adod át a helyedet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n188">
+    <node id="n186">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.53449683478266" width="161.21788883478303" x="-4042.3594312090777" y="934.2422056069813"/>
@@ -3329,7 +3295,7 @@ nem adod át a helyedet<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n189">
+    <node id="n187">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.26724841740088" width="186.82137933913054" x="-4242.102182819643" y="1062.771727938903"/>
@@ -3347,7 +3313,7 @@ a néni elesik<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n190">
+    <node id="n188">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="42.26833920000013" width="169.75238566956523" x="-4486.93556076747" y="1137.136350386073"/>
@@ -3365,7 +3331,7 @@ miért nem adtad át a helyed<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n191">
+    <node id="n189">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="77.79318227478257" width="245.0693202365219" x="-3956.3198890040653" y="1043.690368779136"/>
@@ -3383,7 +3349,7 @@ csomagjai felrakásában<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n192">
+    <node id="n190">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="47.92244335304349" width="169.75238566956523" x="-3491.1898115084614" y="830.3279479095538"/>
@@ -3401,7 +3367,7 @@ egy csokival<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n193">
+    <node id="n191">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="47.92244335304349" width="154.2622739144349" x="-3483.444755630896" y="983.3346405286834"/>
@@ -3419,7 +3385,7 @@ egy csokival<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n194">
+    <node id="n192">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="42.26833920000013" width="112.1445320347998" x="-3779.7554968384184" y="1177.2710051878105"/>
@@ -3436,7 +3402,7 @@ egy csokival<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n195">
+    <node id="n193">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.26724841740088" width="126.01308939130422" x="-4012.957955818603" y="1190.796999234769"/>
@@ -3453,7 +3419,7 @@ egy csokival<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n196">
+    <node id="n194">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="83.76733005913047" width="313.34529491478224" x="-2857.5538239321486" y="509.13180618585454"/>
@@ -3471,7 +3437,7 @@ indul a buszod<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n197">
+    <node id="n195">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="47.92244335304349" width="169.75238566956523" x="-2802.7290191419515" y="660.6869056228302"/>
@@ -3488,7 +3454,7 @@ indul a buszod<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n198">
+    <node id="n196">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="48.21565845068312" width="154.2622739144349" x="-2512.4921180330816" y="660.5402980740104"/>
@@ -3505,7 +3471,7 @@ indul a buszod<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n199">
+    <node id="n197">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="47.92244335304349" width="169.75238566956523" x="-3065.100788085256" y="656.2858947238063"/>
@@ -3523,7 +3489,7 @@ nem fogod elérni a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n200">
+    <node id="n198">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.09655848069565" width="118.75876708173882" x="-2962.4344947927457" y="796.1971510104146"/>
@@ -3540,7 +3506,7 @@ nem fogod elérni a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n201">
+    <node id="n199">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.09655848069565" width="125.58636454956559" x="-2603.260195500919" y="804.4102814550143"/>
@@ -3557,7 +3523,7 @@ nem fogod elérni a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n202">
+    <node id="n200">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.92415594852173" width="133.0967217641737" x="-3297.792213855015" y="619.5330665304145"/>
@@ -3574,7 +3540,7 @@ nem fogod elérni a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n203">
+    <node id="n201">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="53.8965911373914" width="225.4399775165216" x="-3020.8957981110066" y="1124.3689011698007"/>
@@ -3592,7 +3558,7 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n204">
+    <node id="n202">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.09655848069565" width="125.58636454956559" x="-2372.298405285943" y="804.4102814550143"/>
@@ -3609,7 +3575,7 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n205">
+    <node id="n203">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="48.21565845068312" width="154.2622739144349" x="-2372.298405285943" y="985.9518308760914"/>
@@ -3626,7 +3592,7 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n206">
+    <node id="n204">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="39.38794651826095" width="118.75876708173882" x="-2725.1243474444354" y="899.9116344150183"/>
@@ -3643,7 +3609,7 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n207">
+    <node id="n205">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.09655848069565" width="177.6467952417388" x="-2754.568361524435" y="997.1605254010312"/>
@@ -3660,7 +3626,7 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n208">
+    <node id="n206">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="75.74490303443486" width="293.54526225808695" x="-5009.284538475212" y="1547.8483094566798"/>
@@ -3678,13 +3644,13 @@ figyelj az időre, és ne késd le a buszt<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n209">
+    <node id="n207">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="88.67466573913043" width="327.6405771130435" x="-3861.5757853949403" y="1539.5946132279882"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.06640625" x="63.78708543152152" y="20.285575057065216">internetet böngészed, és egy 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.06640625" x="63.78708543152197" y="20.285575057065216">internetet böngészed, és egy 
 hirdetésre leszel figyelmes, miszerint
 nyertél egy telefont<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -3697,13 +3663,13 @@ nyertél egy telefont<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n210">
+    <node id="n208">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="99.27115201669926" width="282.2132450510335" x="-2859.13481133373" y="1534.2963700892037"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="193.45703125" x="44.37810690051674" y="32.93440413334952">egy oldal ingyenes játékokat kínál,
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="193.45703125" x="44.37810690051674" y="32.934404133349744">egy oldal ingyenes játékokat kínál,
 ha megadod a személyes adataidat<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -3715,7 +3681,7 @@ ha megadod a személyes adataidat<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n211">
+    <node id="n209">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="90.2662070395512" width="334.03181213446123" x="-1943.3371569939131" y="455.6198709136013"/>
@@ -3733,7 +3699,7 @@ ha megadod a személyes adataidat<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n212">
+    <node id="n210">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4337.055112823458" y="3081.2671349873513"/>
@@ -3750,7 +3716,7 @@ ha megadod a személyes adataidat<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n213">
+    <node id="n211">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4337.055112823458" y="3203.2671349873513"/>
@@ -3768,7 +3734,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n214">
+    <node id="n212">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4565.055112823458" y="3331.2671349873513"/>
@@ -3785,7 +3751,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n215">
+    <node id="n213">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4345.055112823458" y="3331.2671349873513"/>
@@ -3802,7 +3768,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n216">
+    <node id="n214">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4103.055112823458" y="3326.2671349873513"/>
@@ -3820,7 +3786,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n217">
+    <node id="n215">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4326.055112823458" y="3426.267134987351"/>
@@ -3837,7 +3803,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n218">
+    <node id="n216">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4505.703550323458" y="3573.856978737351"/>
@@ -3854,7 +3820,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n219">
+    <node id="n217">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4243.203550323457" y="3588.5069787373504"/>
@@ -3871,13 +3837,13 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n220">
+    <node id="n218">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4351.128550323458" y="3678.606978737351"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.03515625" x="70.98242187499994" y="10.6494140625">Megharap<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.03515625" x="70.982421875" y="10.6494140625">Megharap<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3888,7 +3854,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n221">
+    <node id="n219">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4354.203550323458" y="3823.731978737351"/>
@@ -3905,7 +3871,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n222">
+    <node id="n220">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4887.016050323458" y="3431.267134987351"/>
@@ -3922,7 +3888,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n223">
+    <node id="n221">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4672.041050323458" y="3426.267134987351"/>
@@ -3939,7 +3905,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n224">
+    <node id="n222">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4893.967612823458" y="3541.962018737351"/>
@@ -3956,7 +3922,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n225">
+    <node id="n223">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4748.203550323458" y="3637.912018737351"/>
@@ -3973,7 +3939,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n226">
+    <node id="n224">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4674.651890167208" y="3941.231978737351"/>
@@ -3990,7 +3956,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n227">
+    <node id="n225">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-4096.055112823458" y="3426.267134987351"/>
@@ -4008,7 +3974,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n228">
+    <node id="n226">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3866.0551128234583" y="3426.267134987351"/>
@@ -4026,7 +3992,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n229">
+    <node id="n227">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2671.02305822334" y="2682.928110370192"/>
@@ -4043,7 +4009,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n230">
+    <node id="n228">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2671.02305822334" y="2811.752329120192"/>
@@ -4060,7 +4026,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n231">
+    <node id="n229">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2861.275558223339" y="2923.865610370192"/>
@@ -4077,7 +4043,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n232">
+    <node id="n230">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2534.8755582233393" y="2928.985610370192"/>
@@ -4094,7 +4060,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n233">
+    <node id="n231">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2982.79020299873" y="3064.1733849873513"/>
@@ -4111,7 +4077,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n234">
+    <node id="n232">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3004.04020299873" y="3162.923384987351"/>
@@ -4128,7 +4094,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n235">
+    <node id="n233">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3127.074363612746" y="3286.110884987351"/>
@@ -4145,7 +4111,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n236">
+    <node id="n234">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2875.824363612746" y="3286.110884987351"/>
@@ -4162,7 +4128,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n237">
+    <node id="n235">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2697.2149886127463" y="3426.267134987351"/>
@@ -4179,7 +4145,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n238">
+    <node id="n236">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3212.6248644020347" y="3426.267134987351"/>
@@ -4196,7 +4162,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n239">
+    <node id="n237">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3376.7649886127456" y="3575.860884987351"/>
@@ -4213,7 +4179,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n240">
+    <node id="n238">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3090.284740191323" y="3575.860884987351"/>
@@ -4230,7 +4196,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n241">
+    <node id="n239">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3376.7649886127456" y="3743.1577599873517"/>
@@ -4247,7 +4213,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n242">
+    <node id="n240">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3090.284740191323" y="3739.4077599873517"/>
@@ -4264,7 +4230,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n243">
+    <node id="n241">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2821.3558066447617" y="3575.860884987351"/>
@@ -4281,7 +4247,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n244">
+    <node id="n242">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2534.8755582233393" y="3575.860884987351"/>
@@ -4298,7 +4264,7 @@ egy kutya elkezd ugatni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n245">
+    <node id="n243">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2821.3558066447617" y="3735.3546349873504"/>
@@ -4316,7 +4282,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n246">
+    <node id="n244">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-3294.406500466065" y="3946.69213498735"/>
@@ -4333,7 +4299,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n247">
+    <node id="n245">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="200.0" x="-2852.797361358615" y="3946.69213498735"/>
@@ -4350,14 +4316,47 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n248">
-      <data key="d5"/>
+    <node id="n246">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="39.38794651826095" width="211.1421657941096" x="-2034.9735779356615" y="664.9541540402215"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="123.396484375" x="43.872840709554794" y="10.34338732163053">nem teszed ki a kezed<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="123.396484375" x="43.872840709554794" y="10.343387321630416">nem teszed ki a kezed<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n247">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="39.38794651826095" width="154.2622739144349" x="-1678.8506800178154" y="660.5402980740104"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.384765625" x="30.43875414471745" y="10.34338732163053">kiteszed a kezed<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n248">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="39.38794651826095" width="177.28936759652174" x="-2136.2350181582706" y="801.7645874362317"/>
+          <y:Fill color="#00FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.740234375" x="18.274566610760758" y="10.343387321630416">elüt egy autó, megsérülsz<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4369,43 +4368,6 @@ szeretnéd(baj van)<y:LabelModel>
       </data>
     </node>
     <node id="n249">
-      <data key="d5"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="39.38794651826095" width="154.2622739144349" x="-1678.8506800178154" y="660.5402980740104"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.384765625" x="30.43875414471745" y="10.343387321630416">kiteszed a kezed<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n250">
-      <data key="d5"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="39.38794651826095" width="177.28936759652174" x="-2136.2350181582706" y="801.7645874362317"/>
-          <y:Fill color="#00FFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.740234375" x="18.274566610760758" y="10.34338732163053">elüt egy autó, megsérülsz<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n251">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.82648602429697" width="154.2622739144349" x="-1810.5035177988225" y="802.3260479301957"/>
@@ -4422,8 +4384,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n252">
-      <data key="d5"/>
+    <node id="n250">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="90.25359770701925" width="289.41933776677706" x="-1883.6730746048363" y="964.9328612479234"/>
@@ -4440,14 +4401,13 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n253">
-      <data key="d5"/>
+    <node id="n251">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="38.826486024296855" width="154.2622739144349" x="-1984.3801604092423" y="1154.200941027024"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="152.72265625" x="0.7698088322174499" y="10.062657074648541">nem szállsz le a kerékpárról<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="152.72265625" x="0.7698088322174499" y="10.062657074648314">nem szállsz le a kerékpárról<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4458,8 +4418,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n254">
-      <data key="d5"/>
+    <node id="n252">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="31.224454148347377" width="170.6375897050657" x="-1709.9468096874655" y="1158.0019569649987"/>
@@ -4476,8 +4435,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n255">
-      <data key="d5"/>
+    <node id="n253">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="39.38794651826095" width="145.5555221185998" x="-2104.5011726803486" y="979.5531673081889"/>
@@ -4494,8 +4452,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n256">
-      <data key="d5"/>
+    <node id="n254">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="31.224454148347377" width="176.3391136120281" x="-1846.1868432565566" y="1327.215943532594"/>
@@ -4512,14 +4469,13 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n257">
-      <data key="d5"/>
+    <node id="n255">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.87817480617127" width="218.86297941812063" x="-5265.215533019592" y="2136.9639893002886"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.375" x="60.74398970906077" y="11.588501465585523">szólsz szüleidnek<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.375" x="60.74398970905986" y="11.588501465585523">szólsz szüleidnek<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4530,14 +4486,13 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n258">
-      <data key="d5"/>
+    <node id="n256">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.87817480617127" width="218.86297941812063" x="-4705.093321264543" y="1767.5527528283674"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="127.404296875" x="45.72934127155986" y="11.588501465585523">elkezdesz chatelni vele<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="127.404296875" x="45.72934127156077" y="11.588501465585523">elkezdesz chatelni vele<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4548,8 +4503,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n259">
-      <data key="d5"/>
+    <node id="n257">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="133.34012081368837" x="-5468.203456335494" y="2300.413381159311"/>
@@ -4566,8 +4520,7 @@ szeretnéd(baj van)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n260">
-      <data key="d5"/>
+    <node id="n258">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="49.00507968987404" width="225.9898843018227" x="-5272.342437903294" y="2471.4590983681746"/>
@@ -4585,8 +4538,7 @@ nem adtál ki magadról semmilyen infót<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n261">
-      <data key="d5"/>
+    <node id="n259">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="66.8223418991306" width="227.70901429720652" x="-4561.836122399102" y="2149.388095024951"/>
@@ -4603,8 +4555,7 @@ nem adtál ki magadról semmilyen infót<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n262">
-      <data key="d5"/>
+    <node id="n260">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="66.8223418991306" width="271.12694856527287" x="-4721.066261027337" y="1939.3168670517084"/>
@@ -4621,14 +4572,13 @@ nem adtál ki magadról semmilyen infót<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n263">
-      <data key="d5"/>
+    <node id="n261">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.8781748061715" width="187.38581618176704" x="-5055.713049385292" y="2595.5515678371626"/>
           <y:Fill color="#00FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="166.076171875" x="10.654822153383066" y="4.237915528085523">szüleid észreveszik, hogy egy 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="166.076171875" x="10.654822153383975" y="4.237915528085523">szüleid észreveszik, hogy egy 
 idegennel chatelsz<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4640,14 +4590,13 @@ idegennel chatelsz<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n264">
-      <data key="d5"/>
+    <node id="n262">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="66.8223418991306" width="283.89598648190713" x="-4677.64832675927" y="2380.2596494753107"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.408203125" x="74.24389167845402" y="24.060585012065076">találkozni szeretne veled<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.408203125" x="74.24389167845402" y="24.06058501206553">találkozni szeretne veled<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4658,14 +4607,13 @@ idegennel chatelsz<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n265">
-      <data key="d5"/>
+    <node id="n263">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="34.14975256774187" width="150.2665199124831" x="-4731.061046964965" y="2486.314425490307"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.3828125" x="18.44185370624109" y="7.724290346371163">elmész a találkozóra<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.3828125" x="18.441853706242" y="7.724290346370708">elmész a találkozóra<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4676,8 +4624,7 @@ idegennel chatelsz<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n266">
-      <data key="d5"/>
+    <node id="n264">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="32.07487628387071" width="125.02539844936928" x="-4393.752340277363" y="2459.723048779777"/>
@@ -4694,14 +4641,13 @@ idegennel chatelsz<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n267">
-      <data key="d5"/>
+    <node id="n265">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.8781748061715" width="93.66701696107702" x="-4728.091503263417" y="2591.9707903912054"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.37109375" x="17.147961605538512" y="11.588501465585978">elrabolnak<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.37109375" x="17.147961605538512" y="11.588501465585523">elrabolnak<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4712,14 +4658,13 @@ idegennel chatelsz<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n268">
-      <data key="d5"/>
+    <node id="n266">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.8781748061715" width="196.29444728639555" x="-4694.8279738941055" y="2705.3555775305335"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.119140625" x="7.0876533306973215" y="4.237915528085978">leszidnak, és elmondják miért ne 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.119140625" x="7.087653330698231" y="4.237915528085523">leszidnak, és elmondják miért ne 
 chateljt idegenekkel az interneten<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4731,8 +4676,7 @@ chateljt idegenekkel az interneten<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n269">
-      <data key="d5"/>
+    <node id="n267">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="41.8781748061715" width="165.41119279035047" x="-4372.54083881044" y="2591.970790391205"/>
@@ -4749,14 +4693,13 @@ chateljt idegenekkel az interneten<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n270">
-      <data key="d5"/>
+    <node id="n268">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.69035732555403" width="256.87313879786825" x="-3458.4884677961622" y="1788.8626178356403"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.068359375" x="65.4023897114339" y="10.994592725277016">figyelmen kívül hagyod<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.068359375" x="65.40238971143435" y="10.994592725277016">figyelmen kívül hagyod<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4767,8 +4710,7 @@ chateljt idegenekkel az interneten<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n271">
-      <data key="d5"/>
+    <node id="n269">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.69035732555403" width="113.62235063544449" x="-4000.567217062743" y="1788.8626178356403"/>
@@ -4785,8 +4727,7 @@ chateljt idegenekkel az interneten<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n272">
-      <data key="d5"/>
+    <node id="n270">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.69035732555403" width="96.51777891455822" x="-3707.7870252322373" y="1901.3164123374156"/>
@@ -4803,8 +4744,7 @@ chateljt idegenekkel az interneten<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n273">
-      <data key="d5"/>
+    <node id="n271">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.69035732555403" width="209.65739394333832" x="-3411.2727229416323" y="2186.5073912942357"/>
@@ -4822,8 +4762,7 @@ biztonságos jobb elkerülni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n274">
-      <data key="d5"/>
+    <node id="n272">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="51.380714651108065" width="225.09902119136086" x="-4012.957955818603" y="1990.146314029716"/>
@@ -4840,8 +4779,7 @@ biztonságos jobb elkerülni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n275">
-      <data key="d5"/>
+    <node id="n273">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="27.624365038765973" width="148.78174806171137" x="-3999.099576663744" y="2149.3880950249513"/>
@@ -4858,14 +4796,13 @@ biztonságos jobb elkerülni<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n276">
-      <data key="d5"/>
+    <node id="n274">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="51.380714651108065" width="199.85789972824705" x="-4012.957955818603" y="2252.7282158386397"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.423828125" x="19.21703580162375" y="8.989185450554032">szerelőhöz kell vinni a gépet, 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.423828125" x="19.217035801623297" y="8.989185450554032">szerelőhöz kell vinni a gépet, 
 szüleid leszidnak<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4877,14 +4814,13 @@ szüleid leszidnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n277">
-      <data key="d5"/>
+    <node id="n275">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="178.2396215810154" x="-2561.1621616598477" y="1794.2077964984173"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.7578125" x="27.740904540507927" y="5.6494140625">megadod az adataidat<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.7578125" x="27.740904540507472" y="5.6494140625">megadod az adataidat<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4895,14 +4831,13 @@ szüleid leszidnak<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n278">
-      <data key="d5"/>
+    <node id="n276">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="49.30203406002829" width="256.87313879786825" x="-2581.2796268500183" y="1936.6011438015873"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.751953125" x="55.0605928364339" y="7.949845155014145">pár héttel később tele lesz 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.751953125" x="55.06059283643435" y="7.949845155014145">pár héttel később tele lesz 
 levélszeméttel az e-mailed<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4914,14 +4849,13 @@ levélszeméttel az e-mailed<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n279">
-      <data key="d5"/>
+    <node id="n277">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="49.30203406002829" width="209.65739394333832" x="-2557.671754422753" y="2153.37783401421"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.42578125" x="25.11580634666916" y="7.949845155014145">nem tudsz leveleket fogadni, 
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.42578125" x="25.11580634666916" y="7.949845155014373">nem tudsz leveleket fogadni, 
 mert betelt a tárhelyed<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -6684,37 +6618,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e174" source="n152" target="n162">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e175" source="n162" target="n160">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e176" source="n153" target="n160">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e177" source="n163" target="n164">
+    <edge id="e174" source="n161" target="n162">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6724,7 +6628,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e178" source="n163" target="n161">
+    <edge id="e175" source="n161" target="n160">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6734,7 +6638,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e179" source="n161" target="n165">
+    <edge id="e176" source="n160" target="n163">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6744,7 +6648,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e180" source="n160" target="n163">
+    <edge id="e177" source="n162" target="n164">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6754,7 +6658,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e181" source="n164" target="n166">
+    <edge id="e178" source="n164" target="n165">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6764,7 +6668,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e182" source="n166" target="n167">
+    <edge id="e179" source="n148" target="n166">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6774,7 +6678,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e183" source="n148" target="n168">
+    <edge id="e180" source="n1" target="n167">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6784,17 +6688,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e184" source="n1" target="n169">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e185" source="n169" target="n170">
+    <edge id="e181" source="n167" target="n168">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6804,7 +6698,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e186" source="n169" target="n171">
+    <edge id="e182" source="n167" target="n169">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6814,7 +6708,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e187" source="n169" target="n172">
+    <edge id="e183" source="n167" target="n170">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6833,7 +6727,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e188" source="n170" target="n174">
+    <edge id="e184" source="n168" target="n172">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6843,7 +6737,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e189" source="n170" target="n173">
+    <edge id="e185" source="n168" target="n171">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6853,7 +6747,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e190" source="n171" target="n173">
+    <edge id="e186" source="n169" target="n171">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6863,7 +6757,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e191" source="n173" target="n175">
+    <edge id="e187" source="n171" target="n173">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6873,7 +6767,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e192" source="n173" target="n176">
+    <edge id="e188" source="n171" target="n174">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6883,7 +6777,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e193" source="n175" target="n174">
+    <edge id="e189" source="n173" target="n172">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6893,7 +6787,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e194" source="n175" target="n177">
+    <edge id="e190" source="n173" target="n175">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6903,7 +6797,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e195" source="n176" target="n177">
+    <edge id="e191" source="n174" target="n175">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6913,7 +6807,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e196" source="n174" target="n179">
+    <edge id="e192" source="n172" target="n177">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6923,7 +6817,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e197" source="n177" target="n180">
+    <edge id="e193" source="n175" target="n178">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6933,7 +6827,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e198" source="n172" target="n178">
+    <edge id="e194" source="n170" target="n176">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6943,7 +6837,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e199" source="n178" target="n181">
+    <edge id="e195" source="n176" target="n179">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6953,7 +6847,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e200" source="n1" target="n184">
+    <edge id="e196" source="n1" target="n182">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6963,7 +6857,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e201" source="n184" target="n182">
+    <edge id="e197" source="n182" target="n180">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6973,7 +6867,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e202" source="n184" target="n183">
+    <edge id="e198" source="n182" target="n181">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6983,7 +6877,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e203" source="n182" target="n185">
+    <edge id="e199" source="n180" target="n183">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6993,7 +6887,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e204" source="n185" target="n186">
+    <edge id="e200" source="n183" target="n184">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7003,7 +6897,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e205" source="n185" target="n187">
+    <edge id="e201" source="n183" target="n185">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7013,7 +6907,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e206" source="n185" target="n188">
+    <edge id="e202" source="n183" target="n186">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7023,7 +6917,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e207" source="n186" target="n189">
+    <edge id="e203" source="n184" target="n187">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7033,7 +6927,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e208" source="n189" target="n190">
+    <edge id="e204" source="n187" target="n188">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7043,7 +6937,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e209" source="n183" target="n192">
+    <edge id="e205" source="n181" target="n190">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7053,7 +6947,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e210" source="n192" target="n193">
+    <edge id="e206" source="n190" target="n191">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7063,7 +6957,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e211" source="n186" target="n190">
+    <edge id="e207" source="n184" target="n188">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7073,7 +6967,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e212" source="n188" target="n191">
+    <edge id="e208" source="n186" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7083,7 +6977,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e213" source="n187" target="n191">
+    <edge id="e209" source="n185" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7093,7 +6987,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e214" source="n191" target="n194">
+    <edge id="e210" source="n189" target="n192">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7103,7 +6997,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e215" source="n194" target="n192">
+    <edge id="e211" source="n192" target="n190">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7113,7 +7007,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e216" source="n191" target="n195">
+    <edge id="e212" source="n189" target="n193">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7123,7 +7017,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e217" source="n1" target="n196">
+    <edge id="e213" source="n1" target="n194">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7133,7 +7027,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e218" source="n196" target="n199">
+    <edge id="e214" source="n194" target="n197">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7143,7 +7037,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e219" source="n196" target="n198">
+    <edge id="e215" source="n194" target="n196">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7153,7 +7047,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e220" source="n199" target="n202">
+    <edge id="e216" source="n197" target="n200">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7163,7 +7057,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e221" source="n199" target="n200">
+    <edge id="e217" source="n197" target="n198">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7173,7 +7067,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e222" source="n200" target="n203">
+    <edge id="e218" source="n198" target="n201">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7183,7 +7077,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e223" source="n202" target="n196">
+    <edge id="e219" source="n200" target="n194">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7193,7 +7087,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e224" source="n198" target="n201">
+    <edge id="e220" source="n196" target="n199">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7203,7 +7097,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e225" source="n197" target="n201">
+    <edge id="e221" source="n195" target="n199">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7213,7 +7107,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e226" source="n196" target="n197">
+    <edge id="e222" source="n194" target="n195">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7223,7 +7117,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e227" source="n198" target="n204">
+    <edge id="e223" source="n196" target="n202">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7233,7 +7127,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e228" source="n204" target="n205">
+    <edge id="e224" source="n202" target="n203">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7243,7 +7137,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e229" source="n201" target="n206">
+    <edge id="e225" source="n199" target="n204">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7253,7 +7147,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e230" source="n201" target="n205">
+    <edge id="e226" source="n199" target="n203">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7263,7 +7157,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e231" source="n206" target="n207">
+    <edge id="e227" source="n204" target="n205">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7273,7 +7167,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e232" source="n207" target="n203">
+    <edge id="e228" source="n205" target="n201">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7283,7 +7177,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e233" source="n1" target="n211">
+    <edge id="e229" source="n1" target="n209">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7293,7 +7187,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e234" source="n212" target="n213">
+    <edge id="e230" source="n210" target="n211">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7303,7 +7197,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e235" source="n213" target="n214">
+    <edge id="e231" source="n211" target="n212">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7313,7 +7207,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e236" source="n213" target="n215">
+    <edge id="e232" source="n211" target="n213">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7323,7 +7217,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e237" source="n213" target="n216">
+    <edge id="e233" source="n211" target="n214">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7333,7 +7227,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e238" source="n215" target="n217">
+    <edge id="e234" source="n213" target="n215">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7343,7 +7237,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e239" source="n217" target="n219">
+    <edge id="e235" source="n215" target="n217">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7353,7 +7247,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e240" source="n217" target="n218">
+    <edge id="e236" source="n215" target="n216">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7363,7 +7257,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e241" source="n219" target="n220">
+    <edge id="e237" source="n217" target="n218">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7373,7 +7267,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e242" source="n220" target="n221">
+    <edge id="e238" source="n218" target="n219">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7383,7 +7277,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e243" source="n214" target="n223">
+    <edge id="e239" source="n212" target="n221">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7393,7 +7287,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e244" source="n214" target="n222">
+    <edge id="e240" source="n212" target="n220">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7403,7 +7297,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e245" source="n222" target="n224">
+    <edge id="e241" source="n220" target="n222">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7413,7 +7307,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e246" source="n223" target="n225">
+    <edge id="e242" source="n221" target="n223">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7423,7 +7317,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e247" source="n225" target="n214">
+    <edge id="e243" source="n223" target="n212">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7437,7 +7331,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e248" source="n225" target="n215">
+    <edge id="e244" source="n223" target="n213">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7447,7 +7341,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e249" source="n225" target="n220">
+    <edge id="e245" source="n223" target="n218">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7457,7 +7351,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e250" source="n224" target="n226">
+    <edge id="e246" source="n222" target="n224">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7469,7 +7363,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e251" source="n218" target="n226">
+    <edge id="e247" source="n216" target="n224">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7479,7 +7373,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e252" source="n216" target="n227">
+    <edge id="e248" source="n214" target="n225">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7489,7 +7383,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e253" source="n216" target="n228">
+    <edge id="e249" source="n214" target="n226">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7499,7 +7393,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e254" source="n227" target="n225">
+    <edge id="e250" source="n225" target="n223">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7512,7 +7406,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e255" source="n228" target="n226">
+    <edge id="e251" source="n226" target="n224">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7524,7 +7418,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e256" source="n229" target="n230">
+    <edge id="e252" source="n227" target="n228">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7534,7 +7428,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e257" source="n230" target="n231">
+    <edge id="e253" source="n228" target="n229">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7544,7 +7438,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e258" source="n230" target="n232">
+    <edge id="e254" source="n228" target="n230">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7554,7 +7448,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e259" source="n231" target="n233">
+    <edge id="e255" source="n229" target="n231">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7564,7 +7458,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e260" source="n233" target="n232">
+    <edge id="e256" source="n231" target="n230">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7574,7 +7468,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e261" source="n233" target="n234">
+    <edge id="e257" source="n231" target="n232">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7584,7 +7478,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e262" source="n234" target="n235">
+    <edge id="e258" source="n232" target="n233">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7594,7 +7488,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e263" source="n234" target="n236">
+    <edge id="e259" source="n232" target="n234">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7604,7 +7498,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e264" source="n236" target="n237">
+    <edge id="e260" source="n234" target="n235">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7614,7 +7508,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e265" source="n235" target="n238">
+    <edge id="e261" source="n233" target="n236">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7624,7 +7518,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e266" source="n238" target="n239">
+    <edge id="e262" source="n236" target="n237">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7634,7 +7528,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e267" source="n238" target="n240">
+    <edge id="e263" source="n236" target="n238">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7644,7 +7538,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e268" source="n239" target="n241">
+    <edge id="e264" source="n237" target="n239">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7654,7 +7548,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e269" source="n240" target="n242">
+    <edge id="e265" source="n238" target="n240">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7664,7 +7558,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e270" source="n237" target="n243">
+    <edge id="e266" source="n235" target="n241">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7674,7 +7568,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e271" source="n237" target="n244">
+    <edge id="e267" source="n235" target="n242">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7684,7 +7578,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e272" source="n243" target="n245">
+    <edge id="e268" source="n241" target="n243">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7694,7 +7588,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e273" source="n237" target="n232">
+    <edge id="e269" source="n235" target="n230">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7704,7 +7598,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e274" source="n241" target="n246">
+    <edge id="e270" source="n239" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7714,7 +7608,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e275" source="n242" target="n246">
+    <edge id="e271" source="n240" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7724,7 +7618,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e276" source="n244" target="n246">
+    <edge id="e272" source="n242" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7736,7 +7630,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e277" source="n232" target="n246">
+    <edge id="e273" source="n230" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7748,7 +7642,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e278" source="n245" target="n247">
+    <edge id="e274" source="n243" target="n245">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7758,8 +7652,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e279" source="n211" target="n248">
-      <data key="d9"/>
+    <edge id="e275" source="n209" target="n246">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7769,8 +7662,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e280" source="n211" target="n249">
-      <data key="d9"/>
+    <edge id="e276" source="n209" target="n247">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7780,8 +7672,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e281" source="n248" target="n250">
-      <data key="d9"/>
+    <edge id="e277" source="n246" target="n248">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7791,8 +7682,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e282" source="n249" target="n251">
-      <data key="d9"/>
+    <edge id="e278" source="n247" target="n249">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7802,8 +7692,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e283" source="n248" target="n251">
-      <data key="d9"/>
+    <edge id="e279" source="n246" target="n249">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7813,8 +7702,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e284" source="n251" target="n252">
-      <data key="d9"/>
+    <edge id="e280" source="n249" target="n250">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7824,19 +7712,97 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e285" source="n252" target="n253">
-      <data key="d9"/>
+    <edge id="e281" source="n250" target="n251">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta_bar"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e282" source="n250" target="n252">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta_bar"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e283" source="n251" target="n253">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e284" source="n253" target="n248">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e285" source="n251" target="n254">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
     <edge id="e286" source="n252" target="n254">
-      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e287" source="n5" target="n206">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e288" source="n5" target="n207">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e289" source="n5" target="n208">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e290" source="n206" target="n255">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7846,85 +7812,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e287" source="n253" target="n255">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e288" source="n255" target="n250">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e289" source="n253" target="n256">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e290" source="n254" target="n256">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e291" source="n5" target="n208">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e292" source="n5" target="n209">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e293" source="n5" target="n210">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e294" source="n208" target="n257">
-      <data key="d9"/>
+    <edge id="e291" source="n206" target="n256">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7934,19 +7822,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e295" source="n208" target="n258">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta_bar"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e296" source="n259" target="n208">
-      <data key="d9"/>
+    <edge id="e292" source="n257" target="n206">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7958,8 +7834,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e297" source="n257" target="n259">
-      <data key="d9"/>
+    <edge id="e293" source="n255" target="n257">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7969,8 +7844,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e298" source="n257" target="n260">
-      <data key="d9"/>
+    <edge id="e294" source="n255" target="n258">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7980,8 +7854,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e299" source="n262" target="n257">
-      <data key="d9"/>
+    <edge id="e295" source="n260" target="n255">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7991,8 +7864,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e300" source="n262" target="n261">
-      <data key="d9"/>
+    <edge id="e296" source="n260" target="n259">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8002,8 +7874,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e301" source="n261" target="n264">
-      <data key="d9"/>
+    <edge id="e297" source="n259" target="n262">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8013,8 +7884,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e302" source="n262" target="n263">
-      <data key="d9"/>
+    <edge id="e298" source="n260" target="n261">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8024,8 +7894,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e303" source="n264" target="n265">
-      <data key="d9"/>
+    <edge id="e299" source="n262" target="n263">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8035,8 +7904,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e304" source="n265" target="n267">
-      <data key="d9"/>
+    <edge id="e300" source="n263" target="n265">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8046,8 +7914,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e305" source="n265" target="n263">
-      <data key="d9"/>
+    <edge id="e301" source="n263" target="n261">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8057,8 +7924,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e306" source="n263" target="n268">
-      <data key="d9"/>
+    <edge id="e302" source="n261" target="n266">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8068,8 +7934,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e307" source="n264" target="n266">
-      <data key="d9"/>
+    <edge id="e303" source="n262" target="n264">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8079,8 +7944,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e308" source="n266" target="n269">
-      <data key="d9"/>
+    <edge id="e304" source="n264" target="n267">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8090,8 +7954,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e309" source="n269" target="n268">
-      <data key="d9"/>
+    <edge id="e305" source="n267" target="n266">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8101,8 +7964,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e310" source="n258" target="n262">
-      <data key="d9"/>
+    <edge id="e306" source="n256" target="n260">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8112,8 +7974,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e311" source="n209" target="n270">
-      <data key="d9"/>
+    <edge id="e307" source="n207" target="n268">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8123,8 +7984,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e312" source="n209" target="n271">
-      <data key="d9"/>
+    <edge id="e308" source="n207" target="n269">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8134,8 +7994,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e313" source="n271" target="n272">
-      <data key="d9"/>
+    <edge id="e309" source="n269" target="n270">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8145,8 +8004,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e314" source="n270" target="n273">
-      <data key="d9"/>
+    <edge id="e310" source="n268" target="n271">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8156,8 +8014,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e315" source="n271" target="n274">
-      <data key="d9"/>
+    <edge id="e311" source="n269" target="n272">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8167,18 +8024,77 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e316" source="n274" target="n275">
-      <data key="d9"/>
+    <edge id="e312" source="n272" target="n273">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e313" source="n273" target="n274">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e314" source="n270" target="n268">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e315" source="n208" target="n268">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta_bar"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e316" source="n208" target="n275">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta_bar"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
     <edge id="e317" source="n275" target="n276">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e318" source="n276" target="n277">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e319" source="n152" target="n161">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -8189,51 +8105,7 @@ mert betelt a tárhelyed<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e318" source="n272" target="n270">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e319" source="n210" target="n270">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta_bar"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e320" source="n210" target="n277">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta_bar"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e321" source="n277" target="n278">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e322" source="n278" target="n279">
+    <edge id="e320" source="n153" target="n161">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
