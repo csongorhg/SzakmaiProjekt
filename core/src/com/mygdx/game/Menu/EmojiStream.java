@@ -1,10 +1,13 @@
 package com.mygdx.game.Menu;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.Math.RandomNumber;
 import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
+import com.mygdx.game.MyBaseClasses.OneSpriteStaticActor;
 
 /**
  * Created by Hegedüs Csongor on 2/11/2018.
@@ -12,7 +15,7 @@ import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
 
 public class EmojiStream extends OneSpriteAnimatedActor {
 
-    private float emojiDelay = 5, viewPortWidth, viewPortHeight;
+    private float emojiDelay = 6, rotateSpeed, viewPortWidth, viewPortHeight;
     private int currentFrame;
 
     public EmojiStream(float viewPortWidth, float viewPortHeight) {
@@ -24,20 +27,30 @@ public class EmojiStream extends OneSpriteAnimatedActor {
     @Override
     public void init() {
         super.init();
-        setZIndex(1);
         stop();
-        elapsedTime = 5;
+        elapsedTime = 6;
     }
 
     @Override
     public void act(float delta) {
         super.act(delta);
+
         if (elapsedTime >= emojiDelay) {
             elapsedTime = 0;
+            setVisible(true);
             setFrame(currentFrame = new RandomNumber(0, getFrameCount() - 1, currentFrame).getGenNumber());
-            setPosition(new RandomNumber(0, viewPortWidth - getWidth()).getGenNumberf(),
+            setPosition(0 - getWidth(),
                     new RandomNumber(0, viewPortHeight - getHeight()).getGenNumberf());
+            setRotation(0);
+            rotateSpeed = new RandomNumber(0.5f, 3f).getGenNumberf();
+            rotateSpeed = new RandomNumber(0, 1).getGenNumber() == 1 ? -rotateSpeed : rotateSpeed;
         }
-        setColor(1.0f, 1.0f, 1.0f, 0.5f);
+
+        setPosition(getX() + 5, getY());
+        setRotation(getRotation() + rotateSpeed);
+    }
+
+    public float getEmojiDelay() {
+        return emojiDelay;
     }
 }

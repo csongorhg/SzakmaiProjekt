@@ -20,6 +20,8 @@ import com.badlogic.gdx.graphics.g2d.freetype.FreetypeFontLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.ObjectMap;
 
+import javax.xml.soap.Text;
+
 
 public class Assets {
 	// https://github.com/libgdx/libgdx/wiki/Managing-your-assets
@@ -63,6 +65,25 @@ public class Assets {
 			= new AssetDescriptor<Texture>("loading/jedlik.png", Texture.class);
 	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
 			= new AssetDescriptor<Texture>("menu/background.jpeg", Texture.class);
+	public static final AssetDescriptor<Texture> HEART_TEXTURE
+			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
+	// Témák
+	public static final AssetDescriptor<Texture> CONFLICT_TEXTURE
+			= new AssetDescriptor<Texture>("menu/conflict.png", Texture.class);
+	public static final AssetDescriptor<Texture> INTERNET_TEXTURE
+			= new AssetDescriptor<Texture>("menu/internet.png", Texture.class);
+	public static final AssetDescriptor<Texture> KITCHEN_TEXTURE
+			= new AssetDescriptor<Texture>("menu/kitchen.png", Texture.class);
+	public static final AssetDescriptor<Texture> PLAYGROUND_TEXTURE
+			= new AssetDescriptor<Texture>("menu/playground.png", Texture.class);
+	public static final AssetDescriptor<Texture> ROOM_TEXTURE
+			= new AssetDescriptor<Texture>("menu/room.png", Texture.class);
+	public static final AssetDescriptor<Texture> SCHOOL_TEXTURE
+			= new AssetDescriptor<Texture>("menu/school.png", Texture.class);
+	public static final AssetDescriptor<Texture> STRANGERS_TEXTURE
+			= new AssetDescriptor<Texture>("menu/strangers.png", Texture.class);
+	public static final AssetDescriptor<Texture> TRANSPORT_TEXTURE
+			= new AssetDescriptor<Texture>("menu/transport.png", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
@@ -81,7 +102,6 @@ public class Assets {
 			= new AssetDescriptor<Texture>("music/sempty.png", Texture.class);
 	public static final AssetDescriptor<Texture> FULLBAR_TEXTURE
 			= new AssetDescriptor<Texture>("music/sfull.png", Texture.class);
-
 	//zene vége
 
     public static final AssetDescriptor<Sound> STAR_SOUND
@@ -103,10 +123,19 @@ public class Assets {
 		manager.load(SKIN);
 		manager.load(EXPLOSION_TEXTUREATLAS);
 		manager.load(EMOJIS_TEXTUREATLAS);
+		manager.load(HEART_TEXTURE);
 		manager.load(SETTINGSBUTTON_TEXTURE);
 		manager.load(ALEGREYAREGULAR_FONT);
 		manager.load(LOADINGBACKGROUND_TEXTURE);
 		manager.load(BACKGROUND_TEXTURE);
+		manager.load(CONFLICT_TEXTURE);
+		manager.load(INTERNET_TEXTURE);
+		manager.load(KITCHEN_TEXTURE);
+		manager.load(PLAYGROUND_TEXTURE);
+		manager.load(ROOM_TEXTURE);
+		manager.load(SCHOOL_TEXTURE);
+		manager.load(STRANGERS_TEXTURE);
+		manager.load(TRANSPORT_TEXTURE);
 
 		//zene
 		manager.load(MUSIC);
