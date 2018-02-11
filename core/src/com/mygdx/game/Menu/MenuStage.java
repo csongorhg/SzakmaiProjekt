@@ -39,12 +39,13 @@ public class MenuStage extends MyStage {
         addActor(emojiStream = new EmojiStream(getViewport().getWorldWidth(), getViewport().getWorldHeight()));
 
         // Menu buttons
-        table = new Table();
+        /*table = new Table();
         table.setFillParent(true);
 
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 4; j++) {
                 ImgButton currentImgButton = new ImgButton(Assets.manager.get(Assets.EXPLOSION_TEXTUREATLAS).createSprite(""+(i+j)));
+                currentImgButton.setSize(200, 300);
                 currentImgButton.addListener(new ClickListener() {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
@@ -55,14 +56,14 @@ public class MenuStage extends MyStage {
                     }
                 });
 
-                table.add(currentImgButton).size(100,100);
+                table.add(currentImgButton).size(200,300);
             }
             table.row();
 
         }
 
         table.center();
-        this.addActor(table);
+        this.addActor(table);*/
 
 
 

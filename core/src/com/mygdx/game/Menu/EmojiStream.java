@@ -37,8 +37,7 @@ public class EmojiStream extends OneSpriteAnimatedActor {
             setFrame(currentFrame = new RandomNumber(0, getFrameCount() - 1, currentFrame).getGenNumber());
             setPosition(new RandomNumber(0, viewPortWidth - getWidth()).getGenNumberf(),
                     new RandomNumber(0, viewPortHeight - getHeight()).getGenNumberf());
-            setSize(0,0);
         }
-        setSize(getWidth() + 0.5f, getHeight() + 0.5f);
+        setColor(1.0f, 1.0f, 1.0f, 0.5f);
     }
 }
