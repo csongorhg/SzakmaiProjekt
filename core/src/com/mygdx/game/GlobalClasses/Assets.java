@@ -62,11 +62,13 @@ public class Assets {
 	public static final AssetDescriptor<Texture> LOADINGBACKGROUND_TEXTURE
 			= new AssetDescriptor<Texture>("loading/jedlik.png", Texture.class);
 	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("menu/background.jpg", Texture.class);
+			= new AssetDescriptor<Texture>("menu/background.jpeg", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
-			= new AssetDescriptor<TextureAtlas>("explosion.atlas", TextureAtlas.class);
+			= new AssetDescriptor<TextureAtlas>("pre.atlas", TextureAtlas.class);
+	public static final AssetDescriptor<TextureAtlas> EMOJIS_TEXTUREATLAS
+			= new AssetDescriptor<TextureAtlas>("menu/emojis.atlas", TextureAtlas.class);
 
 	//zene
     public static final AssetDescriptor<Music> MUSIC
@@ -100,6 +102,7 @@ public class Assets {
 
 		manager.load(SKIN);
 		manager.load(EXPLOSION_TEXTUREATLAS);
+		manager.load(EMOJIS_TEXTUREATLAS);
 		manager.load(SETTINGSBUTTON_TEXTURE);
 		manager.load(ALEGREYAREGULAR_FONT);
 		manager.load(LOADINGBACKGROUND_TEXTURE);

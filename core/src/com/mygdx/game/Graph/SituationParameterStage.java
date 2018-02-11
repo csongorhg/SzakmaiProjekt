@@ -22,7 +22,7 @@ public class SituationParameterStage extends MyStage {
     public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
         situationParameters = new ArrayList<GraphElement>();
-        this.setDebugAll(true);
+        //this.setDebugAll(true);
         int row = 0;
         int index = 0;
         String[] data = new String[100];

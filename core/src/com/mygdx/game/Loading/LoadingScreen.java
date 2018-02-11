@@ -1,9 +1,9 @@
-package com.mygdx.game.DemoLoading;
+package com.mygdx.game.Loading;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.mygdx.game.DemoMenu.MenuScreen;
+import com.mygdx.game.Menu.MenuScreen;
 import com.mygdx.game.Music.MusicClass;
 import com.mygdx.game.MyBaseClasses.MyScreen;
 import com.mygdx.game.GlobalClasses.*;

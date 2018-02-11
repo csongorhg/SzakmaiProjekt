@@ -150,6 +150,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
         settingsButton.setSize(75,75);
         settingsButton.setPosition(getViewport().getWorldWidth() - settingsButton.getWidth(),
                 getViewport().getWorldHeight() - settingsButton.getHeight());
+        settingsButton.setZIndex(1);
         this.addActor(settingsButton);
     }
 }

@@ -1,10 +1,8 @@
-package com.mygdx.game.DemoMenu;
+package com.mygdx.game.Menu;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.MyBaseClasses.MyScreen;
 import com.mygdx.game.MyBaseClasses.MyStage;
@@ -27,6 +25,8 @@ public class MenuScreen extends MyScreen {
     public void render(float delta) {
         super.render(delta);
 
+        bgStage.act(delta);
+        bgStage.draw();
 
         menuStage.act(delta);
         menuStage.draw();
@@ -46,9 +46,28 @@ public class MenuScreen extends MyScreen {
 
     @Override
     public void init() {
+        bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
+
+            private OneSpriteStaticActor backGroundActor;
+            private OneSpriteStaticActor money;
+
+            @Override
+            public void init() {
+                addActor(backGroundActor = new OneSpriteStaticActor(Assets.manager.get(Assets.BACKGROUND_TEXTURE)));
+            }
+
+            @Override
+            protected void resized() {
+
+            }
+        };
+
         menuStage  = new MenuStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game);
         Gdx.input.setInputProcessor(menuStage);
+
         setBackGroundColor(1f, 1f, 1f);
 
     }
+
+
 }

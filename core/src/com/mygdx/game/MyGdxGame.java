@@ -13,7 +13,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.mygdx.game.GlobalClasses.Assets;
-import com.mygdx.game.DemoLoading.LoadingScreen;
+import com.mygdx.game.Loading.LoadingScreen;
 import com.mygdx.game.MyBaseClasses.MyScreen;
 
 import java.lang.reflect.InvocationTargetException;
