@@ -1,6 +1,13 @@
 package com.mygdx.game.DemoMenu;
 
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.utils.viewport.ExtendViewport;
+import com.mygdx.game.MyBaseClasses.MyScreen;
+import com.mygdx.game.MyBaseClasses.MyStage;
+import com.mygdx.game.MyGdxGame;
+
 /**
  * Created by tuskeb on 2016. 09. 30..
  */
