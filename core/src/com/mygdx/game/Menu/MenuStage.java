@@ -60,7 +60,7 @@ public class MenuStage extends MyStage {
             }
             actor.setPosition(posX, posY);
             posX += 120 + actor.getWidth();
-
+            actor.setRotation(new RandomNumber(-15,15).getGenNumber());
             actor.setZIndex(0);
 
             actor.addListener(new ClickListener() {
@@ -70,7 +70,6 @@ public class MenuStage extends MyStage {
                     game.setScreen(new SituationParameterScreen(game ,"param2"+".txt"));
                 }
             });
-
             addActor(actor);
         }
 
@@ -78,6 +77,7 @@ public class MenuStage extends MyStage {
         final EmojiStream emojiStream;
         addActor(emojiStream = new EmojiStream(getViewport().getWorldWidth(), getViewport().getWorldHeight()));
 
+        // Menu emojis onclick hearts
         emojiStream.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
