@@ -5,56 +5,56 @@ repeat: none
 0
    rotate: false
    xy: 0, 0
-   size: 809, 607
-   orig: 404, 303
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 1
    rotate: false
-   xy: 809, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 400, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 2
    rotate: false
-   xy: 1618, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 800, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 3
    rotate: false
-   xy: 2427, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 1200, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 4
    rotate: false
-   xy: 3236, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 1600, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 5
    rotate: false
-   xy: 4045, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 2000, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 6
    rotate: false
-   xy: 4854, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 2400, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1
 7
    rotate: false
-   xy: 5663, 0
-   size: 809, 607
-   orig: 404, 303
+   xy: 2800, 0
+   size: 400, 300
+   orig: 200, 150
    offset: 0, 0
    index: -1

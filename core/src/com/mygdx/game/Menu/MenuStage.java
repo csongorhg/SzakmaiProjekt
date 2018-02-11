@@ -39,7 +39,7 @@ public class MenuStage extends MyStage {
         addActor(emojiStream = new EmojiStream(getViewport().getWorldWidth(), getViewport().getWorldHeight()));
 
         // Menu buttons
-        /*table = new Table();
+        table = new Table();
         table.setFillParent(true);
 
         for (int i = 0; i < 2; i++) {
@@ -63,7 +63,7 @@ public class MenuStage extends MyStage {
         }
 
         table.center();
-        this.addActor(table);*/
+        this.addActor(table);
 
 
 
