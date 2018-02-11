@@ -48,7 +48,7 @@ public class MenuStage extends MyStage {
                 currentImgButton.addListener(new ClickListener() {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
-                        game.setScreen(new SituationParameterScreen(game));
+                        game.setScreen(new SituationParameterScreen(game ,"param2"+".txt"));
 
 
                         super.clicked(event, x, y);
