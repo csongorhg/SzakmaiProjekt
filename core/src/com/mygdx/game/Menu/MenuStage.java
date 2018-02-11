@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -11,12 +12,15 @@ import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.Graph.SituationParameterScreen;
 import com.mygdx.game.Math.RandomNumber;
 import com.mygdx.game.MyBaseClasses.ImgButton;
+import com.mygdx.game.MyBaseClasses.MyLabel;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyBaseClasses.OneSpriteAnimatedActor;
 import com.mygdx.game.MyBaseClasses.OneSpriteStaticActor;
 import com.mygdx.game.MyGdxGame;
 
 import java.util.ArrayList;
+
+import sun.font.TextLabel;
 
 /**
  * Created by tuskeb on 2016. 09. 30..
@@ -28,6 +32,7 @@ public class MenuStage extends MyStage {
 
     private Table table;
     private Array<OneSpriteStaticActor> eventImages;
+    private Array<MyLabel> eventLabels;
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
@@ -40,18 +45,56 @@ public class MenuStage extends MyStage {
         addBackEventStackListener();
 
         // Menu buttons
+        MyLabel myLabel;
+
+        // Történetszálak listája
         eventImages = new Array<OneSpriteStaticActor>();
+        eventLabels = new Array<MyLabel>();
+
+        // Közlekedés
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.TRANSPORT_TEXTURE)));
+        myLabel = new MyLabel("Közlekedés", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Idegenek
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.STRANGERS_TEXTURE)));
+        myLabel = new MyLabel("Idegenek", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Iskola
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.SCHOOL_TEXTURE)));
+        myLabel = new MyLabel("Iskola", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Szoba
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.ROOM_TEXTURE)));
+        myLabel = new MyLabel("Szoba", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Konyha
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.KITCHEN_TEXTURE)));
+        myLabel = new MyLabel("Konyha", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Internet
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.INTERNET_TEXTURE)));
+        myLabel = new MyLabel("Internet", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Játszótér
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.PLAYGROUND_TEXTURE)));
+        myLabel = new MyLabel("Játszótér", game.getSkin());
+        eventLabels.add(myLabel);
+
+        // Konfliktus
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.CONFLICT_TEXTURE)));
+        myLabel = new MyLabel("Konfliktus", game.getSkin());
+        eventLabels.add(myLabel);
 
         int posX = 100, posY = 500, imgCount = 0;
         for (final OneSpriteStaticActor actor : eventImages) {
+
+            // Események képei
             actor.setSize(180, 135);
             imgCount++;
             if (imgCount == 5) {
@@ -60,7 +103,7 @@ public class MenuStage extends MyStage {
             }
             actor.setPosition(posX, posY);
             posX += 120 + actor.getWidth();
-            actor.setRotation(new RandomNumber(-15,15).getGenNumber());
+            actor.setRotation(new RandomNumber(-10,10).getGenNumber());
             actor.setZIndex(0);
 
             actor.addListener(new ClickListener() {
@@ -71,6 +114,12 @@ public class MenuStage extends MyStage {
                 }
             });
             addActor(actor);
+
+            // Események feliratai
+            MyLabel currentLabel = eventLabels.get(imgCount - 1);
+            currentLabel.setPosition(actor.getX() + currentLabel.getWidth() / 2, actor.getY() + actor.getHeight());
+            currentLabel.setColor(0,0,0,1);
+            addActor(currentLabel);
         }
 
         // Menu emojis
