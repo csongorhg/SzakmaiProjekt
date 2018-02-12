@@ -149,7 +149,7 @@ public class MenuStage extends MyStage {
             }
         });
 
-        /*table = new Table();
+        table = new Table();
         table.setFillParent(true);
 
         for (int i = 0; i < 2; i++) {
@@ -173,9 +173,11 @@ public class MenuStage extends MyStage {
         }
 
         table.center();
-        this.addActor(table);*/
+        this.addActor(table);
 
-
+        setCameraZoomXY(getViewport().getWorldWidth() / 2, getViewport().getWorldHeight() / 2, 40);
+        setCameraMoveToXY(getViewport().getWorldWidth() / 2
+                , getViewport().getWorldHeight() / 2, 1, 80);
 
 
     }

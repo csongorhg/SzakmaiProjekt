@@ -18,10 +18,19 @@ import java.util.ArrayList;
 
 public class SituationParameterStage extends MyStage {
     private ArrayList<GraphElement> situationParameters;
+    private String parameter;
 
     public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game,String parameter) {
         super(viewport, batch, game);
+        this.parameter = parameter;
         System.out.println(parameter);
+
+
+    }
+    @Override
+    public void init() {
+        super.init();
+        addBackEventStackListener();
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
         int row = 0;
@@ -34,7 +43,7 @@ public class SituationParameterStage extends MyStage {
                 System.out.println(index+"  "+data[index]);
                 index++;
             }
-        br.close();
+            br.close();
         } catch(Exception e) {}
         int max = 0;
         for(int i = 0; i < index; i++)
@@ -52,22 +61,16 @@ public class SituationParameterStage extends MyStage {
             situationParameters.add(element);
             coll[row]++;
         }
-            for (int i = 0; i < coll.length; i++) {
-                for(int j = 0; j < index; j++) {
-                    if(situationParameters.get(j).row == i) {
-                        float x = situationParameters.get(j).getX();
-                        float newx = x-(coll[i]*60)/2;
-                        situationParameters.get(j).setX(newx);
+        for (int i = 0; i < coll.length; i++) {
+            for(int j = 0; j < index; j++) {
+                if(situationParameters.get(j).row == i) {
+                    float x = situationParameters.get(j).getX();
+                    float newx = x-(coll[i]*60)/2;
+                    situationParameters.get(j).setX(newx);
 
-                    }
                 }
             }
-
-    }
-    @Override
-    public void init() {
-        super.init();
-        addBackEventStackListener();
+        }
     }
     @Override
     public void act(float delta) {
