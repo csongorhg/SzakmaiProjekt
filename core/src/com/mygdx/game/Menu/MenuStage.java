@@ -36,6 +36,7 @@ public class MenuStage extends MyStage {
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
+        Heart.setHeartCount(0);
     }
 
 
@@ -133,13 +134,17 @@ public class MenuStage extends MyStage {
                 super.clicked(event, x, y);
                 Heart heart = new Heart(emojiStream);
 
-                if (heart.getHeartCount() > 5) { // ha ötnél több szív van, akkor az legkorábban letettet leszedi
+                if (heart.getHeartCount() > 5) { // ha ötnél több szív van, akkor a legkorábban letettet leszedi
                     int i = 0;
-                    while (!(getActors().get(i) instanceof Heart)) {
+                    while (i != getActors().size - 1 && !(getActors().get(i) instanceof Heart)) {
                         i++;
+                        System.out.println("asd   "+i + "   "+getActors().size);
                     }
-                    getActors().get(i).remove();
-                    heart.setHeartCount(heart.getHeartCount() - 1);
+                    if (i != getActors().size - 1) {
+                        getActors().get(i).remove();
+                        heart.setHeartCount(heart.getHeartCount() - 1);
+                    }
+
                 }
 
                 addActor(heart);
