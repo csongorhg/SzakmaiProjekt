@@ -138,7 +138,6 @@ public class MenuStage extends MyStage {
                     int i = 0;
                     while (i != getActors().size - 1 && !(getActors().get(i) instanceof Heart)) {
                         i++;
-                        System.out.println("asd   "+i + "   "+getActors().size);
                     }
                     if (i != getActors().size - 1) {
                         getActors().get(i).remove();
@@ -153,32 +152,6 @@ public class MenuStage extends MyStage {
 
             }
         });
-
-        /*table = new Table();
-        table.setFillParent(true);
-
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 4; j++) {
-                ImgButton currentImgButton = new ImgButton(Assets.manager.get(Assets.EXPLOSION_TEXTUREATLAS).createSprite(""+(i+j)));
-                currentImgButton.setSize(200, 300);
-                currentImgButton.addListener(new ClickListener() {
-                    @Override
-                    public void clicked(InputEvent event, float x, float y) {
-                        game.setScreen(new SituationParameterScreen(game ,"param2"+".txt"));
-
-
-                        super.clicked(event, x, y);
-                    }
-                });
-
-                table.add(currentImgButton).size(200,300);
-            }
-            table.row();
-
-        }
-
-        table.center();
-        this.addActor(table);*/
 
         setCameraZoomXY(getViewport().getWorldWidth() / 2, getViewport().getWorldHeight() / 2, 40);
         setCameraMoveToXY(getViewport().getWorldWidth() / 2
