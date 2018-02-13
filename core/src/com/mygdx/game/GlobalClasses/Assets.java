@@ -64,7 +64,7 @@ public class Assets {
 	public static final AssetDescriptor<Texture> LOADINGBACKGROUND_TEXTURE
 			= new AssetDescriptor<Texture>("loading/jedlik.png", Texture.class);
 	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("menu/background.jpeg", Texture.class);
+			= new AssetDescriptor<Texture>("menu/background.png", Texture.class);
 	public static final AssetDescriptor<Texture> HEART_TEXTURE
 			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
 	// Témák
