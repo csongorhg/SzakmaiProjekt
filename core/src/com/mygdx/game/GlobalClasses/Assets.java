@@ -67,7 +67,7 @@ public class Assets {
 			= new AssetDescriptor<Texture>("menu/background.png", Texture.class);
 	public static final AssetDescriptor<Texture> HEART_TEXTURE
 			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
-	// Témák
+	// Témák(menü)
 	public static final AssetDescriptor<Texture> CONFLICT_TEXTURE
 			= new AssetDescriptor<Texture>("menu/conflict.png", Texture.class);
 	public static final AssetDescriptor<Texture> INTERNET_TEXTURE

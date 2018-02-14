@@ -1,8 +1,6 @@
 package com.mygdx.game.Graph;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
-import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.MyBaseClasses.MyStage;
 import com.mygdx.game.MyGdxGame;
@@ -18,12 +16,11 @@ import java.util.ArrayList;
 
 public class SituationParameterStage extends MyStage {
     private ArrayList<GraphElement> situationParameters;
-    private String parameter;
+    private String eventName;
 
-    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game,String parameter) {
+    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game,String eventName) {
         super(viewport, batch, game);
-        this.parameter = parameter;
-        System.out.println(parameter);
+        this.eventName = eventName;
 
 
     }
@@ -37,9 +34,10 @@ public class SituationParameterStage extends MyStage {
         int index = 0;
         String[] data = new String[100];
         try {
-            BufferedReader br = new BufferedReader(new FileReader(new File(parameter)));
+            BufferedReader br = new BufferedReader(new FileReader(new File(eventName + ".txt")));
             while (br.ready()) {
                 data[index] = br.readLine();
+                System.out.println("A");
                 System.out.println(index+"  "+data[index]);
                 index++;
             }
@@ -63,7 +61,7 @@ public class SituationParameterStage extends MyStage {
         }
         for (int i = 0; i < coll.length; i++) {
             for(int j = 0; j < index; j++) {
-                if(situationParameters.get(j).row == i) {
+                if(situationParameters.get(j).getRow() == i) {
                     float x = situationParameters.get(j).getX();
                     float newx = x-(coll[i]*60)/2;
                     situationParameters.get(j).setX(newx);

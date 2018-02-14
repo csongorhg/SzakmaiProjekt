@@ -8,8 +8,11 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.mygdx.game.Game.GameScreen;
+import com.mygdx.game.Game.ReadParameter;
 import com.mygdx.game.GlobalClasses.Assets;
 import com.mygdx.game.Graph.SituationParameterScreen;
+import com.mygdx.game.Loading.EventType;
 import com.mygdx.game.Math.RandomNumber;
 import com.mygdx.game.MyBaseClasses.ImgButton;
 import com.mygdx.game.MyBaseClasses.MyLabel;
@@ -54,43 +57,43 @@ public class MenuStage extends MyStage {
 
         // Közlekedés
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.TRANSPORT_TEXTURE)));
-        myLabel = new MyLabel("Közlekedés", game.getSkin());
+        myLabel = new MyLabel(EventType.TRANSPORT.toString(), game.getSkin());
 
         eventLabels.add(myLabel);
 
         // Idegenek
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.STRANGERS_TEXTURE)));
-        myLabel = new MyLabel("Idegenek", game.getSkin());
+        myLabel = new MyLabel(EventType.STRANGERS.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Iskola
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.SCHOOL_TEXTURE)));
-        myLabel = new MyLabel("Iskola", game.getSkin());
+        myLabel = new MyLabel(EventType.SCHOOL.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Szoba
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.ROOM_TEXTURE)));
-        myLabel = new MyLabel("Szoba", game.getSkin());
+        myLabel = new MyLabel(EventType.ROOM.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Konyha
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.KITCHEN_TEXTURE)));
-        myLabel = new MyLabel("Konyha", game.getSkin());
+        myLabel = new MyLabel(EventType.KITCHEN.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Internet
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.INTERNET_TEXTURE)));
-        myLabel = new MyLabel("Internet", game.getSkin());
+        myLabel = new MyLabel(EventType.INTERNET.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Játszótér
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.PLAYGROUND_TEXTURE)));
-        myLabel = new MyLabel("Játszótér", game.getSkin());
+        myLabel = new MyLabel(EventType.PLAYGROUND.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Konfliktus
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.CONFLICT_TEXTURE)));
-        myLabel = new MyLabel("Konfliktus", game.getSkin());
+        myLabel = new MyLabel(EventType.CONFLICT.toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         int posX = 100, posY = 500, imgCount = 0;
@@ -108,11 +111,14 @@ public class MenuStage extends MyStage {
             actor.setRotation(new RandomNumber(-10,10).getGenNumber());
             actor.setZIndex(0);
 
+            final int currentImgCount = imgCount; // A clicklistener miatt final
+
             actor.addListener(new ClickListener() {
                 @Override
                 public void clicked(InputEvent event, float x, float y) {
                     super.clicked(event, x, y);
-                    game.setScreen(new SituationParameterScreen(game ,"param2"+".txt"));
+                    //, eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")
+                    game.setScreen(new GameScreen(game, new ReadParameter(eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")));
                 }
             });
             addActor(actor);
@@ -163,6 +169,8 @@ public class MenuStage extends MyStage {
         setCameraMoveToXY(getViewport().getWorldWidth() / 2
                 , getViewport().getWorldHeight() / 2, 1, 80);
 
+        System.out.println(Assets.manager.getLoadedAssets());
+
     }
 
 
@@ -174,6 +182,5 @@ public class MenuStage extends MyStage {
     @Override
     public void dispose() {
         super.dispose();
-
     }
 }

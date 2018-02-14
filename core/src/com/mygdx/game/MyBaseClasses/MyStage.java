@@ -39,6 +39,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
             public boolean keyDown(InputEvent event, int keycode) {
                 //System.out.println("Lenyomott gomb: "+Input.Keys.toString(keycode));
                 if(keycode == Input.Keys.BACK || keycode == Input.Keys.BACKSPACE) {
+                    //System.out.println("Vissza gomb!");
                     game.setScreenBackByStackPop();
                 }
                 return true;

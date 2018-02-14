@@ -49,7 +49,6 @@ public class MenuScreen extends MyScreen {
         bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
 
             private OneSpriteStaticActor backGroundActor;
-            private OneSpriteStaticActor money;
 
             @Override
             public void init() {

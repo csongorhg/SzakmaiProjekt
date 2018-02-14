@@ -1,4 +1,4 @@
-package com.mygdx.game.Graph;
+package com.mygdx.game.Game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -7,41 +7,39 @@ import com.mygdx.game.MyBaseClasses.MyScreen;
 import com.mygdx.game.MyGdxGame;
 
 /**
- * Created by Felhasznalo on 2017. 10. 28..
+ * Created by Hegedüs Csongor on 2/14/2018.
  */
 
-public class SituationParameterScreen extends MyScreen {
-    protected SituationParameterStage param;
+public class GameScreen extends MyScreen{
 
-    private String parameter;
-    public SituationParameterScreen(MyGdxGame game ,String parameter) {
+    protected GameStage gameStage;
+
+    public GameScreen(MyGdxGame game, ReadParameter readParameter) {
         super(game);
-        this.parameter = parameter;
     }
 
     @Override
     public void render(float delta) {
         super.render(delta);
-        param.act(delta);
-        param.draw();
+        gameStage.act(delta);
+        gameStage.draw();
     }
 
     @Override
     public void resize(int width, int height) {
         super.resize(width, height);
-
     }
 
     @Override
     public void dispose() {
-        param.dispose();
+        //gameStage.dispose();
         super.dispose();
     }
 
     @Override
     public void init() {
-        param  = new SituationParameterStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game,parameter);
-        Gdx.input.setInputProcessor(param);
+        gameStage = new GameStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280,720)),spriteBatch,game);
+        Gdx.input.setInputProcessor(gameStage);
         setBackGroundColor(1f, 1f, 1f);
     }
 }

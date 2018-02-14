@@ -36,4 +36,9 @@ public class MyLabel extends Label implements InitableInterface{
 
         //setFontScale(Math.abs((float)Math.sin(elapsedtime*2f))/2f+0.8f);
     }
+
+    @Override
+    public String toString() {
+        return getText().toString();
+    }
 }

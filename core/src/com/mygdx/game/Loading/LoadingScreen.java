@@ -10,6 +10,10 @@ import com.mygdx.game.GlobalClasses.*;
 import com.mygdx.game.MyBaseClasses.OneSpriteStaticActor;
 import com.mygdx.game.MyGdxGame;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+
 
 public class LoadingScreen extends MyScreen {
 
@@ -35,6 +39,8 @@ public class LoadingScreen extends MyScreen {
 		loadingLine.setPosition(0,0);
 		stage.addActor(loadingLine);
 
+		// Iskola képek felolvasása
+		new ImageReader(EventType.SCHOOL);
 
 
     }
