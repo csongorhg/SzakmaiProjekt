@@ -12,6 +12,7 @@ import com.mygdx.game.MyBaseClasses.OneSpriteStaticActor;
 public class Heart extends OneSpriteStaticActor{
 
     private static int heartCount = 0;
+    private float heartDissapearDelay = 10;
 
     public Heart(EmojiStream emojiStream) {
         super(Assets.manager.get(Assets.HEART_TEXTURE));
@@ -28,5 +29,15 @@ public class Heart extends OneSpriteStaticActor{
 
     public static void setHeartCount(int heartCount) {
         Heart.heartCount = heartCount;
+    }
+
+    @Override
+    public void act(float delta) {
+        super.act(delta);
+        if (elapsedTime >= heartDissapearDelay) {
+            sprite.setAlpha(sprite.getColor().a - 0.01f); // Sprite ős nem rendelkezik getAlpha getterrel, mert a colorból kiolvasható
+            if (sprite.getColor().a == 0) remove();
+        }
+
     }
 }

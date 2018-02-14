@@ -55,6 +55,7 @@ public class MenuStage extends MyStage {
         // Közlekedés
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.TRANSPORT_TEXTURE)));
         myLabel = new MyLabel("Közlekedés", game.getSkin());
+
         eventLabels.add(myLabel);
 
         // Idegenek
@@ -120,6 +121,7 @@ public class MenuStage extends MyStage {
             MyLabel currentLabel = eventLabels.get(imgCount - 1);
             currentLabel.setPosition(actor.getX() + currentLabel.getWidth() / 2, actor.getY() + actor.getHeight());
             currentLabel.setColor(0,0,0,1);
+            currentLabel.setRotation(10);
             addActor(currentLabel);
         }
 
@@ -153,10 +155,13 @@ public class MenuStage extends MyStage {
             }
         });
 
+
+
+
+        // Animáció, középről a háttér
         setCameraZoomXY(getViewport().getWorldWidth() / 2, getViewport().getWorldHeight() / 2, 40);
         setCameraMoveToXY(getViewport().getWorldWidth() / 2
                 , getViewport().getWorldHeight() / 2, 1, 80);
-
 
     }
 
