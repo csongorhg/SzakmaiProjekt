@@ -5,7 +5,3 @@ sourceSets.main.java.srcDirs = ["src/"]
 eclipse.project {
     name = appName + "-core"
 }
-dependencies {
-    compile files('C:/F/PENDROID/mester/android/libs/bodyeditor-loader.jar')
-    compile files('C:/F/PENDROID/mester/android/libs/bodyeditor-loader-sources.jar')
-}
