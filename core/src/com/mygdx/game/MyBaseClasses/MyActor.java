@@ -45,30 +45,6 @@ abstract public class MyActor extends Actor implements InitableInterface{
         super.rotationChanged();
     }
 
-    public boolean overlaps(ShapeType shapeType, MyActor anotherActor)
-    {
-        switch (shapeType)
-        {
-            case Circle:
-                return circle.overlaps(anotherActor.circle);
-            case Rectangle:
-                return rectangle.overlaps(anotherActor.rectangle);
-        }
-        return false;
-    }
-
-    public static boolean overlaps(ShapeType shapeType, MyActor actorA, MyActor actorB)
-    {
-        switch (shapeType)
-        {
-            case Circle:
-                return actorA.circle.overlaps(actorB.circle);
-            case Rectangle:
-                return actorA.rectangle.overlaps(actorB.rectangle);
-        }
-        return false;
-    }
-
     public void resetElapsedTime()
     {
         elapsedTime = 0;
