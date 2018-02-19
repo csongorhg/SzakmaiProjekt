@@ -12,7 +12,8 @@ import java.io.FileReader;
  * Created by Hegedüs Csongor on 2/14/2018.
  */
 
-public class ImageReader {
+public class
+ImageReader {
 
     public ImageReader(EventType eventType) {
         try{

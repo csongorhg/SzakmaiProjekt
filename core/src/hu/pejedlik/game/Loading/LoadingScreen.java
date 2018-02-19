@@ -35,8 +35,7 @@ public class LoadingScreen extends MyScreen {
 		loadingLine.setPosition(0,0);
 		stage.addActor(loadingLine);
 
-		// Iskola képek felolvasása
-		new ImageReader(EventType.SCHOOL);
+
 
 
     }

@@ -3,6 +3,9 @@ package hu.pejedlik.game.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
+
+import hu.pejedlik.game.Loading.EventType;
+import hu.pejedlik.game.Loading.ImageReader;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyGdxGame;
 
@@ -16,6 +19,9 @@ public class GameScreen extends MyScreen{
 
     public GameScreen(MyGdxGame game, ReadParameter readParameter) {
         super(game);
+
+        // Iskola képek felolvasása
+        new ImageReader(EventType.SCHOOL);
     }
 
     @Override

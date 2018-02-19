@@ -111,17 +111,28 @@ public class MenuStage extends MyStage {
             actor.setRotation(new RandomNumber(-10,10).getGenNumber());
             actor.setZIndex(0);
 
+            addActor(actor);
+
             final int currentImgCount = imgCount; // A clicklistener miatt final
 
-            actor.addListener(new ClickListener() {
-                @Override
-                public void clicked(InputEvent event, float x, float y) {
-                    super.clicked(event, x, y);
-                    //, eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")
-                    game.setScreen(new GameScreen(game, new ReadParameter(eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")));
-                }
-            });
-            addActor(actor);
+            if (!eventLabels.get(currentImgCount - 1).getText().toString().equals(EventType.SCHOOL.toString()) &&
+                    !eventLabels.get(currentImgCount - 1).getText().toString().equals(EventType.PLAYGROUND.toString())) {
+                OneSpriteStaticActor lockedMap = new OneSpriteStaticActor(Assets.manager.get(Assets.LOCK_TEXTURE));
+                lockedMap.setSize(100,100);
+                lockedMap.setPosition(actor.getX() + actor.getWidth() / 2 - lockedMap.getWidth() / 2,
+                        actor.getY() + actor.getHeight() / 2 - lockedMap.getHeight() / 2);
+                addActor(lockedMap);
+            } else {
+                actor.addListener(new ClickListener() {
+                    @Override
+                    public void clicked(InputEvent event, float x, float y) {
+                        super.clicked(event, x, y);
+                        //, eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")
+                        game.setScreen(new GameScreen(game, new ReadParameter(eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")));
+                    }
+                });
+            }
+
 
             // Események feliratai
             MyLabel currentLabel = eventLabels.get(imgCount - 1);

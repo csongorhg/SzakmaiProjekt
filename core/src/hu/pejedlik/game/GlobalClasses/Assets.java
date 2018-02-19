@@ -84,6 +84,8 @@ public class Assets {
 			= new AssetDescriptor<Texture>("menu/strangers.png", Texture.class);
 	public static final AssetDescriptor<Texture> TRANSPORT_TEXTURE
 			= new AssetDescriptor<Texture>("menu/transport.png", Texture.class);
+	public static final AssetDescriptor<Texture> LOCK_TEXTURE
+			= new AssetDescriptor<Texture>("menu/lock.png", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
@@ -136,6 +138,7 @@ public class Assets {
 		manager.load(SCHOOL_TEXTURE);
 		manager.load(STRANGERS_TEXTURE);
 		manager.load(TRANSPORT_TEXTURE);
+		manager.load(LOCK_TEXTURE);
 
 		//zene
 		manager.load(MUSIC);
