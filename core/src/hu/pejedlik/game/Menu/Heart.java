@@ -13,6 +13,7 @@ public class Heart extends OneSpriteStaticActor{
 
     private static int heartCount = 0;
     private float heartDissapearDelay = 10;
+    private static OneSpriteStaticActor gray = new OneSpriteStaticActor(Assets.manager.get(Assets.GRAY_TEXTURE));
 
     public Heart(EmojiStream emojiStream) {
         super(Assets.manager.get(Assets.HEART_TEXTURE));
@@ -21,6 +22,7 @@ public class Heart extends OneSpriteStaticActor{
         setPosition(emojiStream.getX() + emojiStream.getWidth() / 2 - getWidth() / 2
                 ,emojiStream.getY() + emojiStream.getHeight() / 2 - getWidth() / 2);
         setRotation(emojiStream.getRotation());
+
     }
 
     public int getHeartCount() {
@@ -29,6 +31,11 @@ public class Heart extends OneSpriteStaticActor{
 
     public static void setHeartCount(int heartCount) {
         Heart.heartCount = heartCount;
+    }
+
+    @Override
+    public void init() {
+        super.init();
     }
 
     @Override

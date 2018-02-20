@@ -62,48 +62,50 @@ public class Assets {
 	public static final AssetDescriptor<Texture> SETTINGSBUTTON_TEXTURE
 			= new AssetDescriptor<Texture>("settingsButton.png", Texture.class);
 	public static final AssetDescriptor<Texture> LOADINGBACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("loading/jedlik.png", Texture.class);
+			= new AssetDescriptor<Texture>("Loading/jedlik.png", Texture.class);
 	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("menu/background.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/background.png", Texture.class);
 	public static final AssetDescriptor<Texture> HEART_TEXTURE
-			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/heart.png", Texture.class);
 	// Témák(menü)
 	public static final AssetDescriptor<Texture> CONFLICT_TEXTURE
-			= new AssetDescriptor<Texture>("menu/conflict.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/conflict.png", Texture.class);
 	public static final AssetDescriptor<Texture> INTERNET_TEXTURE
-			= new AssetDescriptor<Texture>("menu/internet.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/internet.png", Texture.class);
 	public static final AssetDescriptor<Texture> KITCHEN_TEXTURE
-			= new AssetDescriptor<Texture>("menu/kitchen.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/kitchen.png", Texture.class);
 	public static final AssetDescriptor<Texture> PLAYGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("menu/playground.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/playground.png", Texture.class);
 	public static final AssetDescriptor<Texture> ROOM_TEXTURE
-			= new AssetDescriptor<Texture>("menu/room.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/room.png", Texture.class);
 	public static final AssetDescriptor<Texture> SCHOOL_TEXTURE
-			= new AssetDescriptor<Texture>("menu/school.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/school.png", Texture.class);
 	public static final AssetDescriptor<Texture> STRANGERS_TEXTURE
-			= new AssetDescriptor<Texture>("menu/strangers.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/strangers.png", Texture.class);
 	public static final AssetDescriptor<Texture> TRANSPORT_TEXTURE
-			= new AssetDescriptor<Texture>("menu/transport.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/transport.png", Texture.class);
 	public static final AssetDescriptor<Texture> LOCK_TEXTURE
-			= new AssetDescriptor<Texture>("menu/lock.png", Texture.class);
+			= new AssetDescriptor<Texture>("Menu/lock.png", Texture.class);
+	public static final AssetDescriptor<Texture> GRAY_TEXTURE
+			= new AssetDescriptor<Texture>("Menu/a2.png", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
 			= new AssetDescriptor<TextureAtlas>("pre.atlas", TextureAtlas.class);
 	public static final AssetDescriptor<TextureAtlas> EMOJIS_TEXTUREATLAS
-			= new AssetDescriptor<TextureAtlas>("menu/emojis.atlas", TextureAtlas.class);
+			= new AssetDescriptor<TextureAtlas>("Menu/emojis.atlas", TextureAtlas.class);
 
 	//zene
-    public static final AssetDescriptor<Music> MUSIC
-            = new AssetDescriptor<Music>("music/music.mp3", Music.class);
+    /*public static final AssetDescriptor<Music> MUSIC
+            = new AssetDescriptor<Music>("Music/music.mp3", Music.class);
 	public static final AssetDescriptor<Texture> MINUS_TEXTURE
-			= new AssetDescriptor<Texture>("music/sminus.png", Texture.class);
+			= new AssetDescriptor<Texture>("Music/sminus.png", Texture.class);
 	public static final AssetDescriptor<Texture> PLUS_TEXTURE
-			= new AssetDescriptor<Texture>("music/splus.png", Texture.class);
+			= new AssetDescriptor<Texture>("Music/splus.png", Texture.class);
 	public static final AssetDescriptor<Texture> EMPTYBAR_TEXTURE
-			= new AssetDescriptor<Texture>("music/sempty.png", Texture.class);
+			= new AssetDescriptor<Texture>("Music/sempty.png", Texture.class);
 	public static final AssetDescriptor<Texture> FULLBAR_TEXTURE
-			= new AssetDescriptor<Texture>("music/sfull.png", Texture.class);
+			= new AssetDescriptor<Texture>("Music/sfull.png", Texture.class);*/
 	//zene vége
 
     public static final AssetDescriptor<Sound> STAR_SOUND
@@ -139,13 +141,14 @@ public class Assets {
 		manager.load(STRANGERS_TEXTURE);
 		manager.load(TRANSPORT_TEXTURE);
 		manager.load(LOCK_TEXTURE);
+		manager.load(GRAY_TEXTURE);
 
 		//zene
-		manager.load(MUSIC);
+		/*manager.load(MUSIC);
 		manager.load(MINUS_TEXTURE);
 		manager.load(PLUS_TEXTURE);
 		manager.load(EMPTYBAR_TEXTURE);
-		manager.load(FULLBAR_TEXTURE);
+		manager.load(FULLBAR_TEXTURE);*/
 		//zene vége
 	}
 

@@ -173,14 +173,20 @@ public class MenuStage extends MyStage {
         });
 
 
+        OneSpriteStaticActor a = new OneSpriteStaticActor(Assets.manager.get(Assets.SCHOOL_TEXTURE));
+        OneSpriteStaticActor b = new OneSpriteStaticActor(Assets.manager.get(Assets.GRAY_TEXTURE));
+        a.setSize(100,100);
+        b.setSize(100,100);
+        a.setPosition(0,0);
+        b.setPosition(0,0);
 
 
-        // Animáció, középről a háttér
+        // Animáció, középről a háttér (a végén kell lennie)
         setCameraZoomXY(getViewport().getWorldWidth() / 2, getViewport().getWorldHeight() / 2, 40);
         setCameraMoveToXY(getViewport().getWorldWidth() / 2
                 , getViewport().getWorldHeight() / 2, 1, 80);
 
-        System.out.println(Assets.manager.getLoadedAssets());
+
 
     }
 

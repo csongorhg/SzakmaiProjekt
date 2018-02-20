@@ -41,12 +41,12 @@ public class SettingsStage extends MyStage {
         addActor(back);
         back.setPosition(((ExtendViewport)getViewport()).getMinWorldWidth() /2 - back.getWidth()/2, 0);
 
-        musicVolume();
+        //musicVolume();
     }
 
 
     //a zenének a hangosítása / halkítása, + és - rajz
-    private void musicVolume(){
+    /*private void musicVolume(){
         OneSpriteStaticActor plusSpriteActor, minusSpriteActor;
         final float pozXandSize = ((ExtendViewport)getViewport()).getMinWorldWidth()/13; // 3. - és 14 +  (0-tól van az index)
         final float pozY = ((ExtendViewport)getViewport()).getMinWorldHeight()/2;
@@ -99,7 +99,7 @@ public class SettingsStage extends MyStage {
                 addActor(barSpriteActor);
             }
         }
-    }
+    }*/
 
     @Override
     public void dispose() {

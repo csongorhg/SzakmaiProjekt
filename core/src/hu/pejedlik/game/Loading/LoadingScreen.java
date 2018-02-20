@@ -4,7 +4,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import hu.pejedlik.game.Menu.MenuScreen;
-import hu.pejedlik.game.Music.MusicClass;
+//import hu.pejedlik.game.Music.MusicClass;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.GlobalClasses.*;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
@@ -13,7 +13,7 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class LoadingScreen extends MyScreen {
 
-	public static MusicClass music;
+	//public static MusicClass music;
 	private Stage stage;
 	private OneSpriteStaticActor loadingImage, loadingLine;
 	private float elapsedTime = 0;
@@ -59,8 +59,8 @@ public class LoadingScreen extends MyScreen {
 			Assets.afterLoaded();
 
 			//zene
-			music = new MusicClass();
-			music.playMusic();
+			//music = new MusicClass();
+			//music.playMusic();
 			//zene vége
 
 			game.setScreen(new MenuScreen(game));
