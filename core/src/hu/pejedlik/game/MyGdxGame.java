@@ -9,6 +9,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Slider;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
@@ -71,6 +72,18 @@ public class MyGdxGame extends Game {
 	public Skin getSkin()
 	{
 		return Assets.manager.get(Assets.SKIN);
+	}
+
+	public Slider.SliderStyle getSliderStyle(float x, float y){
+		Slider.SliderStyle style = new Slider.SliderStyle();
+		Texture t = Assets.manager.get(Assets.BACKGROUND_TEXTURE);
+		style.background = new TextureRegionDrawable(new TextureRegion(t));
+		style.background.setMinWidth(x);
+		style.background.setMinHeight(y);
+		style.knob = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE)));
+		style.knob.setMinHeight(x/7);
+		style.knob.setMinWidth(x/7);
+		return style;
 	}
 
 

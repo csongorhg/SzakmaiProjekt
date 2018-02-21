@@ -1,7 +1,6 @@
 package hu.pejedlik.game.Loading;
 
-import com.badlogic.gdx.Audio;
-import com.badlogic.gdx.Gdx;
+
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -9,7 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Menu.MenuScreen;
-//import hu.pejedlik.game.Music.MusicClass;
+import hu.pejedlik.game.Music.MusicControlClass;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
@@ -17,7 +16,7 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class LoadingScreen extends MyScreen {
 
-	public static Music music;
+	public static MusicControlClass music;
 	private Stage stage;
 	private OneSpriteStaticActor loadingImage, loadingLine;
 	private float elapsedTime = 0;
@@ -63,9 +62,8 @@ public class LoadingScreen extends MyScreen {
 			Assets.afterLoaded();
 
 			//zene
-			//music = Gdx.audio.newMusic(Gdx.files.internal("music\\music.mp3"));
-			music = Assets.manager.get(Assets.MUSIC);
-			music.play();
+			music = new MusicControlClass();
+			music.playMusic();
 			//zene vége
 
 			game.setScreen(new MenuScreen(game));

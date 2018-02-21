@@ -3,6 +3,8 @@ package hu.pejedlik.game.Settings;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Slider;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -19,12 +21,11 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class SettingsStage extends MyStage {
 
-
+    private Slider slider;
 
     public SettingsStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
     }
-
 
     public void init() {
         super.init();
@@ -41,65 +42,23 @@ public class SettingsStage extends MyStage {
         addActor(back);
         back.setPosition(((ExtendViewport)getViewport()).getMinWorldWidth() /2 - back.getWidth()/2, 0);
 
-        //musicVolume();
+        musicVolume();
     }
 
-
-    //a zenének a hangosítása / halkítása, + és - rajz
-    /*private void musicVolume(){
-        OneSpriteStaticActor plusSpriteActor, minusSpriteActor;
-        final float pozXandSize = ((ExtendViewport)getViewport()).getMinWorldWidth()/13; // 3. - és 14 +  (0-tól van az index)
-        final float pozY = ((ExtendViewport)getViewport()).getMinWorldHeight()/2;
-        minusSpriteActor = new OneSpriteStaticActor(Assets.manager.get(Assets.MINUS_TEXTURE));
-        minusSpriteActor.addListener(new ClickListener(){
+    void musicVolume(){
+        slider = new Slider(0, 100, 1, false, game.getSliderStyle(((ExtendViewport)getViewport()).getMinWorldWidth()/2, ((ExtendViewport)getViewport()).getMinWorldHeight()/20));
+        addActor(slider);
+        slider.setValue(LoadingScreen.music.getVolume()*100);
+        slider.addListener(new ChangeListener() {
             @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                if(LoadingScreen.music.getVolume() >= 0f)
-                    LoadingScreen.music.musicVolume(LoadingScreen.music.getVolume()-0.1f);
-                volumeBarDraw(pozXandSize, pozY);
+            public void changed(ChangeEvent event, Actor actor) {
+                LoadingScreen.music.musicVolume((float)(slider.getValue()/100.0));
             }
         });
-        addActor(minusSpriteActor);
-        minusSpriteActor.setSize(pozXandSize,pozXandSize);
-        minusSpriteActor.setPosition(pozXandSize*1,pozY-pozXandSize/2);
-
-        plusSpriteActor = new OneSpriteStaticActor(Assets.manager.get(Assets.PLUS_TEXTURE));
-        plusSpriteActor.addListener(new ClickListener(){
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                if(LoadingScreen.music.getVolume() <= 0.9f)
-                    LoadingScreen.music.musicVolume(LoadingScreen.music.getVolume()+0.1f);
-                volumeBarDraw(pozXandSize, pozY);
-            }
-        });
-        addActor(plusSpriteActor);
-        plusSpriteActor.setSize(pozXandSize,pozXandSize);
-        plusSpriteActor.setPosition(pozXandSize*11,pozY-pozXandSize/2);
-        volumeBarDraw(pozXandSize, pozY);
+        slider.setSize(((ExtendViewport)getViewport()).getMinWorldWidth()/2, ((ExtendViewport)getViewport()).getMinWorldHeight()/20);
+        slider.setPosition(((ExtendViewport)getViewport()).getMinWorldWidth()/2-slider.getWidth()/2,
+                ((ExtendViewport)getViewport()).getMinWorldHeight()/2-slider.getHeight()/2);
     }
-
-    //+ és a - közötti állapotsáv kirajzolása
-    private void volumeBarDraw(float pozXandSize, float pozY){ //a - és a + közötti kis rublikákat rajzolja ki
-        BarSpriteActor barSpriteActor = null;
-        for (Actor actor:getActors()) {
-            if(actor instanceof BarSpriteActor){
-                actor.remove();
-            }
-        }
-        int volume = (int)(LoadingScreen.music.getVolume()*10);
-        for(int i = 1; i <= 9; i++){
-            if(volume != 0 && i <= volume){
-                barSpriteActor = new BarSpriteActor(Assets.manager.get(Assets.FULLBAR_TEXTURE), pozXandSize*(i+1),pozY-pozXandSize/2, pozXandSize);
-                addActor(barSpriteActor);
-            }
-            else{
-                barSpriteActor = new BarSpriteActor(Assets.manager.get(Assets.EMPTYBAR_TEXTURE), pozXandSize*(i+1),pozY-pozXandSize/2, pozXandSize);
-                addActor(barSpriteActor);
-            }
-        }
-    }*/
 
     @Override
     public void dispose() {

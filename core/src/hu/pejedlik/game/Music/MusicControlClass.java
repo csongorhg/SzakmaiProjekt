@@ -9,14 +9,15 @@ import hu.pejedlik.game.GlobalClasses.Assets;
  * Created by Vince on 2017. 11. 02..
  */
 
-/*public class MusicClass {
+public class MusicControlClass {
 
-    public MusicClass() {
+    private static Music music;
+
+    public MusicControlClass() {
+        music = Assets.manager.get(Assets.MUSIC);
         musicVolume(0.5f);
         loop();
     }
-
-    private final static Music music = Assets.manager.get(Assets.MUSIC);
 
     public void musicVolume(float f){
         music.setVolume(f);
@@ -35,4 +36,4 @@ import hu.pejedlik.game.GlobalClasses.Assets;
     public float getVolume(){return music.getVolume();}
     public boolean getPlaying() {return music.isPlaying();}
 
-}*/
+}
