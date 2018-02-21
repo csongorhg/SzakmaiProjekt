@@ -16,7 +16,7 @@ import hu.pejedlik.game.GlobalClasses.Assets;
         loop();
     }
 
-    private final static Music music = Assets.manager.get(MUSIC);
+    private final static Music music = Assets.manager.get(Assets.MUSIC);
 
     public void musicVolume(float f){
         music.setVolume(f);

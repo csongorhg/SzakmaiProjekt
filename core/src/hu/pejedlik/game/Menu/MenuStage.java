@@ -23,7 +23,6 @@ import hu.pejedlik.game.MyGdxGame;
 
 import java.util.ArrayList;
 
-import sun.font.TextLabel;
 
 /**
  * Created by tuskeb on 2016. 09. 30..

@@ -96,9 +96,9 @@ public class Assets {
 			= new AssetDescriptor<TextureAtlas>("Menu/emojis.atlas", TextureAtlas.class);
 
 	//zene
-    /*public static final AssetDescriptor<Music> MUSIC
-            = new AssetDescriptor<Music>("Music/music.mp3", Music.class);
-	public static final AssetDescriptor<Texture> MINUS_TEXTURE
+    public static final AssetDescriptor<Music> MUSIC
+            = new AssetDescriptor<Music>("music/music.mp3", Music.class);
+	/*public static final AssetDescriptor<Texture> MINUS_TEXTURE
 			= new AssetDescriptor<Texture>("Music/sminus.png", Texture.class);
 	public static final AssetDescriptor<Texture> PLUS_TEXTURE
 			= new AssetDescriptor<Texture>("Music/splus.png", Texture.class);
@@ -144,8 +144,8 @@ public class Assets {
 		manager.load(GRAY_TEXTURE);
 
 		//zene
-		/*manager.load(MUSIC);
-		manager.load(MINUS_TEXTURE);
+		manager.load(MUSIC);
+		/*manager.load(MINUS_TEXTURE);
 		manager.load(PLUS_TEXTURE);
 		manager.load(EMPTYBAR_TEXTURE);
 		manager.load(FULLBAR_TEXTURE);*/
