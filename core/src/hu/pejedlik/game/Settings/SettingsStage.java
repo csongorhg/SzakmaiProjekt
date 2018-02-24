@@ -30,6 +30,8 @@ public class SettingsStage extends MyStage {
     public void init() {
         super.init();
 
+        setCameraResetToLeftBottomOfScreen();
+
         //vissza gomb
         MyButton back = new MyButton("Vissza",game.getTextButtonStyle());
         back.addListener(new ClickListener(){
