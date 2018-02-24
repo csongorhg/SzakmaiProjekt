@@ -5,15 +5,16 @@ package hu.pejedlik.game.Loading;
  */
 
 public enum EventType {
-    TRANSPORT("Transport"),
-    STRANGERS("Strangers"),
-    SCHOOL("School"),
-    ROOM("Room"),
-    KITCHEN("Kitchen"),
-    INTERNET("Internet"),
-    PLAYGROUND("Playground"),
-    CONFLICT("Conflict");
+    TRANSPORT("transport"),
+    STRANGERS("strangers"),
+    SCHOOL("school"),
+    ROOM("room"),
+    KITCHEN("kitchen"),
+    INTERNET("internet"),
+    PLAYGROUND("playground"),
+    CONFLICT("conflict");
 
+    public static EventType currentEventType;
     private final String text;
 
     EventType(final String text) {

@@ -46,6 +46,8 @@ abstract public class MyScreen implements Screen, InitableInterface {
 
     }
 
+
+
     @Override
     public void render(float delta) {
         Gdx.gl.glClearColor(r, g, b, 1);
@@ -87,6 +89,8 @@ abstract public class MyScreen implements Screen, InitableInterface {
         this.g = g;
         this.b = b;
     }
+
+
 
     @Override
     public void init() {

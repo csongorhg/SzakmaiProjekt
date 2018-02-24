@@ -75,6 +75,4 @@ public class MenuScreen extends MyScreen {
         setBackGroundColor(1f, 1f, 1f);
 
     }
-
-
 }

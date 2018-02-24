@@ -22,21 +22,21 @@ import java.util.Stack;
 
 public class MyGdxGame extends Game {
 
-	public final Stack<Class> backButtonStack = new Stack();
+    public final Stack<Class> backButtonStack = new Stack();
 
-	public Label.LabelStyle getLabelStyle() {
-		Label.LabelStyle style;
-		style = new Label.LabelStyle();
-		style.font = Assets.manager.get(Assets.ALEGREYAREGULAR_FONT);
-		style.fontColor = Color.YELLOW;
-		Pixmap p = new Pixmap(1, 1, Pixmap.Format.RGB888);
-		p.setColor(0.4f, 0.2f, 0.8f, 0.5f);
-		p.fill();
-		return style;
-	}
+    public Label.LabelStyle getLabelStyle() {
+        Label.LabelStyle style;
+        style = new Label.LabelStyle();
+        style.font = Assets.manager.get(Assets.ALEGREYAREGULAR_FONT);
+        style.fontColor = Color.YELLOW;
+        Pixmap p = new Pixmap(1, 1, Pixmap.Format.RGB888);
+        p.setColor(0.4f, 0.2f, 0.8f, 0.5f);
+        p.fill();
+        return style;
+    }
 
-	public TextField.TextFieldStyle getTextFieldStyle() {
-		/*TextField.TextFieldStyle style = new TextField.TextFieldStyle();
+    public TextField.TextFieldStyle getTextFieldStyle() {
+        /*TextField.TextFieldStyle style = new TextField.TextFieldStyle();
 		style.background = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.TEXTBOX_TEXTURE)));
 		style.background.setLeftWidth(style.background.getLeftWidth() + 20);
 		style.background.setRightWidth(style.background.getRightWidth() + 20);

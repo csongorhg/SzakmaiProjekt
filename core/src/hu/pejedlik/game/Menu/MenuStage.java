@@ -8,8 +8,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import hu.pejedlik.game.Game.GameScreen;
-import hu.pejedlik.game.Game.ReadParameter;
+
+import hu.pejedlik.game.Game.PreparationScreen;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Graph.SituationParameterScreen;
 import hu.pejedlik.game.Loading.EventType;
@@ -23,6 +23,8 @@ import hu.pejedlik.game.MyGdxGame;
 
 import java.util.ArrayList;
 
+import hu.pejedlik.game.String.FirstLetterLowercase;
+import hu.pejedlik.game.String.FirstLetterUppercase;
 
 /**
  * Created by tuskeb on 2016. 09. 30..
@@ -35,6 +37,7 @@ public class MenuStage extends MyStage {
     private Table table;
     private Array<OneSpriteStaticActor> eventImages;
     private Array<MyLabel> eventLabels;
+    private OneSpriteStaticActor closeButton;
 
     public MenuStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
@@ -42,10 +45,28 @@ public class MenuStage extends MyStage {
     }
 
 
-    public void init()
-    {
+    public void init() {
         super.init();
         addBackEventStackListener();
+
+        // Settings button reposition
+        OneSpriteStaticActor settingsButton = super.getSettingsButton();
+        settingsButton.setY(super.getSettingsButton().getY() - super.getSettingsButton().getHeight());
+        super.setSettingsButton(settingsButton);
+
+        // Close button
+        closeButton = new OneSpriteStaticActor(Assets.manager.get(Assets.CLOSE_TEXTURE));
+        closeButton.setSize(super.getSettingsButton().getWidth(), super.getSettingsButton().getHeight());
+        closeButton.setPosition(super.getSettingsButton().getX(), super.getSettingsButton().getY() + super.getSettingsButton().getHeight());
+        closeButton.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                super.clicked(event, x, y);
+                dispose();
+                System.exit(0);
+            }
+        });
+        addActor(closeButton);
 
         // Menu buttons
         MyLabel myLabel;
@@ -56,43 +77,43 @@ public class MenuStage extends MyStage {
 
         // Közlekedés
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.TRANSPORT_TEXTURE)));
-        myLabel = new MyLabel(EventType.TRANSPORT.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.TRANSPORT.toString()).toString(), game.getSkin());
 
         eventLabels.add(myLabel);
 
         // Idegenek
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.STRANGERS_TEXTURE)));
-        myLabel = new MyLabel(EventType.STRANGERS.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.STRANGERS.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Iskola
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.SCHOOL_TEXTURE)));
-        myLabel = new MyLabel(EventType.SCHOOL.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.SCHOOL.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Szoba
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.ROOM_TEXTURE)));
-        myLabel = new MyLabel(EventType.ROOM.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.ROOM.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Konyha
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.KITCHEN_TEXTURE)));
-        myLabel = new MyLabel(EventType.KITCHEN.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.KITCHEN.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Internet
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.INTERNET_TEXTURE)));
-        myLabel = new MyLabel(EventType.INTERNET.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.INTERNET.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Játszótér
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.PLAYGROUND_TEXTURE)));
-        myLabel = new MyLabel(EventType.PLAYGROUND.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.PLAYGROUND.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         // Konfliktus
         eventImages.add(new OneSpriteStaticActor(Assets.manager.get(Assets.CONFLICT_TEXTURE)));
-        myLabel = new MyLabel(EventType.CONFLICT.toString(), game.getSkin());
+        myLabel = new MyLabel(new FirstLetterUppercase(EventType.CONFLICT.toString()).toString(), game.getSkin());
         eventLabels.add(myLabel);
 
         int posX = 100, posY = 500, imgCount = 0;
@@ -114,10 +135,10 @@ public class MenuStage extends MyStage {
 
             final int currentImgCount = imgCount; // A clicklistener miatt final
 
-            if (!eventLabels.get(currentImgCount - 1).getText().toString().equals(EventType.SCHOOL.toString()) &&
-                    !eventLabels.get(currentImgCount - 1).getText().toString().equals(EventType.PLAYGROUND.toString())) {
+            if (!eventLabels.get(currentImgCount - 1).getText().toString().equals(new FirstLetterUppercase(EventType.SCHOOL.toString()).toString()) &&
+                    !eventLabels.get(currentImgCount - 1).getText().toString().equals(new FirstLetterUppercase(EventType.PLAYGROUND.toString()).toString())) {
                 OneSpriteStaticActor lockedMap = new OneSpriteStaticActor(Assets.manager.get(Assets.LOCK_TEXTURE));
-                lockedMap.setSize(100,100);
+                lockedMap.setSize(100, 100);
                 lockedMap.setPosition(actor.getX() + actor.getWidth() / 2 - lockedMap.getWidth() / 2,
                         actor.getY() + actor.getHeight() / 2 - lockedMap.getHeight() / 2);
                 addActor(lockedMap);
@@ -126,8 +147,15 @@ public class MenuStage extends MyStage {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         super.clicked(event, x, y);
-                        //, eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")
-                        game.setScreen(new GameScreen(game, new ReadParameter(eventLabels.get(currentImgCount - 1).getText().toString() + ".txt")));
+
+                        int i = 0;
+                        EventType eventType[] = EventType.values();
+                        while (!new FirstLetterUppercase(eventType[i].toString()).toString().equals(eventLabels.get(currentImgCount - 1).getText().toString())) {
+                            i++;
+                        }
+                        EventType.currentEventType = eventType[i];
+
+                        game.setScreen(new PreparationScreen(game), false); // false - Loading képernyőre ne lehessen visszalépni
                     }
                 });
             }
@@ -136,7 +164,7 @@ public class MenuStage extends MyStage {
             // Események feliratai
             MyLabel currentLabel = eventLabels.get(imgCount - 1);
             currentLabel.setPosition(actor.getX() + currentLabel.getWidth() / 2, actor.getY() + actor.getHeight());
-            currentLabel.setColor(0,0,0,1);
+            currentLabel.setColor(0, 0, 0, 1);
             currentLabel.setRotation(10);
             addActor(currentLabel);
         }
@@ -170,14 +198,6 @@ public class MenuStage extends MyStage {
 
             }
         });
-
-
-        OneSpriteStaticActor a = new OneSpriteStaticActor(Assets.manager.get(Assets.SCHOOL_TEXTURE));
-        OneSpriteStaticActor b = new OneSpriteStaticActor(Assets.manager.get(Assets.GRAY_TEXTURE));
-        a.setSize(100,100);
-        b.setSize(100,100);
-        a.setPosition(0,0);
-        b.setPosition(0,0);
 
 
         // Animáció, középről a háttér (a végén kell lennie)

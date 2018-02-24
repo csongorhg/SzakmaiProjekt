@@ -94,6 +94,5 @@ public class OneSpriteAnimatedActor extends OneSpriteActor {
         return textureAtlas;
     }
 
-    
 
 }

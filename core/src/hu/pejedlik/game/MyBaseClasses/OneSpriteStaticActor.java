@@ -21,4 +21,16 @@ public class OneSpriteStaticActor extends OneSpriteActor {
         return sprite.getTexture();
     }
 
+    public void setAlpha(float a) {
+        super.sprite.setColor(getColor().r, getColor().g, getColor().b, a);
+    }
+
+    public float getAlpha() {
+        return super.sprite.getColor().a;
+    }
+
+    @Override
+    public void act(float delta) {
+        super.act(delta);
+    }
 }

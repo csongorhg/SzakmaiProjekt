@@ -1,8 +1,16 @@
 package hu.pejedlik.game.Game;
 
+import com.badlogic.gdx.assets.AssetDescriptor;
+import com.badlogic.gdx.assets.AssetLoaderParameters;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.assets.loaders.AssetLoader;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.utils.viewport.Viewport;
+
+import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
+import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
 
 /**
@@ -18,8 +26,12 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
+        addBackEventStackListener();
+        setCameraResetToLeftBottomOfScreen();
+        OneSpriteStaticActor asd = new OneSpriteStaticActor(Assets.manager.get(Assets.imagePath.get(0), Texture.class));
+        asd.setPosition(0,0);
+        addActor(asd);
 
-        //addBackEventStackListener();
     }
 
     @Override

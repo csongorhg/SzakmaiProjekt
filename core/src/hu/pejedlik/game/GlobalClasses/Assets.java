@@ -18,7 +18,10 @@ import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGeneratorLoader;
 import com.badlogic.gdx.graphics.g2d.freetype.FreetypeFontLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
+
+import java.io.File;
 
 import javax.xml.soap.Text;
 
@@ -54,46 +57,53 @@ public class Assets {
 		fontMap.put("default-font", font);
 		skinparameter = new SkinLoader.SkinParameter(fontMap);
 	}
+
+
+
+	public static Array<String> imagePath; // Betöltött képek elérési útjai
+	public static Array<String> imageId; // Azonosítók
+
 	public static final AssetDescriptor<Skin> SKIN = new AssetDescriptor<Skin>("uiskin.json",Skin.class,skinparameter);
 	public static final AssetDescriptor<BitmapFont> ALEGREYAREGULAR_FONT
 			= new AssetDescriptor<BitmapFont>(fontParameter.fontFileName, BitmapFont.class, fontParameter);
 
-
 	public static final AssetDescriptor<Texture> SETTINGSBUTTON_TEXTURE
 			= new AssetDescriptor<Texture>("settingsButton.png", Texture.class);
 	public static final AssetDescriptor<Texture> LOADINGBACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("Loading/jedlik.png", Texture.class);
+			= new AssetDescriptor<Texture>("load/jedlik.png", Texture.class);
 	public static final AssetDescriptor<Texture> BACKGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/background.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/background.png", Texture.class);
 	public static final AssetDescriptor<Texture> HEART_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/heart.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
 	// Témák(menü)
 	public static final AssetDescriptor<Texture> CONFLICT_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/conflict.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/conflict.png", Texture.class);
 	public static final AssetDescriptor<Texture> INTERNET_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/internet.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/internet.png", Texture.class);
 	public static final AssetDescriptor<Texture> KITCHEN_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/kitchen.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/kitchen.png", Texture.class);
 	public static final AssetDescriptor<Texture> PLAYGROUND_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/playground.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/playground.png", Texture.class);
 	public static final AssetDescriptor<Texture> ROOM_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/room.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/room.png", Texture.class);
 	public static final AssetDescriptor<Texture> SCHOOL_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/school.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/school.png", Texture.class);
+	public static final AssetDescriptor<Texture> SCHOOL2_TEXTURE
+			= new AssetDescriptor<Texture>("menu/school2.png", Texture.class);
 	public static final AssetDescriptor<Texture> STRANGERS_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/strangers.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/strangers.png", Texture.class);
 	public static final AssetDescriptor<Texture> TRANSPORT_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/transport.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/transport.png", Texture.class);
 	public static final AssetDescriptor<Texture> LOCK_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/lock.png", Texture.class);
-	public static final AssetDescriptor<Texture> GRAY_TEXTURE
-			= new AssetDescriptor<Texture>("Menu/a2.png", Texture.class);
+			= new AssetDescriptor<Texture>("menu/lock.png", Texture.class);
+	public static final AssetDescriptor<Texture> CLOSE_TEXTURE
+			= new AssetDescriptor<Texture>("menu/close.png", Texture.class);
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
 			= new AssetDescriptor<TextureAtlas>("pre.atlas", TextureAtlas.class);
 	public static final AssetDescriptor<TextureAtlas> EMOJIS_TEXTUREATLAS
-			= new AssetDescriptor<TextureAtlas>("Menu/emojis.atlas", TextureAtlas.class);
+			= new AssetDescriptor<TextureAtlas>("menu/emojis.atlas", TextureAtlas.class);
 
 	//zene
     public static final AssetDescriptor<Music> MUSIC
@@ -138,10 +148,11 @@ public class Assets {
 		manager.load(PLAYGROUND_TEXTURE);
 		manager.load(ROOM_TEXTURE);
 		manager.load(SCHOOL_TEXTURE);
+		manager.load(SCHOOL2_TEXTURE);
 		manager.load(STRANGERS_TEXTURE);
 		manager.load(TRANSPORT_TEXTURE);
 		manager.load(LOCK_TEXTURE);
-		manager.load(GRAY_TEXTURE);
+		manager.load(CLOSE_TEXTURE);
 
 		//zene
 		manager.load(MUSIC);

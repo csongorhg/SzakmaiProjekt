@@ -4,8 +4,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
-import hu.pejedlik.game.Loading.EventType;
-import hu.pejedlik.game.Loading.ImageReader;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyGdxGame;
 
@@ -17,11 +15,11 @@ public class GameScreen extends MyScreen{
 
     protected GameStage gameStage;
 
-    public GameScreen(MyGdxGame game, ReadParameter readParameter) {
+    public GameScreen(MyGdxGame game) {
         super(game);
 
-        // Iskola képek felolvasása
-        new ImageReader(EventType.SCHOOL);
+
+
     }
 
     @Override

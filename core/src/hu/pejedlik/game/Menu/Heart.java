@@ -13,7 +13,6 @@ public class Heart extends OneSpriteStaticActor{
 
     private static int heartCount = 0;
     private float heartDissapearDelay = 10;
-    private static OneSpriteStaticActor gray = new OneSpriteStaticActor(Assets.manager.get(Assets.GRAY_TEXTURE));
 
     public Heart(EmojiStream emojiStream) {
         super(Assets.manager.get(Assets.HEART_TEXTURE));
@@ -42,8 +41,8 @@ public class Heart extends OneSpriteStaticActor{
     public void act(float delta) {
         super.act(delta);
         if (elapsedTime >= heartDissapearDelay) {
-            sprite.setAlpha(sprite.getColor().a - 0.01f); // Sprite ős nem rendelkezik getAlpha getterrel, mert a colorból kiolvasható
-            if (sprite.getColor().a == 0) remove();
+            setAlpha(getAlpha() - 0.01f); // Sprite ős nem rendelkezik getAlpha getterrel, mert a colorból kiolvasható
+            if (getAlpha() == 0) remove();
         }
 
     }

@@ -23,7 +23,7 @@ import static com.badlogic.gdx.scenes.scene2d.InputEvent.Type.keyTyped;
  */
 abstract public class MyStage extends Stage implements InitableInterface {
     public final MyGdxGame game;
-    private ImgButton settingsButton;
+    protected OneSpriteStaticActor settingsButton;
 
     public MyStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch);
@@ -138,7 +138,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
     @Override
     public void init() {
-        settingsButton = new ImgButton(new Sprite(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE)));
+        settingsButton = new OneSpriteStaticActor(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE));
         settingsButton.addListener(new ClickListener()
         {
 
@@ -148,10 +148,18 @@ abstract public class MyStage extends Stage implements InitableInterface {
                 super.clicked(event, x, y);
             }
         });
-        settingsButton.setSize(75,75);
+        settingsButton.setSize(getViewport().getWorldWidth() / 13,getViewport().getWorldWidth() / 13);
         settingsButton.setPosition(getViewport().getWorldWidth() - settingsButton.getWidth(),
                 getViewport().getWorldHeight() - settingsButton.getHeight());
         settingsButton.setZIndex(1);
         this.addActor(settingsButton);
+    }
+
+    public OneSpriteStaticActor getSettingsButton() {
+        return settingsButton;
+    }
+
+    public void setSettingsButton(OneSpriteStaticActor settingsButton) {
+        this.settingsButton = settingsButton;
     }
 }
