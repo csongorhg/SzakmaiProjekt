@@ -44,12 +44,17 @@ public class PreparationScreen extends MyScreen {
         private void load() {
             FileHandle fileHandle = Gdx.files.internal("parameters/" + EventType.currentEventType.toString() + "_parameter.txt");
             String[] read = fileHandle.readString().split("\n");
+
+            Assets.longestLine = read[0].length(); // Getting the longest line
+
             for (String name : read) {
+                ReadImages readImages;
                 String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim();
-                Assets.imagePath.add(path + ".png");
-                Assets.imagePath.add(path + "2.png");
-                Assets.manager.load(path + ".png", Texture.class); // error
-                Assets.manager.load(path + "2.png", Texture.class); // error
+                readImages = new ReadImages(path, name.trim());
+                Assets.manager.load(readImages.getPath(), Texture.class);
+                Assets.manager.load(readImages.getPath2(), Texture.class);
+                Assets.longestLine = readImages.getId().length() > Assets.longestLine ? readImages.getId().length() : Assets.longestLine;
+                Assets.readImages.add(readImages);
             }
         }
 
@@ -65,7 +70,7 @@ public class PreparationScreen extends MyScreen {
             loadingImage2.setAlpha(1f - Math.round(Assets.manager.getProgress() * 100f) / 100f);
 
             if (Assets.manager.update()) {
-                game.setScreen(new GameScreen(game));
+                game.setScreen(new GameScreen(game), false);
             }
 
             elapsedTime += delta;
@@ -105,8 +110,7 @@ public class PreparationScreen extends MyScreen {
             stage.addActor(loadingImage2);
             stage.addActor(eventLabel);
 
-
-            Assets.imagePath = new Array<String>();
+            Assets.readImages = new Array<ReadImages>();
         }
 
 

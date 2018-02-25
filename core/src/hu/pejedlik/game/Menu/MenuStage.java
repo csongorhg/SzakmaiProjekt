@@ -120,7 +120,7 @@ public class MenuStage extends MyStage {
         for (final OneSpriteStaticActor actor : eventImages) {
 
             // Események képei
-            actor.setSize(180, 135);
+            actor.setSize(getViewport().getWorldWidth() / 7, getViewport().getWorldHeight() / 5);
             imgCount++;
             if (imgCount == 5) {
                 posY = 200;

@@ -111,7 +111,7 @@ public class MyGdxGame extends Game {
 	@Override
 	public void create () {
 		Assets.prepare();
-		setScreen(new LoadingScreen(this));
+		setScreen(new LoadingScreen(this), false); // avoid putting back to stack
 		Gdx.input.setCatchBackKey(true);
 		Gdx.input.setCatchMenuKey(true);
 	}
