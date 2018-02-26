@@ -82,7 +82,7 @@ public class SituationParameterStage extends MyStage{
             for(int j = 0; j < index; j++) {
                 if(situationParameters.get(j).getRow() == i) {
                     float x = situationParameters.get(j).getX();
-                    float newx = x-(coll[i]*250)/2;
+                    float newx = x-(coll[i]*400)/2;
                     situationParameters.get(j).setX(newx);
 
                 }

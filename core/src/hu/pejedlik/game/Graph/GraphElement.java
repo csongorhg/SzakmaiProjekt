@@ -30,8 +30,8 @@ public class GraphElement extends Actor {
         this.coll = coll;
         this.setWidth(200);
         this.setHeight(200);
-        this.setX((worldWidth / 2 + 35) + coll * 250); // approximately
-        this.setY((worldHeight / 2 - 25)- row * 250);
+        this.setX((worldWidth / 2 + 35) + coll * 400); // approximately
+        this.setY((worldHeight / 2 - 25)- row * 400);
         this.text = new Texture(Gdx.files.internal("events//"+ EventType.currentEventType+"_event//"+situationId+".png"));
         final String id = situationId;
         this.addListener(new ClickListener(){
