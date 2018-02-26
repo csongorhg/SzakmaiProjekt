@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -28,18 +29,21 @@ public class SituationParameterStage extends MyStage{
     private String eventName;
     private GraphStage stage;
     private GestureDetector gt;
+    private ShapeRenderer sr;
 
 
 
     public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game, InputMultiplexer im) {
         super(viewport, batch, game);
         im.addProcessor(gt);
+        im.addProcessor(stage);
 
 
     }
     @Override
     public void init() {
         super.init();
+        sr = new ShapeRenderer();
         addBackEventStackListener();
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
@@ -78,14 +82,27 @@ public class SituationParameterStage extends MyStage{
             for(int j = 0; j < index; j++) {
                 if(situationParameters.get(j).getRow() == i) {
                     float x = situationParameters.get(j).getX();
-                    float newx = x-(coll[i]*60)/2;
+                    float newx = x-(coll[i]*250)/2;
                     situationParameters.get(j).setX(newx);
 
                 }
             }
         }
-    }
 
+    }
+    public void linedraw(ShapeRenderer sr)
+    {
+        sr.setProjectionMatrix(stage.getCamera().combined);
+        for (GraphElement a: situationParameters) {
+            for(GraphElement b: situationParameters)
+            {
+                if(a.source.hashCode() == b.getSituationId().hashCode()) {
+                    sr.line(a.getX()+a.getWidth()/2, a.getY()+a.getHeight()/2, b.getX()+b.getWidth()/2, b.getY()+b.getHeight()/2);
+                }
+            }
+
+        }
+    }
     @Override
     public void draw() {
         stage.draw();

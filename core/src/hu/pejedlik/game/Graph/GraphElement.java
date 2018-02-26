@@ -4,6 +4,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import hu.pejedlik.game.Loading.EventType;
 
@@ -16,12 +18,14 @@ public class GraphElement extends Actor {
     private int row, coll;
     private String situationId;
     private Texture text;
+    public String source;
 
 
 
     public GraphElement(String s, int row,int coll, float worldWidth, float worldHeight) {
         situationId = s;
-        System.out.println(s);
+        source = s.substring(0,s.length()-1);
+        System.out.println(s+" "+source);
         this.row = row;
         this.coll = coll;
         this.setWidth(200);
@@ -29,6 +33,15 @@ public class GraphElement extends Actor {
         this.setX((worldWidth / 2 + 35) + coll * 250); // approximately
         this.setY((worldHeight / 2 - 25)- row * 250);
         this.text = new Texture(Gdx.files.internal("events//"+ EventType.currentEventType+"_event//"+situationId+".png"));
+        final String id = situationId;
+        this.addListener(new ClickListener(){
+
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                System.out.println(id);
+                super.clicked(event, x, y);
+            }
+        });
 
     }
 
