@@ -11,6 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyGdxGame;
@@ -24,13 +25,12 @@ import java.util.ArrayList;
  * Created by Felhasznalo on 2017. 10. 28..
  */
 
-public class SituationParameterStage extends MyStage{
+public class SituationParameterStage extends MyStage {
     private ArrayList<GraphElement> situationParameters;
     private String eventName;
     private GraphStage stage;
     private GestureDetector gt;
     private ShapeRenderer sr;
-
 
 
     public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game, InputMultiplexer im) {
@@ -40,6 +40,7 @@ public class SituationParameterStage extends MyStage{
 
 
     }
+
     @Override
     public void init() {
         super.init();
@@ -50,28 +51,9 @@ public class SituationParameterStage extends MyStage{
         stage = new GraphStage();
         gt = new GestureDetector(20, 0.5f, 2, 0.15f, stage);
         int row = 0;
-        int index = 0;
-        String[] data = new String[100];
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(new File("parameters\\"+EventType.currentEventType+"_parameter.txt")));
-            while (br.ready()) {
-                data[index] = br.readLine();
-                System.out.println("A");
-                System.out.println(index+"  "+data[index]);
-                index++;
-            }
-            br.close();
-        } catch(Exception e) {}
-        int max = 0;
-        for(int i = 0; i < index; i++)
-        {
-            if(max < data[i].length())
-            {
-                max = data[i].length();
-            }
-        }
-        int[] coll = new int[max];
-        for(int i = 0; i < index;i++) {
+        String[] data = Assets.data;
+        int[] coll = new int[Assets.longestLine];
+        for (int i = 0; i < data.length; i++) {
             row = data[i].length() - 1;
             GraphElement element = new GraphElement(data[i], row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
             stage.addActor(element);
@@ -79,10 +61,10 @@ public class SituationParameterStage extends MyStage{
             coll[row]++;
         }
         for (int i = 0; i < coll.length; i++) {
-            for(int j = 0; j < index; j++) {
-                if(situationParameters.get(j).getRow() == i) {
+            for (int j = 0; j < data.length; j++) {
+                if (situationParameters.get(j).getRow() == i) {
                     float x = situationParameters.get(j).getX();
-                    float newx = x-(coll[i]*400)/2;
+                    float newx = x - (coll[i] * 400) / 2;
                     situationParameters.get(j).setX(newx);
 
                 }
@@ -90,19 +72,19 @@ public class SituationParameterStage extends MyStage{
         }
 
     }
-    public void linedraw(ShapeRenderer sr)
-    {
+
+    public void linedraw(ShapeRenderer sr) {
         sr.setProjectionMatrix(stage.getCamera().combined);
-        for (GraphElement a: situationParameters) {
-            for(GraphElement b: situationParameters)
-            {
-                if(a.source.hashCode() == b.getSituationId().hashCode()) {
-                    sr.line(a.getX()+a.getWidth()/2, a.getY()+a.getHeight()/2, b.getX()+b.getWidth()/2, b.getY()+b.getHeight()/2);
+        for (GraphElement a : situationParameters) {
+            for (GraphElement b : situationParameters) {
+                if (a.source.hashCode() == b.getSituationId().hashCode()) {
+                    sr.line(a.getX() + a.getWidth() / 2, a.getY() + a.getHeight() / 2, b.getX() + b.getWidth() / 2, b.getY() + b.getHeight() / 2);
                 }
             }
 
         }
     }
+
     @Override
     public void draw() {
         stage.draw();

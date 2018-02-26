@@ -1,12 +1,12 @@
 package hu.pejedlik.game.Graph;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
 
 /**
@@ -25,14 +25,13 @@ public class GraphElement extends Actor {
     public GraphElement(String s, int row,int coll, float worldWidth, float worldHeight) {
         situationId = s;
         source = s.substring(0,s.length()-1);
-        System.out.println(s+" "+source);
         this.row = row;
         this.coll = coll;
         this.setWidth(200);
         this.setHeight(200);
         this.setX((worldWidth / 2 + 35) + coll * 400); // approximately
         this.setY((worldHeight / 2 - 25)- row * 400);
-        this.text = new Texture(Gdx.files.internal("events//"+ EventType.currentEventType+"_event//"+situationId+".png"));
+        this.text = Assets.manager.get("events/"+ EventType.currentEventType+"_event/"+situationId+".png");
         final String id = situationId;
         this.addListener(new ClickListener(){
 

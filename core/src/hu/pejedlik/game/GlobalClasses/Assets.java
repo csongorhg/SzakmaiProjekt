@@ -25,8 +25,6 @@ import java.io.File;
 
 import javax.xml.soap.Text;
 
-import hu.pejedlik.game.Game.ReadImages;
-
 
 public class Assets {
 	// https://github.com/libgdx/libgdx/wiki/Managing-your-assets
@@ -62,8 +60,9 @@ public class Assets {
 
 
 
-	public static Array<ReadImages> readImages;
+
 	public static int longestLine;
+	public static String[] data; //situation graph data
 
 	public static final AssetDescriptor<Skin> SKIN = new AssetDescriptor<Skin>("uiskin.json",Skin.class,skinparameter);
 	public static final AssetDescriptor<BitmapFont> ALEGREYAREGULAR_FONT

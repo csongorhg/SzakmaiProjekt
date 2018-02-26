@@ -10,7 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
  */
 
 public class GraphStage  extends Stage implements GestureDetector.GestureListener {
-    OrthographicCamera c;
+    private OrthographicCamera c;
     public GraphStage()
     {
         c = (OrthographicCamera) this.getCamera();
@@ -25,6 +25,7 @@ public class GraphStage  extends Stage implements GestureDetector.GestureListene
     public void act(float delta) {
         super.act(delta);
         c.update();
+        c.zoom = 2f;
     }
 
     @Override
@@ -51,7 +52,6 @@ public class GraphStage  extends Stage implements GestureDetector.GestureListene
     public boolean pan(float x, float y, float deltaX, float deltaY) {
         c.position.x-=deltaX;
         c.position.y+=deltaY;
-        System.out.println();
         return false;
     }
 
@@ -77,7 +77,6 @@ public class GraphStage  extends Stage implements GestureDetector.GestureListene
         }
         c.update();
         zoomcount = 2;
-        System.out.println("asd");
         return false;
     }
 

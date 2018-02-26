@@ -22,7 +22,6 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class GameStage extends MyStage {
 
-    private Graph graph;
 
     public GameStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
@@ -31,7 +30,7 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
-        addBackEventStackListener();
+       /* addBackEventStackListener();
         setCameraResetToLeftBottomOfScreen();
         for (Class a: game.backButtonStack
              ) {
@@ -45,7 +44,7 @@ public class GameStage extends MyStage {
                 layerLengthCount[layerLength - 1] = readImages.getId().length() == layerLength
                         ? layerLengthCount[layerLength - 1] += 1 : layerLengthCount[layerLength - 1];
             }
-        }
+       }
 
         float x, y = 0, width, height;
         for (int i = 0; i < layerLengthCount.length; i++) {
@@ -65,7 +64,7 @@ public class GameStage extends MyStage {
             y -= height;
         }
 
-        //setCameraMoveToXY(0f,0f, 0.5f, 100f);
+        //setCameraMoveToXY(0f,0f, 0.5f, 100f);*/
 
 
     }

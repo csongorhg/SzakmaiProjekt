@@ -6,7 +6,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
 
+import java.util.Arrays;
+
 import hu.pejedlik.game.GlobalClasses.Assets;
+import hu.pejedlik.game.Graph.SituationParameterScreen;
 import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.MyLabel;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
@@ -43,18 +46,18 @@ public class PreparationScreen extends MyScreen {
 
         private void load() {
             FileHandle fileHandle = Gdx.files.internal("parameters/" + EventType.currentEventType.toString() + "_parameter.txt");
-            String[] read = fileHandle.readString().split("\n");
-
-            Assets.longestLine = read[0].length(); // Getting the longest line
-
+            String[] read  = fileHandle.readString().split("\n");
+            Assets.data = new String[read.length];
+            Assets.longestLine = 0; // Getting the longest line
+            int index = 0;
             for (String name : read) {
-                ReadImages readImages;
-                String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim();
-                readImages = new ReadImages(path, name.trim());
-                Assets.manager.load(readImages.getPath(), Texture.class);
-                Assets.manager.load(readImages.getPath2(), Texture.class);
-                Assets.longestLine = readImages.getId().length() > Assets.longestLine ? readImages.getId().length() : Assets.longestLine;
-                Assets.readImages.add(readImages);
+                String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim()+".png";
+                Assets.manager.load(path, Texture.class);
+                path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim()+"2.png";
+                Assets.manager.load(path, Texture.class);
+                Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;
+                Assets.data[index] = name.trim();
+                index++;
             }
         }
 
@@ -70,7 +73,7 @@ public class PreparationScreen extends MyScreen {
             loadingImage2.setAlpha(1f - Math.round(Assets.manager.getProgress() * 100f) / 100f);
 
             if (Assets.manager.update()) {
-                game.setScreen(new GameScreen(game), false);
+                game.setScreen(new SituationParameterScreen(game), false);
             }
 
             elapsedTime += delta;
@@ -110,7 +113,7 @@ public class PreparationScreen extends MyScreen {
             stage.addActor(loadingImage2);
             stage.addActor(eventLabel);
 
-            Assets.readImages = new Array<ReadImages>();
+           // Assets.readImages = new Array<ReadImages>();
         }
 
 
