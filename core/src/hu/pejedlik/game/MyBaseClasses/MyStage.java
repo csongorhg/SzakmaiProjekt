@@ -1,9 +1,12 @@
 package hu.pejedlik.game.MyBaseClasses;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
@@ -101,39 +104,40 @@ abstract public class MyStage extends Stage implements InitableInterface {
     @Override
     public void act(float delta) {
         super.act(delta);
-        OrthographicCamera c = (OrthographicCamera)getCamera();
-        if (cameraTargetX!=c.position.x || cameraTargetY!=c.position.y || cameraTargetZoom!=c.zoom){
-            if (Math.abs(c.position.x-cameraTargetX)<cameraMoveSpeed*delta) {
+        OrthographicCamera c = (OrthographicCamera) getCamera();
+        if (cameraTargetX != c.position.x || cameraTargetY != c.position.y || cameraTargetZoom != c.zoom) {
+            if (Math.abs(c.position.x - cameraTargetX) < cameraMoveSpeed * delta) {
                 c.position.x = (c.position.x + cameraTargetX) / 2;
             } else {
-                if (c.position.x<cameraTargetX){
-                    c.position.x += cameraMoveSpeed*delta;
-                }else{
-                    c.position.x -= cameraMoveSpeed*delta;
+                if (c.position.x < cameraTargetX) {
+                    c.position.x += cameraMoveSpeed * delta;
+                } else {
+                    c.position.x -= cameraMoveSpeed * delta;
                 }
             }
-            if (Math.abs(c.position.y-cameraTargetY)<cameraMoveSpeed*delta) {
+            if (Math.abs(c.position.y - cameraTargetY) < cameraMoveSpeed * delta) {
                 c.position.y = (c.position.y + cameraTargetY) / 2;
             } else {
-                if (c.position.y<cameraTargetY){
-                    c.position.y += cameraMoveSpeed*delta;
-                }else{
-                    c.position.y -= cameraMoveSpeed*delta;
+                if (c.position.y < cameraTargetY) {
+                    c.position.y += cameraMoveSpeed * delta;
+                } else {
+                    c.position.y -= cameraMoveSpeed * delta;
                 }
             }
-            if (Math.abs(c.zoom-cameraTargetZoom)<cameraMoveSpeed*delta) {
+            if (Math.abs(c.zoom - cameraTargetZoom) < cameraMoveSpeed * delta) {
                 c.zoom = (c.zoom + cameraTargetZoom) / 2;
             } else {
-                if (c.zoom<cameraTargetZoom){
-                    c.zoom += cameraMoveSpeed*delta;
-                }else{
-                    c.zoom -= cameraMoveSpeed*delta;
+                if (c.zoom < cameraTargetZoom) {
+                    c.zoom += cameraMoveSpeed * delta;
+                } else {
+                    c.zoom -= cameraMoveSpeed * delta;
+
                 }
+                c.update();
+
             }
-            c.update();
 
         }
-
     }
 
     @Override

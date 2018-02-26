@@ -1,7 +1,16 @@
 package hu.pejedlik.game.Graph;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputMultiplexer;
+import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.input.GestureDetector;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+
+import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyGdxGame;
 
@@ -14,13 +23,17 @@ import java.util.ArrayList;
  * Created by Felhasznalo on 2017. 10. 28..
  */
 
-public class SituationParameterStage extends MyStage {
+public class SituationParameterStage extends MyStage{
     private ArrayList<GraphElement> situationParameters;
     private String eventName;
+    private GraphStage stage;
+    private GestureDetector gt;
 
-    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game,String eventName) {
+
+
+    public SituationParameterStage(Viewport viewport, Batch batch, MyGdxGame game, InputMultiplexer im) {
         super(viewport, batch, game);
-        this.eventName = eventName;
+        im.addProcessor(gt);
 
 
     }
@@ -30,11 +43,13 @@ public class SituationParameterStage extends MyStage {
         addBackEventStackListener();
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
+        stage = new GraphStage();
+        gt = new GestureDetector(20, 0.5f, 2, 0.15f, stage);
         int row = 0;
         int index = 0;
         String[] data = new String[100];
         try {
-            BufferedReader br = new BufferedReader(new FileReader(new File(eventName + ".txt")));
+            BufferedReader br = new BufferedReader(new FileReader(new File("parameters\\"+EventType.currentEventType+"_parameter.txt")));
             while (br.ready()) {
                 data[index] = br.readLine();
                 System.out.println("A");
@@ -55,7 +70,7 @@ public class SituationParameterStage extends MyStage {
         for(int i = 0; i < index;i++) {
             row = data[i].length() - 1;
             GraphElement element = new GraphElement(data[i], row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
-            this.addActor(element);
+            stage.addActor(element);
             situationParameters.add(element);
             coll[row]++;
         }
@@ -70,14 +85,21 @@ public class SituationParameterStage extends MyStage {
             }
         }
     }
+
+    @Override
+    public void draw() {
+        stage.draw();
+        super.draw();
+    }
+
     @Override
     public void act(float delta) {
         super.act(delta);
+        stage.act(delta);
     }
 
     @Override
     public void dispose() {
         super.dispose();
     }
-
 }

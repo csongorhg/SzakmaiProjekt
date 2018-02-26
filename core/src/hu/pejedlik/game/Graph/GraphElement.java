@@ -5,6 +5,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
+import hu.pejedlik.game.Loading.EventType;
+
 /**
  * Created by Hegedüs Csongor on 10/28/2017.
  */
@@ -22,11 +24,11 @@ public class GraphElement extends Actor {
         System.out.println(s);
         this.row = row;
         this.coll = coll;
-        this.setWidth(50);
-        this.setHeight(50);
-        this.setX((worldWidth / 2 + 35) + coll * 60); // approximately
-        this.setY((worldHeight / 2 - 25)- row * 60);
-        this.text = new Texture(Gdx.files.internal("events//school_event//"+situationId+".png"));
+        this.setWidth(200);
+        this.setHeight(200);
+        this.setX((worldWidth / 2 + 35) + coll * 250); // approximately
+        this.setY((worldHeight / 2 - 25)- row * 250);
+        this.text = new Texture(Gdx.files.internal("events//"+ EventType.currentEventType+"_event//"+situationId+".png"));
 
     }
 

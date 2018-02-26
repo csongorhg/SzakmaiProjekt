@@ -1,7 +1,9 @@
 package hu.pejedlik.game.Graph;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyGdxGame;
@@ -12,11 +14,9 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class SituationParameterScreen extends MyScreen {
     protected SituationParameterStage param;
-
-    private String parameter;
-    public SituationParameterScreen(MyGdxGame game ,String parameter) {
+    private InputMultiplexer im;
+    public SituationParameterScreen(MyGdxGame game) {
         super(game);
-        this.parameter = parameter;
     }
 
     @Override
@@ -31,7 +31,6 @@ public class SituationParameterScreen extends MyScreen {
         super.resize(width, height);
 
     }
-
     @Override
     public void dispose() {
         param.dispose();
@@ -40,8 +39,10 @@ public class SituationParameterScreen extends MyScreen {
 
     @Override
     public void init() {
-        param  = new SituationParameterStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game,parameter);
-        Gdx.input.setInputProcessor(param);
+        im = new InputMultiplexer();
+        param  = new SituationParameterStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game,im);
+        im.addProcessor(param);
+        Gdx.input.setInputProcessor(im);
         setBackGroundColor(1f, 1f, 1f);
     }
 }
