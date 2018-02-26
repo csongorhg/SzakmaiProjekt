@@ -6,8 +6,9 @@ aaaaa
 aaaaaa
 aaab
 aaaba
+aab
 aaba
-aabaa
+aac
 aaca
 aacaa
 aacb
@@ -26,7 +27,7 @@ abbaaaaaa
 abbaaab
 abbaaaba
 abbaaabaa
-abbaaabaaa
+abbaaabb
 abbaaabba
 abbaab
 abbaaba
@@ -53,6 +54,5 @@ acbaa
 acc
 acca
 accaa
-accaaa
 accab
 accb
