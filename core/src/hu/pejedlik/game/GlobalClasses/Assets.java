@@ -48,7 +48,7 @@ public class Assets {
 		FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("arial.ttf"));
 		FreeTypeFontGenerator.FreeTypeFontParameter p = new FreeTypeFontGenerator.FreeTypeFontParameter();
 		p.color = Color.WHITE;
-		p.size = (1280 * 22 / 1280);
+		p.size = (1280 * 32 / 1280);
 		p.characters = CHARS;
 
 		BitmapFont font = generator.generateFont(p);
