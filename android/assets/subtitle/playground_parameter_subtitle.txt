@@ -1,57 +1,57 @@
-a#játszótér
-aa#mászóka
-aaa#egyedül mész
-aaaa#megcsúszol és beütöd a lábad
-aaaaa#szüleid találnak rád mert aggódtak érted, a játszótéren sírsz
-aaab#megunod, hogy nincs kivel játszanod ezért hazamész
-aaaba#többet nem akarsz egyedül kimenni a játszótérre
-aab#szüleiddel mész
-aaba#jól érzed magad és nagyon élvezed
-aac#barátaiddal együtt mész
-aaca#barátaiddal jól szórakoztok
-aacaa#legközelebb is el akarsz menni a barátaiddal a játszótérre
-aacb#barátaid butaságra ösztönöznek
+ï»¿a#jÃ¡tszÃ³tÃ©r
+aa#mÃ¡szÃ³ka
+aaa#egyedÃ¼l mÃ©sz
+aaaa#megcsÃºszol Ã©s beÃ¼tÃ¶d a lÃ¡bad
+aaaaa#szÃ¼leid talÃ¡lnak rÃ¡d mert aggÃ³dtak Ã©rted, a jÃ¡tszÃ³tÃ©ren sÃ­rsz
+aaab#megunod, hogy nincs kivel jÃ¡tszanod ezÃ©rt hazamÃ©sz
+aaaba#tÃ¶bbet nem akarsz egyedÃ¼l kimenni a jÃ¡tszÃ³tÃ©rre
+aab#szÃ¼leiddel mÃ©sz
+aaba#jÃ³l Ã©rzed magad Ã©s nagyon Ã©lvezed
+aac#barÃ¡taiddal egyÃ¼tt mÃ©sz
+aaca#barÃ¡taiddal jÃ³l szÃ³rakoztok
+aacaa#legkÃ¶zelebb is el akarsz menni a barÃ¡taiddal a jÃ¡tszÃ³tÃ©rre
+aacb#barÃ¡taid butasÃ¡gra Ã¶sztÃ¶nÃ¶znek
 aacba#balesetet szenvedsz el
-ab#elmész a játszótérrõl olyan helyre ahol a szüleid már nem látnak
-aba#visszamész hozzájuk
-abaa#ott játszol ahol a szüleid is látnak
-abaaa#szüleid örülnek, mert okos vagy
-abb#kiváncsi vagy, ezért körbenézel a játszótér körül
-abba#eltévedsz, mert még nem jártál erre
-abbaa#szüleid aggódni kezdenek, ezért a keresésedre indulnak
-abbaaa#a legközelebbi padhoz odamész, és leülsz
-abbaaaa#hangosan a szüleid nevét kiáltod
-abbaaaaa#szüleid meghallják a hangod és hozzád sietnek
-abbaaaaaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
-abbaaab#megvárod a padnál még rádtalálnak
-abbaaaba#hosszú idõ elteltével sem találnak rád, ezért nekiállsz sírni, amit a szüleid meghallanak
-abbaaabaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
-abbaaabb#a szüleid hamar rádtalálnak
-abbaaabba#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
-abbaab#megpróbálod megkeresni a szüleid
-abbaaba#megpróbálsz emlékezni arra az útra amin elindultál és visszafele elindulsz, a szüleiddel szembetalálod magad
-abbaabaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
-abc#megkéred a szüleid, hogy menjenek veled, mert te kíváncsi vagy
-abca#szüleid elkísérnek, mert nem akarják, hogy egyedül menj
-ac#elveszíted a kabátod
+ab#elmÃ©sz a jÃ¡tszÃ³tÃ©rrÅ‘l olyan helyre ahol a szÃ¼leid mÃ¡r nem lÃ¡tnak
+aba#visszamÃ©sz hozzÃ¡juk
+abaa#ott jÃ¡tszol ahol a szÃ¼leid is lÃ¡tnak
+abaaa#szÃ¼leid Ã¶rÃ¼lnek, mert okos vagy
+abb#kivÃ¡ncsi vagy, ezÃ©rt kÃ¶rbenÃ©zel a jÃ¡tszÃ³tÃ©r kÃ¶rÃ¼l
+abba#eltÃ©vedsz, mert mÃ©g nem jÃ¡rtÃ¡l erre
+abbaa#szÃ¼leid aggÃ³dni kezdenek, ezÃ©rt a keresÃ©sedre indulnak
+abbaaa#a legkÃ¶zelebbi padhoz odamÃ©sz, Ã©s leÃ¼lsz
+abbaaaa#hangosan a szÃ¼leid nevÃ©t kiÃ¡ltod
+abbaaaaa#szÃ¼leid meghalljÃ¡k a hangod Ã©s hozzÃ¡d sietnek
+abbaaaaaa#szÃ¼leid leszidnak, mert elmentÃ©l, de nagyon Ã¶rÃ¼lnek, hogy megtalÃ¡ltak
+abbaaab#megvÃ¡rod a padnÃ¡l mÃ©g rÃ¡dtalÃ¡lnak
+abbaaaba#hosszÃº idÅ‘ elteltÃ©vel sem talÃ¡lnak rÃ¡d, ezÃ©rt nekiÃ¡llsz sÃ­rni, amit a szÃ¼leid meghallanak
+abbaaabaa#szÃ¼leid leszidnak, mert elmentÃ©l, de nagyon Ã¶rÃ¼lnek, hogy megtalÃ¡ltak
+abbaaabb#a szÃ¼leid hamar rÃ¡dtalÃ¡lnak
+abbaaabba#szÃ¼leid leszidnak, mert elmentÃ©l, de nagyon Ã¶rÃ¼lnek, hogy megtalÃ¡ltak
+abbaab#megprÃ³bÃ¡lod megkeresni a szÃ¼leid
+abbaaba#megprÃ³bÃ¡lsz emlÃ©kezni arra az Ãºtra amin elindultÃ¡l Ã©s visszafele elindulsz, a szÃ¼leiddel szembetalÃ¡lod magad
+abbaabaa#szÃ¼leid leszidnak, mert elmentÃ©l, de nagyon Ã¶rÃ¼lnek, hogy megtalÃ¡ltak
+abc#megkÃ©red a szÃ¼leid, hogy menjenek veled, mert te kÃ­vÃ¡ncsi vagy
+abca#szÃ¼leid elkÃ­sÃ©rnek, mert nem akarjÃ¡k, hogy egyedÃ¼l menj
+ac#elveszÃ­ted a kabÃ¡tod
 aca#elkezded megkeresni
-acaa#hosszú ideig keresed, de nem találod
-acaaa#feladod a keresést
-acaaaa#másnap megint megpróbálod megkeresni
-acaaaaa#nekiállsz keresni a kabátod
-acaaaaaa#hosszú ideje keresed, de nem találod seholsem
-acaaaaaaa#nem találtad meg a kabátod, ezért elveszítetted
-acaaaaab#rátalálsz
-acaaaab#megkéred a szüleidet, hogy segítsenek megkeresni
-acaaaaba#a szüleid készítenek plakátokat, amelyeket a játszótér környékére ki is raktok
-acaaaabaa#pár napon belül érkezik egy telefon hívás, valaki megtalálta az elveszett kabátot
-acaaaabaaa#elmentek érte, nagyon megköszönöd, hogy megtalálták, örülsz, mert meglett
-acab#rátalálsz
-acb#szüleidtõl kérsz segítséget, õk készítenek plakátokat, melyeket kiraktok a játszótér környékére
-acba#pár napon belül érkezik egy telefon hívás, valaki megtalálta az elveszett kabátot
-acbaa#elmentek érte, nagyon megköszönöd, hogy megtalálták, örülsz, mert meglett
-acc#barátoddal együtt keresed a kabátod
-acca#hosszú ideig keresitek
-accaa#nem találtok rá, így elveszíted a tárgyat
-accab#barátod ráun a keresésre, és elmegy játszani
-accb#rátaláltok
+acaa#hosszÃº ideig keresed, de nem talÃ¡lod
+acaaa#feladod a keresÃ©st
+acaaaa#mÃ¡snap megint megprÃ³bÃ¡lod megkeresni
+acaaaaa#nekiÃ¡llsz keresni a kabÃ¡tod
+acaaaaaa#hosszÃº ideje keresed, de nem talÃ¡lod seholsem
+acaaaaaaa#nem talÃ¡ltad meg a kabÃ¡tod, ezÃ©rt elveszÃ­tetted
+acaaaaab#rÃ¡talÃ¡lsz
+acaaaab#megkÃ©red a szÃ¼leidet, hogy segÃ­tsenek megkeresni
+acaaaaba#a szÃ¼leid kÃ©szÃ­tenek plakÃ¡tokat, amelyeket a jÃ¡tszÃ³tÃ©r kÃ¶rnyÃ©kÃ©re ki is raktok
+acaaaabaa#pÃ¡r napon belÃ¼l Ã©rkezik egy telefon hÃ­vÃ¡s, valaki megtalÃ¡lta az elveszett kabÃ¡tot
+acaaaabaaa#elmentek Ã©rte, nagyon megkÃ¶szÃ¶nÃ¶d, hogy megtalÃ¡ltÃ¡k, Ã¶rÃ¼lsz, mert meglett
+acab#rÃ¡talÃ¡lsz
+acb#szÃ¼leidtÅ‘l kÃ©rsz segÃ­tsÃ©get, Å‘k kÃ©szÃ­tenek plakÃ¡tokat, melyeket kiraktok a jÃ¡tszÃ³tÃ©r kÃ¶rnyÃ©kÃ©re
+acba#pÃ¡r napon belÃ¼l Ã©rkezik egy telefon hÃ­vÃ¡s, valaki megtalÃ¡lta az elveszett kabÃ¡tot
+acbaa#elmentek Ã©rte, nagyon megkÃ¶szÃ¶nÃ¶d, hogy megtalÃ¡ltÃ¡k, Ã¶rÃ¼lsz, mert meglett
+acc#barÃ¡toddal egyÃ¼tt keresed a kabÃ¡tod
+acca#hosszÃº ideig keresitek
+accaa#nem talÃ¡ltok rÃ¡, Ã­gy elveszÃ­ted a tÃ¡rgyat
+accab#barÃ¡tod rÃ¡un a keresÃ©sre, Ã©s elmegy jÃ¡tszani
+accb#rÃ¡talÃ¡ltok
