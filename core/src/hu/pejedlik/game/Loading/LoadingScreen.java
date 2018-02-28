@@ -1,8 +1,15 @@
 package hu.pejedlik.game.Loading;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetDescriptor;
+import com.badlogic.gdx.assets.loaders.SkinLoader;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.ObjectMap;
 
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Menu.MenuScreen;
@@ -13,6 +20,8 @@ import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
 
+import static hu.pejedlik.game.GlobalClasses.Assets.CHARS;
+
 
 public class LoadingScreen extends MyScreen {
 
@@ -20,6 +29,7 @@ public class LoadingScreen extends MyScreen {
 	private Stage stage;
 	private OneSpriteStaticActor loadingImage, loadingLine;
 	private float elapsedTime = 0;
+	private MyLabel loadinglabel;
 
 
     public LoadingScreen(MyGdxGame game) {
@@ -38,6 +48,12 @@ public class LoadingScreen extends MyScreen {
 		loadingLine.setPosition(0,0);
 		stage.addActor(loadingLine);
 
+
+		FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("arial.ttf"));
+		FreeTypeFontGenerator.FreeTypeFontParameter p = new FreeTypeFontGenerator.FreeTypeFontParameter();
+		p.color = Color.WHITE;
+		p.size = (1280 * 32 / 1280);
+		p.characters = CHARS;
 
 
 

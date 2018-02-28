@@ -165,7 +165,6 @@ public class MenuStage extends MyStage {
             MyLabel currentLabel = eventLabels.get(imgCount - 1);
             currentLabel.setPosition(actor.getX() + currentLabel.getWidth() / 2, actor.getY() + actor.getHeight());
             currentLabel.setColor(0, 0, 0, 1);
-            currentLabel.setRotation(10);
             addActor(currentLabel);
         }
 

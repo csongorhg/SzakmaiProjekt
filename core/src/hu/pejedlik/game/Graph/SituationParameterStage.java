@@ -38,30 +38,30 @@ public class SituationParameterStage extends MyStage {
         im.addProcessor(gt);
         im.addProcessor(stage);
 
-
     }
 
     @Override
     public void init() {
         super.init();
         sr = new ShapeRenderer();
+        setCameraResetToLeftBottomOfScreen();
         addBackEventStackListener();
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
         stage = new GraphStage();
         gt = new GestureDetector(20, 0.5f, 2, 0.15f, stage);
         int row = 0;
-        String[] data = Assets.data;
         int[] coll = new int[Assets.longestLine];
-        for (int i = 0; i < data.length; i++) {
-            row = data[i].length() - 1;
-            GraphElement element = new GraphElement(data[i], row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
+        for (int i = 0; i < Assets.readImages.size; i++) {
+            row = Assets.readImages.get(i).getId().length() - 1;
+            GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
+            System.out.println("asd: "+element.getPath());
             stage.addActor(element);
             situationParameters.add(element);
             coll[row]++;
         }
         for (int i = 0; i < coll.length; i++) {
-            for (int j = 0; j < data.length; j++) {
+            for (int j = 0; j < Assets.readImages.size; j++) {
                 if (situationParameters.get(j).getRow() == i) {
                     float x = situationParameters.get(j).getX();
                     float newx = x - (coll[i] * 400) / 2;
@@ -77,7 +77,7 @@ public class SituationParameterStage extends MyStage {
         sr.setProjectionMatrix(stage.getCamera().combined);
         for (GraphElement a : situationParameters) {
             for (GraphElement b : situationParameters) {
-                if (a.source.hashCode() == b.getSituationId().hashCode()) {
+                if (a.getPath().hashCode() == b.getStiuationId().hashCode()) {
                     sr.line(a.getX() + a.getWidth() / 2, a.getY() + a.getHeight() / 2, b.getX() + b.getWidth() / 2, b.getY() + b.getHeight() / 2);
                 }
             }
