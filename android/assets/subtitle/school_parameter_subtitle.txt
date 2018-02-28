@@ -1,0 +1,62 @@
+﻿a#iskola
+aa#padtársad beszélgetni akar veled
+aaa#beszélsz vele
+aaaa#a tanárúr szerencsére nem veszi észre, ezért nem kaptok bűntetést
+aaab#a tanárúr észreveszi
+aaaba#elültet a barátod mellől
+aab#figyelmen kívül hagyod
+aaba#a tanárúr rászól a padtársadra
+aabaa#tanárúr megdícsér
+aac#megmondod neki, hogy nem akarsz beszélgetni
+aaca#a padtársad megharagszik
+ab#megcsinálod-e a házi feladatot vagy kimész a barátaiddal játszani
+aba#a barátaiddal kimész játszani
+abaa#nagyon jól érzed magad
+abaaa#szerencsére kevés házi feladatot kaptál, ezért meg tudod csinálni
+abaaaa#tanárúr megdícsér és a barátaiddal is jót beszélgetsz
+abaab#miután hazaérsz már nincs időd megcsinálni a házi feladatot
+abaaba#másnap a tanárúr leszid, mert nem csináltad meg a házi feladatot
+abb#megcsinálod a házi feladatot
+abba#miután végzel vele szüleid már nem engednek ki játszani, mert késő van
+abbaa#a tanárúr megdícsér, de nem lesz közös témád az osztálytársaiddal
+ac#házi feladat elkészítése
+aca#nem csinálod meg a házi feladatot
+acaa#lemásolod óra előtt az osztálytársadról
+acaaa#nem fogod megérteni a tananyagot
+acaaaa#rossz jegyet szerzel dolgozatnál
+acaaaaa#szüleid leszidnak, mert rossz jegyet viszel haza
+acab#felvállalod, hogy nem csináltad meg a házi feladatot
+acaba#szerencsés vagy és nem tőled kéri el a tanárúr a házi feladatot
+acabaa#nem fogod megérteni a tananyagot
+acabaaa#rossz jegyet szerzel dolgozatnál
+acabaaaa#szüleid leszidnak, mert rossz jegyet viszel haza
+acabb#a tanárúr leszid és büntetést kapsz
+acabba#nem fogod megérteni a tananyagot
+acabbaa#rossz jegyet szerzel dolgozatnál
+acabbaaa#szüleid leszidnak, mert rossz jegyet viszel haza
+acb#megcsinálod a házi feladatot
+acba#a tanárúr megdícsér
+acbaa#érteni fogod a tanórai anyagot, majd dolgozatban jó jegyet szerzel
+ad#hiányzik a tollad és ezt órán veszed észre
+ada#padtársadtól kérsz kölcsön
+adaa#a padtársadnak szerencsére van és kölcsönadja
+adaaa#tudsz jegyzetelni
+adaab#a tanárúr észreveszi, hogy beszélgettek, ezért leszid bennetek
+adaaba#tudsz jegyzetelni
+adab#sajnos nincs nála mégegy
+adaba#mástól akarsz kölcsönkérni tollat, de ezzel zavarod az órát
+adabaa#tanárúr észreveszi és leszid, mert beszélgetsz
+adb#megvárod a szünetet és akkor kérsz csak kölcsön tollat
+adba#az órai jegyzered hiányozni fog
+adbaa#következő órára bepótolod
+adbaaa#a pótlás sok időt vesz igénybe ezért nem lesz másra időd
+adbab#nem pótlod be, így lemaradsz
+adbaba#a dolgozatnál rossz jegyet szerzel
+adbabaa#szüleid leszidnak
+adc#nem kérsz kölcsön tollat
+adca#az órai jegyzered hiányozni fog
+adcaa#következő órára bepótolod
+adcaaa#a pótlás sok időt vesz igénybe ezért nem lesz másra időd
+adcab#nem pótlod be, így lemaradsz
+adcaba#a dolgozatnál rossz jegyet szerzel
+adcabaa#szüleid leszidnak
