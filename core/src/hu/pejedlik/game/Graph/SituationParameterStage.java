@@ -52,6 +52,7 @@ public class SituationParameterStage extends MyStage {
         gt = new GestureDetector(20, 0.5f, 2, 0.15f, stage);
         int row = 0;
         int[] coll = new int[Assets.longestLine];
+        System.out.println(Assets.readImages.size);
         for (int i = 0; i < Assets.readImages.size; i++) {
             row = Assets.readImages.get(i).getId().length() - 1;
             GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
@@ -77,8 +78,8 @@ public class SituationParameterStage extends MyStage {
         sr.setProjectionMatrix(stage.getCamera().combined);
         for (GraphElement a : situationParameters) {
             for (GraphElement b : situationParameters) {
-                if (a.getPath().hashCode() == b.getStiuationId().hashCode()) {
-                    sr.line(a.getX() + a.getWidth() / 2, a.getY() + a.getHeight() / 2, b.getX() + b.getWidth() / 2, b.getY() + b.getHeight() / 2);
+                if (a.getStiuationId().hashCode() == b.getSource().hashCode()) {
+                    sr.line(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY()+b.getHeight());
                 }
             }
 

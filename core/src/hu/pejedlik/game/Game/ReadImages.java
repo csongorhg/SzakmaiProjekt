@@ -6,12 +6,21 @@ package hu.pejedlik.game.Game;
 
 public class ReadImages implements Comparable {
 
-    private String path, path2, id;
+    private String path;
+    private String path2;
+    private String id;
+
+    public String getSource() {
+        return source;
+    }
+
+    private String source;
 
     public ReadImages(String path, String id) {
         this.path = path + ".png";
         this.path2 = path + "2.png";
         this.id = id;
+        source = id.substring(0,id.length()-1);
     }
 
     public String getPath() {

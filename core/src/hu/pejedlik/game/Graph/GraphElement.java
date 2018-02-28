@@ -20,9 +20,16 @@ public class GraphElement extends OneSpriteStaticActor {
     private int row, coll;
     private String stiuationId, path, path2;
 
+    public String getSource() {
+        return source;
+    }
+
+    private String source;
+
     public GraphElement(ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
         super((Texture) Assets.manager.get(readImages.getPath()));
         stiuationId = readImages.getId();
+        source = readImages.getSource();
         path = readImages.getPath();
         path2 = readImages.getPath2();
         this.row = row;

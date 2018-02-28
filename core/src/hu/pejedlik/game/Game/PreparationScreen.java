@@ -63,6 +63,7 @@ public class PreparationScreen extends MyScreen {
             Assets.manager.load(readImages.getPath(), Texture.class);
             Assets.manager.load(readImages.getPath2(), Texture.class);
             Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;
+            Assets.readImages.add(readImages);
         }
     }
 
