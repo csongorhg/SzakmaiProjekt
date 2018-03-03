@@ -24,6 +24,7 @@ import hu.pejedlik.game.MyGdxGame;
 import hu.pejedlik.game.String.FirstLetterUppercase;
 
 import static hu.pejedlik.game.GlobalClasses.Assets.CHARS;
+import static hu.pejedlik.game.GlobalClasses.Assets.readImages;
 
 /**
  * Created by Hegedüs Csongor on 2/20/2018.
@@ -56,14 +57,34 @@ public class PreparationScreen extends MyScreen {
         FileHandle fileHandle = Gdx.files.internal("parameters/" + EventType.currentEventType.toString() + "_parameter.txt");
         String[] read = fileHandle.readString().split("\n");
         Assets.longestLine = 0; // Getting the longest line
+        boolean x = true;
         int index = 0;
         for (String name : read) {
-            String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim();
-            ReadImages readImages = new ReadImages(path, name.trim());
-            Assets.manager.load(readImages.getPath(), Texture.class);
-            Assets.manager.load(readImages.getPath2(), Texture.class);
-            Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;
-            Assets.readImages.add(readImages);
+            if(x) {
+                if(!name.trim().equals("x")) {
+                    String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim();
+                    ReadImages readImages = new ReadImages(path, name.trim());
+                    Assets.manager.load(readImages.getPath(), Texture.class);
+                    Assets.manager.load(readImages.getPath2(), Texture.class);
+                    Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;
+                    Assets.readImages.add(readImages);
+                }
+                else
+                {
+                    x = false;
+                }
+            }
+            else
+            {
+                String[] ids = name.trim().split("x");
+                for(ReadImages a : Assets.readImages)
+                {
+                    if(a.getId().equals(ids[0]))
+                    {
+                        a.addSource(ids[1]);
+                    }
+                }
+            }
         }
     }
 

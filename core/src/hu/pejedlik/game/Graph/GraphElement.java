@@ -6,6 +6,8 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import java.util.ArrayList;
+
 import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
@@ -20,11 +22,11 @@ public class GraphElement extends OneSpriteStaticActor {
     private int row, coll;
     private String stiuationId, path, path2;
 
-    public String getSource() {
+    public ArrayList<String> getSource() {
         return source;
     }
 
-    private String source;
+    private ArrayList<String> source;
 
     public GraphElement(ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
         super((Texture) Assets.manager.get(readImages.getPath()));

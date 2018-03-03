@@ -1,5 +1,7 @@
 package hu.pejedlik.game.Game;
 
+import java.util.ArrayList;
+
 /**
  * Created by Hegedüs Csongor on 2/27/2018.
  */
@@ -10,19 +12,23 @@ public class ReadImages implements Comparable {
     private String path2;
     private String id;
 
-    public String getSource() {
+    public ArrayList<String> getSource() {
         return source;
     }
 
-    private String source;
+    private ArrayList<String> source;
 
     public ReadImages(String path, String id) {
+        source = new ArrayList<String>();
         this.path = path + ".png";
         this.path2 = path + "2.png";
         this.id = id;
-        source = id.substring(0,id.length()-1);
+        source.add(id.substring(0,id.length()-1));
     }
-
+    public void addSource(String id)
+    {
+        source.add(id);
+    }
     public String getPath() {
         return path;
     }

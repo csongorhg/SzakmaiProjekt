@@ -78,8 +78,10 @@ public class SituationParameterStage extends MyStage {
         sr.setProjectionMatrix(stage.getCamera().combined);
         for (GraphElement a : situationParameters) {
             for (GraphElement b : situationParameters) {
-                if (a.getStiuationId().hashCode() == b.getSource().hashCode()) {
-                    sr.line(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY()+b.getHeight());
+                for(String source : b.getSource()) {
+                    if (a.getStiuationId().hashCode() == source.hashCode()) {
+                        sr.line(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight());
+                    }
                 }
             }
 
