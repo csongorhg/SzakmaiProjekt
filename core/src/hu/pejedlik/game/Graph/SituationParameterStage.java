@@ -56,6 +56,7 @@ public class SituationParameterStage extends MyStage {
                     float x = situationParameters.get(j).getX();
                     float newx = x - (coll[i] * 400) / 2;
                     situationParameters.get(j).setX(newx);
+                    situationParameters.get(j).resize();
 
                 }
             }

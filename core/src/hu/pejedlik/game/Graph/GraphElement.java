@@ -2,6 +2,7 @@ package hu.pejedlik.game.Graph;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -17,10 +18,13 @@ import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
  * Created by Hegedüs Csongor on 10/28/2017.
  */
 
-public class GraphElement extends OneSpriteStaticActor {
+public class GraphElement extends Actor {
 
     private int row, coll;
     private String stiuationId, path, path2;
+    Sprite text;
+    Sprite lock;
+    boolean played;
 
     public ArrayList<String> getSource() {
         return source;
@@ -29,11 +33,18 @@ public class GraphElement extends OneSpriteStaticActor {
     private ArrayList<String> source;
 
     public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
-        super((Texture) Assets.manager.get(readImages.getPath()));
+        this.played = readImages.isPlayed();
         stiuationId = readImages.getId();
         source = readImages.getSource();
         path = readImages.getPath();
         path2 = readImages.getPath2();
+        if(played) {
+            text = new Sprite((Texture) Assets.manager.get(path));
+        }
+        else
+        {
+            text = new Sprite((Texture)Assets.manager.get(path2));
+        }
         this.row = row;
         this.coll = coll;
         setSize(worldWidth / 7, worldHeight / 5);
@@ -49,12 +60,22 @@ public class GraphElement extends OneSpriteStaticActor {
                 }
             }
         });
+        lock = new Sprite(Assets.manager.get(Assets.LOCK_TEXTURE));
+    }
+    public void resize()
+    {
+        text.setBounds(this.getX(),this.getY(),this.getWidth(),this.getHeight());
+        lock.setBounds(this.getX(),this.getY(),this.getWidth(),this.getHeight());
     }
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
         super.draw(batch, parentAlpha);
-        batch.draw(super.getTexture(), this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        text.draw(batch);
+        if(!played)
+        {
+            lock.draw(batch);
+        }
     }
 
     @Override
@@ -104,10 +125,10 @@ public class GraphElement extends OneSpriteStaticActor {
         this.path2 = path2;
     }
 
-    @Override
-    public void init() {
-        super.init();
-    }
+   // @Override
+   // public void init() {
+      //  super.init();
+    //}
 
     /*
 
