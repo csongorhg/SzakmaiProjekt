@@ -41,7 +41,7 @@ public class SettingsScreen extends MyScreen {
     @Override
     public void init() {
         settingsStage  = new SettingsStage(new ExtendViewport(1280,720,new OrthographicCamera(1280,720)), spriteBatch, game);
-        setBackGroundColor(1f,1f,0f);
+        setBackGroundColor(1f,1f,1f);
         Gdx.input.setInputProcessor(settingsStage);
     }
 

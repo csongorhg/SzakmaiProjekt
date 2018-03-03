@@ -78,6 +78,12 @@ public class Assets {
 			= new AssetDescriptor<Texture>("menu/background.png", Texture.class);
 	public static final AssetDescriptor<Texture> HEART_TEXTURE
 			= new AssetDescriptor<Texture>("menu/heart.png", Texture.class);
+	public static final AssetDescriptor<Texture> BACK_TEXTURE
+			= new AssetDescriptor<Texture>("settings/back.png", Texture.class);
+	public static final AssetDescriptor<Texture> BLACKLINE_TEXTURE
+			= new AssetDescriptor<Texture>("load/blackline.png", Texture.class);
+	public static final AssetDescriptor<Texture> SLIDERBUTTON_TEXTURE
+			= new AssetDescriptor<Texture>("settings/sliderbutton.png", Texture.class);
 	// Témák(menü)
 	public static final AssetDescriptor<Texture> CONFLICT_TEXTURE
 			= new AssetDescriptor<Texture>("menu/conflict.png", Texture.class);
@@ -101,6 +107,7 @@ public class Assets {
 			= new AssetDescriptor<Texture>("menu/lock.png", Texture.class);
 	public static final AssetDescriptor<Texture> CLOSE_TEXTURE
 			= new AssetDescriptor<Texture>("menu/close.png", Texture.class);
+
 
 
 	public static final AssetDescriptor<TextureAtlas> EXPLOSION_TEXTUREATLAS
@@ -156,6 +163,9 @@ public class Assets {
 		manager.load(TRANSPORT_TEXTURE);
 		manager.load(LOCK_TEXTURE);
 		manager.load(CLOSE_TEXTURE);
+		manager.load(BACK_TEXTURE);
+		manager.load(BLACKLINE_TEXTURE);
+		manager.load(SLIDERBUTTON_TEXTURE);
 
 		//zene
 		manager.load(MUSIC);

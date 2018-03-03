@@ -166,4 +166,8 @@ abstract public class MyStage extends Stage implements InitableInterface {
     public void setSettingsButton(OneSpriteStaticActor settingsButton) {
         this.settingsButton = settingsButton;
     }
+
+    public void setSettingsButtonRemove() {
+        this.settingsButton.remove();
+    }
 }

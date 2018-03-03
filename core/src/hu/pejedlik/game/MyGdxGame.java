@@ -23,6 +23,7 @@ import java.util.Stack;
 public class MyGdxGame extends Game {
 
     public final Stack<Class> backButtonStack = new Stack();
+    protected Slider.SliderStyle style;
 
     public Label.LabelStyle getLabelStyle() {
         Label.LabelStyle style;
@@ -75,14 +76,18 @@ public class MyGdxGame extends Game {
 	}
 
 	public Slider.SliderStyle getSliderStyle(float x, float y){
-		Slider.SliderStyle style = new Slider.SliderStyle();
-		Texture t = Assets.manager.get(Assets.BACKGROUND_TEXTURE);
+		style = new Slider.SliderStyle();
+		Texture t = Assets.manager.get(Assets.BLACKLINE_TEXTURE);
 		style.background = new TextureRegionDrawable(new TextureRegion(t));
 		style.background.setMinWidth(x);
 		style.background.setMinHeight(y);
-		style.knob = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.SETTINGSBUTTON_TEXTURE)));
+		style.knob = new TextureRegionDrawable(new TextureRegion(Assets.manager.get(Assets.SLIDERBUTTON_TEXTURE)));
 		style.knob.setMinHeight(x/7);
 		style.knob.setMinWidth(x/7);
+		return style;
+	}
+
+	public Slider.SliderStyle getSliderStyle() {
 		return style;
 	}
 

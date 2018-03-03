@@ -11,6 +11,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import hu.pejedlik.game.Loading.LoadingScreen;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyBaseClasses.MyButton;
+import hu.pejedlik.game.MyBaseClasses.MyLabel;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
@@ -22,9 +23,11 @@ import hu.pejedlik.game.MyGdxGame;
 public class SettingsStage extends MyStage {
 
     private Slider slider;
+    private MyLabel musicLabel;
 
     public SettingsStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
+        super.setSettingsButtonRemove();
     }
 
     public void init() {
@@ -33,7 +36,7 @@ public class SettingsStage extends MyStage {
         setCameraResetToLeftBottomOfScreen();
 
         //vissza gomb
-        MyButton back = new MyButton("Vissza",game.getTextButtonStyle());
+        OneSpriteStaticActor back = new OneSpriteStaticActor(Assets.manager.get(Assets.BACK_TEXTURE));
         back.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -42,7 +45,8 @@ public class SettingsStage extends MyStage {
             }
         });
         addActor(back);
-        back.setPosition(((ExtendViewport)getViewport()).getMinWorldWidth() /2 - back.getWidth()/2, 0);
+        back.setSize(getViewport().getWorldWidth() / 13, getViewport().getWorldWidth() / 13);
+        back.setPosition(0, getViewport().getWorldHeight() - back.getHeight());
 
         musicVolume();
     }
@@ -60,6 +64,11 @@ public class SettingsStage extends MyStage {
         slider.setSize(((ExtendViewport)getViewport()).getMinWorldWidth()/2, ((ExtendViewport)getViewport()).getMinWorldHeight()/20);
         slider.setPosition(((ExtendViewport)getViewport()).getMinWorldWidth()/2-slider.getWidth()/2,
                 ((ExtendViewport)getViewport()).getMinWorldHeight()/2-slider.getHeight()/2);
+
+        musicLabel = new MyLabel("Music volume", game.getSkin());
+        musicLabel.setPosition(slider.getX(), slider.getY() + slider.getHeight() * 2);
+        musicLabel.setColor(0f, 0f, 0f, 1f);
+        addActor(musicLabel);
     }
 
     @Override
