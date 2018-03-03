@@ -1,24 +1,13 @@
 package hu.pejedlik.game.Graph;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.input.GestureDetector;
-import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-
 import hu.pejedlik.game.GlobalClasses.Assets;
-import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyGdxGame;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.util.ArrayList;
 
 /**
@@ -79,7 +68,7 @@ public class SituationParameterStage extends MyStage {
         for (GraphElement a : situationParameters) {
             for (GraphElement b : situationParameters) {
                 for(String source : b.getSource()) {
-                    if (a.getStiuationId().hashCode() == source.hashCode()) {
+                    if (a.getStiuationId().equals(source)) {
                         sr.line(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight());
                     }
                 }

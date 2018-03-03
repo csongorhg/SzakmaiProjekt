@@ -86,6 +86,19 @@ public class PreparationScreen extends MyScreen {
                 }
             }
         }
+        fileHandle = Gdx.files.internal("subtitle/" + EventType.currentEventType.toString() + "_parameter_subtitle.txt");
+        read = fileHandle.readString().split("\n");
+        for(String name : read)
+        {
+            String[] subtitle = name.trim().split("#");
+            for(ReadImages images : Assets.readImages)
+            {
+                if(images.getId().equals(subtitle[0]))
+                {
+                    images.setSubtitle(subtitle[1]);
+                }
+            }
+        }
     }
 
 
