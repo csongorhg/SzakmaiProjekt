@@ -30,8 +30,6 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
-
-
     }
 
     @Override

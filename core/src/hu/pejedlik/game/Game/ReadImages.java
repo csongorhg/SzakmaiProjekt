@@ -18,6 +18,16 @@ public class ReadImages implements Comparable {
 
     private ArrayList<String> source;
 
+    public boolean isPlayed() {
+        return played;
+    }
+
+    public void setPlayed(boolean played) {
+        this.played = played;
+    }
+
+    private boolean played = false;
+
     public String getSubtitle() {
         return subtitle;
     }

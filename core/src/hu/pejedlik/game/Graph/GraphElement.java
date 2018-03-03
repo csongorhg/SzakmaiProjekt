@@ -28,7 +28,7 @@ public class GraphElement extends OneSpriteStaticActor {
 
     private ArrayList<String> source;
 
-    public GraphElement(ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
+    public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
         super((Texture) Assets.manager.get(readImages.getPath()));
         stiuationId = readImages.getId();
         source = readImages.getSource();
@@ -42,8 +42,11 @@ public class GraphElement extends OneSpriteStaticActor {
 
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                System.out.println(stiuationId);
                 super.clicked(event, x, y);
+                if(readImages.isPlayed())
+                {
+                    System.out.println("asd");
+                }
             }
         });
     }
