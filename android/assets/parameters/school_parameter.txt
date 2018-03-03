@@ -23,15 +23,13 @@ ac
 aca
 acaa
 acaaa
-acaaaa
+acaaaa 
 acaaaaa
 acab
 acaba
-acabaa
 acabaaa
 acabaaaa
 acabb
-acabba
 acabbaa
 acabbaaa
 acb
@@ -49,7 +47,7 @@ adabaa
 adb
 adba
 adbaa
-adbaaa
+adbaaa 
 adbab
 adbaba
 adbabaa
@@ -60,3 +58,6 @@ adcaaa
 adcab
 adcaba
 adcabaa
+x
+acaaaxacaba
+acaaaxacabb
