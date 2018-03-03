@@ -18,6 +18,25 @@ public class ReadImages implements Comparable {
 
     private ArrayList<String> source;
 
+    public boolean isPlayed() {
+        return played;
+    }
+
+    public void setPlayed(boolean played) {
+        this.played = played;
+    }
+
+    private boolean played = false;
+
+    public String getSubtitle() {
+        return subtitle;
+    }
+
+    public void setSubtitle(String subtitle) {
+        this.subtitle = subtitle;
+    }
+
+    private String subtitle;
     public ReadImages(String path, String id) {
         source = new ArrayList<String>();
         this.path = path + ".png";
