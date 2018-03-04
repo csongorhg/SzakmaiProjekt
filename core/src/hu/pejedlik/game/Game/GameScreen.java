@@ -43,6 +43,7 @@ public class GameScreen extends MyScreen{
         {
             Assets.pref.putBoolean(dat.getId()+ EventType.currentEventType,dat.isPlayed());
         }
+        Assets.pref.flush();
         super.dispose();
     }
 
