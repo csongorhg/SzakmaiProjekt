@@ -144,15 +144,11 @@ public class MyGdxGame extends Game {
 		super.pause();
 	}
 
-	@Override
-	public void setScreen(Screen screen) {
-		setScreen(screen,true);
-	}
-
 	public void setScreenBackByStackPop(){
-		if (backButtonStack.size()>1){
+		if (backButtonStack.size()>=1){
 			try {
-				setScreen((MyScreen) backButtonStack.pop().getConstructor(MyGdxGame.class).newInstance(this),false);
+				setScreen((MyScreen) backButtonStack.pop().getConstructor(MyGdxGame.class).newInstance(this));
+				System.out.println("try");
 			} catch (InstantiationException e) {
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
@@ -165,7 +161,8 @@ public class MyGdxGame extends Game {
 		}
 		else
 		{
-			Gdx.app.exit();
+			System.out.println("B V VHG");
+			//Gdx.app.exit();
 		}
 	}
 
@@ -173,9 +170,12 @@ public class MyGdxGame extends Game {
 	public void setScreen(Screen screen, boolean pushToStack) {
 		Screen prevScreen = getScreen();
 		if (prevScreen!=null) {
-			if (pushToStack) {backButtonStack.push(prevScreen.getClass());}
+			if (pushToStack) {backButtonStack.push(prevScreen.getClass());
+				System.out.println(prevScreen.getClass().getSimpleName());
+			}
 			prevScreen.dispose();
 		}
+		System.out.println("2.");
 		super.setScreen(screen);
 	}
 

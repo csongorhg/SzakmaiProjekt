@@ -119,7 +119,7 @@ public class PreparationScreen extends MyScreen {
         loadingImage2.setAlpha(1f - Math.round(Assets.manager.getProgress() * 100f) / 100f);
 
         if (Assets.manager.update()) {
-            game.setScreen(new SituationParameterScreen(game), false);
+            game.setScreen(new SituationParameterScreen(game),false);
         }
 
         elapsedTime += delta;
@@ -134,6 +134,7 @@ public class PreparationScreen extends MyScreen {
     @Override
     public void init() {
         setBackGroundColor(1f, 1f, 1f);
+
         stage = new Stage();
         // színes
         loadingImage1 = new OneSpriteStaticActor("menu/" + EventType.currentEventType.toString() + ".png");

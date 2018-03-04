@@ -1,12 +1,8 @@
 package hu.pejedlik.game.MyBaseClasses;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
@@ -17,8 +13,6 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyGdxGame;
 import hu.pejedlik.game.Settings.SettingsScreen;
-
-import static com.badlogic.gdx.scenes.scene2d.InputEvent.Type.keyTyped;
 
 
 /**
@@ -148,7 +142,7 @@ abstract public class MyStage extends Stage implements InitableInterface {
 
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                game.setScreen(new SettingsScreen(game));
+                game.setScreen(new SettingsScreen(game),true);
                 super.clicked(event, x, y);
             }
         });

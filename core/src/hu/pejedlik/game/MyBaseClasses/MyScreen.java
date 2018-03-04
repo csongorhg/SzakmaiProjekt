@@ -9,6 +9,8 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ObjectSet;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
+
+import hu.pejedlik.game.Music.MusicStreaming;
 import hu.pejedlik.game.MyGdxGame;
 
 /**
@@ -17,6 +19,7 @@ import hu.pejedlik.game.MyGdxGame;
 abstract public class MyScreen implements Screen, InitableInterface {
     //public final static float WORLD_WIDTH = 640, WORLD_HEIGHT = 480;
     protected SpriteBatch spriteBatch = new SpriteBatch();
+    //protected MusicStreaming musicStreaming;
     //protected OrthographicCamera camera = new OrthographicCamera(WORLD_WIDTH, WORLD_HEIGHT);
     //protected ExtendViewport viewport = new ExtendViewport(WORLD_WIDTH, WORLD_HEIGHT, camera);
 
@@ -33,6 +36,7 @@ abstract public class MyScreen implements Screen, InitableInterface {
 
     @Override
     public void dispose() {
+        //musicStreaming.dispose();
         spriteBatch.dispose();
     }
 

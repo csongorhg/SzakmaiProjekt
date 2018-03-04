@@ -32,9 +32,9 @@ public class SituationParameterStage extends MyStage {
     @Override
     public void init() {
         super.init();
-        sr = new ShapeRenderer();
-        setCameraResetToLeftBottomOfScreen();
         addBackEventStackListener();
+        setCameraResetToLeftBottomOfScreen();
+        sr = new ShapeRenderer();
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
         stage = new GraphStage();
