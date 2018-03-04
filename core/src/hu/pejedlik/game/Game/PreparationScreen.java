@@ -1,6 +1,7 @@
 package hu.pejedlik.game.Game;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.assets.loaders.SkinLoader;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Color;
@@ -98,6 +99,11 @@ public class PreparationScreen extends MyScreen {
                     images.setSubtitle(subtitle[1]);
                 }
             }
+        }
+        for(ReadImages dat : Assets.readImages)
+        {
+            boolean played = Assets.pref.getBoolean(dat.getId()+EventType.currentEventType.toString());
+            dat.setPlayed(played);
         }
     }
 

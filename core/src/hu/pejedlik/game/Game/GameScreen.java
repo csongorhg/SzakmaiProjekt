@@ -4,6 +4,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
+import hu.pejedlik.game.GlobalClasses.Assets;
+import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyGdxGame;
 
@@ -37,6 +39,10 @@ public class GameScreen extends MyScreen{
     @Override
     public void dispose() {
         //gameStage.dispose();
+        for(ReadImages dat : Assets.readImages)
+        {
+            Assets.pref.putBoolean(dat.getId()+ EventType.currentEventType,dat.isPlayed());
+        }
         super.dispose();
     }
 

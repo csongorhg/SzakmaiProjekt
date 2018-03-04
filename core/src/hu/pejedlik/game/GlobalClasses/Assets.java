@@ -2,6 +2,7 @@
 package hu.pejedlik.game.GlobalClasses;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.assets.AssetDescriptor;
 import com.badlogic.gdx.assets.AssetLoaderParameters;
 import com.badlogic.gdx.assets.AssetManager;
@@ -36,7 +37,7 @@ public class Assets {
 
 	public static AssetManager manager;
 	public static final String CHARS = "0123456789öüóqwertzuiopőúasdfghjkléáűíyxcvbnm'+!%/=()ÖÜÓQWERTZUIOPŐÚASDFGHJKLÉÁŰÍYXCVBNM?:_*<>#&@{}[],-.";
-
+	public static Preferences pref;
 
 	static final FreetypeFontLoader.FreeTypeFontLoaderParameter fontParameter = new FreetypeFontLoader.FreeTypeFontLoaderParameter();
 	static {
@@ -136,6 +137,7 @@ public class Assets {
     public static void prepare() {
 		manager = new AssetManager();
 		Texture.setAssetManager(manager);
+		pref = Gdx.app.getPreferences("save.dat");
 	}
 
 	public static void load() {

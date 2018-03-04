@@ -29,8 +29,8 @@ public class SituationParameterScreen extends MyScreen {
         super.render(delta);
         param.act(delta);
         param.draw();
-        sr.begin(ShapeRenderer.ShapeType.Line);
-        sr.setColor(Color.RED);
+        sr.begin(ShapeRenderer.ShapeType.Filled);
+        sr.setColor(Color.BLACK);
         param.linedraw(sr);
         sr.end();
 

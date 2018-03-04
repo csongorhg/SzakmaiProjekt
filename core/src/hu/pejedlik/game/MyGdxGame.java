@@ -2,18 +2,23 @@ package hu.pejedlik.game;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.scenes.scene2d.Event;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Slider;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
+
+import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
+import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.Loading.LoadingScreen;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 
@@ -131,6 +136,7 @@ public class MyGdxGame extends Game {
 	public void dispose () {
 		super.dispose();
 		Assets.unload();
+
 	}
 
 	@Override

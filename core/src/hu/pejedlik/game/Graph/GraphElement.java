@@ -33,8 +33,12 @@ public class GraphElement extends Actor {
     private ArrayList<String> source;
 
     public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
-        this.played = readImages.isPlayed();
         stiuationId = readImages.getId();
+        if(stiuationId.equals("a"))
+        {
+            readImages.setPlayed(true);
+        }
+        this.played = readImages.isPlayed();
         source = readImages.getSource();
         path = readImages.getPath();
         path2 = readImages.getPath2();

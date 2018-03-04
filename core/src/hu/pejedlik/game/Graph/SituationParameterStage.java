@@ -70,7 +70,7 @@ public class SituationParameterStage extends MyStage {
             for (GraphElement b : situationParameters) {
                 for(String source : b.getSource()) {
                     if (a.getStiuationId().equals(source)) {
-                        sr.line(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight());
+                        sr.rectLine(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight(),2);
                     }
                 }
             }
