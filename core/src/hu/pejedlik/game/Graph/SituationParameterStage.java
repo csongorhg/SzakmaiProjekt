@@ -5,6 +5,8 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.utils.viewport.Viewport;
+
+import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyGdxGame;
@@ -92,6 +94,10 @@ public class SituationParameterStage extends MyStage {
 
     @Override
     public void dispose() {
+        for (ReadImages readImages: Assets.readImages) {
+            Assets.manager.unload(readImages.getPath());
+            Assets.manager.unload(readImages.getPath2());
+        }
         super.dispose();
     }
 }
