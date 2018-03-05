@@ -9,8 +9,6 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ObjectSet;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-
-import hu.pejedlik.game.Music.MusicStreaming;
 import hu.pejedlik.game.MyGdxGame;
 
 /**

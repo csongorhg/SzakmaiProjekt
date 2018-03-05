@@ -118,7 +118,7 @@ public class Assets {
 
 	//zene
     public static final AssetDescriptor<Music> MUSIC
-            = new AssetDescriptor<Music>("music/music.mp3", Music.class);
+            = new AssetDescriptor<Music>("music/song.mp3", Music.class);
 	/*public static final AssetDescriptor<Texture> MINUS_TEXTURE
 			= new AssetDescriptor<Texture>("Music/sminus.png", Texture.class);
 	public static final AssetDescriptor<Texture> PLUS_TEXTURE
