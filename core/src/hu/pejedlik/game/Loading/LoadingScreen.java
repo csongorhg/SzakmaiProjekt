@@ -82,7 +82,7 @@ public class LoadingScreen extends MyScreen {
 			music.playMusic();
 			//zene vége
 
-			game.setScreen(new MenuScreen(game));
+			game.setScreen(new MenuScreen(game),false);
 		}
 
 		elapsedTime+=delta;

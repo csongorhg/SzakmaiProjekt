@@ -10,7 +10,6 @@ import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import hu.pejedlik.game.Loading.LoadingScreen;
 import hu.pejedlik.game.GlobalClasses.Assets;
-import hu.pejedlik.game.Music.MusicStreaming;
 import hu.pejedlik.game.MyBaseClasses.MyLabel;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
@@ -55,11 +54,11 @@ public class SettingsStage extends MyStage {
     void musicVolume(){
         slider = new Slider(0, 100, 1, false, game.getSliderStyle(((ExtendViewport)getViewport()).getMinWorldWidth()/2, ((ExtendViewport)getViewport()).getMinWorldHeight()/20));
         addActor(slider);
-        //slider.setValue(musicStreaming.getVolume()*100);
+        slider.setValue(LoadingScreen.music.getVolume()*100);
         slider.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                //LoadingScreen.music.musicVolume((float)(slider.getValue()/100.0));
+                LoadingScreen.music.musicVolume((float)(slider.getValue()/100.0));
             }
         });
         slider.setSize(((ExtendViewport)getViewport()).getMinWorldWidth()/2, ((ExtendViewport)getViewport()).getMinWorldHeight()/20);

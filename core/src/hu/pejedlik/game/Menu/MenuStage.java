@@ -155,7 +155,7 @@ public class MenuStage extends MyStage {
                         }
                         EventType.currentEventType = eventType[i];
 
-                        game.setScreen(new PreparationScreen(game), false); // false - Loading képernyőre ne lehessen visszalépni
+                        game.setScreen(new PreparationScreen(game), true); // false - Loading képernyőre ne lehessen visszalépni
                     }
                 });
             }

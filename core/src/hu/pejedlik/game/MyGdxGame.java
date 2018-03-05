@@ -148,7 +148,6 @@ public class MyGdxGame extends Game {
 		if (backButtonStack.size()>=1){
 			try {
 				setScreen((MyScreen) backButtonStack.pop().getConstructor(MyGdxGame.class).newInstance(this));
-				System.out.println("try");
 			} catch (InstantiationException e) {
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
@@ -161,8 +160,7 @@ public class MyGdxGame extends Game {
 		}
 		else
 		{
-			System.out.println("B V VHG");
-			//Gdx.app.exit();
+			Gdx.app.exit();
 		}
 	}
 
@@ -175,7 +173,6 @@ public class MyGdxGame extends Game {
 			}
 			prevScreen.dispose();
 		}
-		System.out.println("2.");
 		super.setScreen(screen);
 	}
 
