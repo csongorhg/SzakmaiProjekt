@@ -38,7 +38,7 @@ public class SituationParameterStage extends MyStage {
         situationParameters = new ArrayList<GraphElement>();
         //this.setDebugAll(true);
         stage = new GraphStage();
-        gt = new GestureDetector(20, 0.5f, 2, 0.15f, stage);
+        gt = new GestureDetector(1, 0.5f, 1, 0.1f, stage);
         int row = 0;
         int[] coll = new int[Assets.longestLine];
         System.out.println(Assets.readImages.size);
