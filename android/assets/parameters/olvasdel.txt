@@ -1,0 +1,12 @@
+gyermek x õs:
+	aa -> aaa
+	ab -> aaa
+	abxaaa is kell
+
+random esemény:
+	#r20 - betû 20%os esélyes random cucc
+	aaaa#r20
+
+kérdés:
+	#?
+	aa#?
