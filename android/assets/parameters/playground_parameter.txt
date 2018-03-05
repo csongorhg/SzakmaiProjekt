@@ -21,15 +21,10 @@ abba
 abbaa
 abbaaa
 abbaaaa
-abbaaaaa
-abbaaaaaa
 abbaaab
 abbaaaba
 abbaaabaa
-abbaaabb
-abbaaabba
 abbaab
-abbaaba
 abbaabaa
 abc
 abca
@@ -55,3 +50,7 @@ acca
 accaa
 accab
 accb
+x
+abbaaaaaaxabbaaabb
+abbaaaaaaxabbaaabba
+abbaaaaaaxabbaaba

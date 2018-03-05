@@ -37,21 +37,15 @@ acba
 acbaa
 ad
 ada
-adaa
-adaaa
-adaab
 adaaba
 adab
 adaba
 adabaa
 adb
-adba
-adbaa
 adbaaa 
 adbab
 adbaba
 adbabaa
-adc
 adca
 adcaa
 adcaaa
@@ -61,3 +55,5 @@ adcabaa
 x
 acaaaxacaba
 acaaaxacabb
+adaaaxadaab
+adbaaxadc
