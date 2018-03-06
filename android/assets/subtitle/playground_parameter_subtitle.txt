@@ -25,12 +25,9 @@ abbaaaaa#szüleid meghallják a hangod és hozzád sietnek
 abbaaaaaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
 abbaaab#megvárod a padnál még rádtalálnak
 abbaaaba#hosszú idő elteltével sem találnak rád, ezért nekiállsz sírni, amit a szüleid meghallanak
-abbaaabaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
 abbaaabb#a szüleid hamar rádtalálnak
-abbaaabba#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
 abbaab#megpróbálod megkeresni a szüleid
 abbaaba#megpróbálsz emlékezni arra az útra amin elindultál és visszafele elindulsz, a szüleiddel szembetalálod magad
-abbaabaa#szüleid leszidnak, mert elmentél, de nagyon örülnek, hogy megtaláltak
 abc#megkéred a szüleid, hogy menjenek veled, mert te kíváncsi vagy
 abca#szüleid elkísérnek, mert nem akarják, hogy egyedül menj
 ac#elveszíted a kabátod
@@ -43,9 +40,7 @@ acaaaaaa#hosszú ideje keresed, de nem találod seholsem
 acaaaaaaa#nem találtad meg a kabátod, ezért elveszítetted
 acaaaaab#rátalálsz
 acaaaab#megkéred a szüleidet, hogy segítsenek megkeresni
-acaaaaba#a szüleid készítenek plakátokat, amelyeket a játszótér környékére ki is raktok
-acaaaabaa#pár napon belül érkezik egy telefon hívás, valaki megtalálta az elveszett kabátot
-acaaaabaaa#elmentek érte, nagyon megköszönöd, hogy megtalálták, örülsz, mert meglett
+acaaaaba#a szüleid segítenek és pár nap múlva meglesz a kabátod
 acab#rátalálsz
 acb#szüleidtől kérsz segítséget, ők készítenek plakátokat, melyeket kiraktok a játszótér környékére
 acba#pár napon belül érkezik egy telefon hívás, valaki megtalálta az elveszett kabátot
