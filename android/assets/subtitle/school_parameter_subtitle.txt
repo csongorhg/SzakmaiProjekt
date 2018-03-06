@@ -22,18 +22,13 @@ abbaa#a tanárúr megdícsér, de nem lesz közös témád az osztálytársaidda
 ac#házi feladat elkészítése
 aca#nem csinálod meg a házi feladatot
 acaa#lemásolod óra előtt az osztálytársadról
-acaaa#nem fogod megérteni a tananyagot
-acaaaa#rossz jegyet szerzel dolgozatnál
-acaaaaa#szüleid leszidnak, mert rossz jegyet viszel haza
+acaaa#meglesz a házid így
+acaaaa#nem fogod megérteni a tananyagot
+acaaaaa#rossz jegyet szerzel dolgozatnál
+acaaaaaa#szüleid leszidnak, mert rossz jegyet viszel haza
 acab#felvállalod, hogy nem csináltad meg a házi feladatot
 acaba#szerencsés vagy és nem tőled kéri el a tanárúr a házi feladatot
-acabaa#nem fogod megérteni a tananyagot
-acabaaa#rossz jegyet szerzel dolgozatnál
-acabaaaa#szüleid leszidnak, mert rossz jegyet viszel haza
 acabb#a tanárúr leszid és büntetést kapsz
-acabba#nem fogod megérteni a tananyagot
-acabbaa#rossz jegyet szerzel dolgozatnál
-acabbaaa#szüleid leszidnak, mert rossz jegyet viszel haza
 acb#megcsinálod a házi feladatot
 acba#a tanárúr megdícsér
 acbaa#érteni fogod a tanórai anyagot, majd dolgozatban jó jegyet szerzel
@@ -42,7 +37,6 @@ ada#padtársadtól kérsz kölcsön
 adaa#a padtársadnak szerencsére van és kölcsönadja
 adaaa#tudsz jegyzetelni
 adaab#a tanárúr észreveszi, hogy beszélgettek, ezért leszid bennetek
-adaaba#tudsz jegyzetelni
 adab#sajnos nincs nála mégegy
 adaba#mástól akarsz kölcsönkérni tollat, de ezzel zavarod az órát
 adabaa#tanárúr észreveszi és leszid, mert beszélgetsz
@@ -54,9 +48,3 @@ adbab#nem pótlod be, így lemaradsz
 adbaba#a dolgozatnál rossz jegyet szerzel
 adbabaa#szüleid leszidnak
 adc#nem kérsz kölcsön tollat
-adca#az órai jegyzered hiányozni fog
-adcaa#következő órára bepótolod
-adcaaa#a pótlás sok időt vesz igénybe ezért nem lesz másra időd
-adcab#nem pótlod be, így lemaradsz
-adcaba#a dolgozatnál rossz jegyet szerzel
-adcabaa#szüleid leszidnak

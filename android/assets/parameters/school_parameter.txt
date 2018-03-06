@@ -25,6 +25,7 @@ acaa
 acaaa
 acaaaa
 acaaaaa
+acaaaaaa
 acab
 acaba
 acabb
@@ -48,7 +49,7 @@ adbaba
 adbabaa
 adc
 x
-acaaaxacaba
-acaaaxacabb
+acaaaaxacaba
+acaaaaxacabb
 adaaaxadaab
 adbaxadc
