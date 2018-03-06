@@ -43,7 +43,7 @@ adabaa#tanárúr észreveszi és leszid, mert beszélgetsz
 adb#megvárod a szünetet és akkor kérsz csak kölcsön tollat
 adba#az órai jegyzered hiányozni fog
 adbaa#következő órára bepótolod
-adbaaa#a pótlás sok időt vesz igénybe ezért nem lesz másra időd
+adbaaa#a pótlás sok időt vesz igénybe, de közben megérted az óra anyagát
 adbab#nem pótlod be, így lemaradsz
 adbaba#a dolgozatnál rossz jegyet szerzel
 adbabaa#szüleid leszidnak
