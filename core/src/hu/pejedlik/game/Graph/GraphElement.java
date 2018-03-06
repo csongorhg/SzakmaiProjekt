@@ -9,10 +9,12 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import java.util.ArrayList;
 
+import hu.pejedlik.game.Game.GameScreen;
 import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
+import hu.pejedlik.game.MyGdxGame;
 
 /**
  * Created by Hegedüs Csongor on 10/28/2017.
@@ -32,7 +34,7 @@ public class GraphElement extends Actor {
 
     private ArrayList<String> source;
 
-    public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight) {
+    public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight, final MyGdxGame game) {
         stiuationId = readImages.getId();
         if(stiuationId.equals("a"))
         {
@@ -60,9 +62,10 @@ public class GraphElement extends Actor {
                 super.clicked(event, x, y);
                 if(readImages.isPlayed())
                 {
-                    System.out.println("asd");
+                   EventType.currentId = stiuationId;
+                    game.setScreen(new GameScreen(game),false);
+
                 }
-                System.out.println(stiuationId);
             }
         });
         lock = new Sprite(Assets.manager.get(Assets.LOCK_TEXTURE));

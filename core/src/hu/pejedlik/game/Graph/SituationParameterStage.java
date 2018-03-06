@@ -46,7 +46,7 @@ public class SituationParameterStage extends MyStage {
         System.out.println(Assets.readImages.size);
         for (int i = 0; i < Assets.readImages.size; i++) {
             row = Assets.readImages.get(i).getId().length() - 1;
-            GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight());
+            GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight(),game);
             System.out.println("asd: "+element.getPath());
             stage.addActor(element);
             situationParameters.add(element);

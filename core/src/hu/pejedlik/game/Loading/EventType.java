@@ -16,6 +16,7 @@ public enum EventType {
 
     public static EventType currentEventType;
     private final String text;
+    public static String currentId;
 
     EventType(final String text) {
         this.text = text;
