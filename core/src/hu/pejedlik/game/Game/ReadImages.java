@@ -1,5 +1,7 @@
 package hu.pejedlik.game.Game;
 
+import com.badlogic.gdx.utils.Array;
+
 import java.util.ArrayList;
 
 /**
@@ -11,12 +13,14 @@ public class ReadImages implements Comparable {
     private String path;
     private String path2;
     private String id;
+    private String type;
+    private int value;
 
-    public ArrayList<String> getSource() {
+    public Array<String> getSource() {
         return source;
     }
 
-    private ArrayList<String> source;
+    private Array<String> source;
 
     public boolean isPlayed() {
         return played;
@@ -37,11 +41,22 @@ public class ReadImages implements Comparable {
     }
 
     private String subtitle;
-    public ReadImages(String path, String id) {
-        source = new ArrayList<String>();
+
+    public String getType() {
+        return type;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public ReadImages(String path, String id,String type,int value) {
+        source = new Array<String>();
         this.path = path + ".png";
         this.path2 = path + "2.png";
         this.id = id;
+        this.type = type;
+        this.value = value;
         source.add(id.substring(0,id.length()-1));
     }
     public void addSource(String id)

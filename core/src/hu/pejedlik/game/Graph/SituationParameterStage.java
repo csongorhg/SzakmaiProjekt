@@ -43,11 +43,9 @@ public class SituationParameterStage extends MyStage {
         gt = new GestureDetector(1, 0.5f, 1, 0.1f, stage);
         int row = 0;
         int[] coll = new int[Assets.longestLine];
-        System.out.println(Assets.readImages.size);
         for (int i = 0; i < Assets.readImages.size; i++) {
             row = Assets.readImages.get(i).getId().length() - 1;
             GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight(),game);
-            System.out.println("asd: "+element.getPath());
             stage.addActor(element);
             situationParameters.add(element);
             coll[row]++;

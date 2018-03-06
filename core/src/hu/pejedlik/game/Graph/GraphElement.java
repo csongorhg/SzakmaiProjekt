@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.Array;
 
 import java.util.ArrayList;
 
@@ -28,11 +29,11 @@ public class GraphElement extends Actor {
     Sprite lock;
     boolean played;
 
-    public ArrayList<String> getSource() {
+    public Array<String> getSource() {
         return source;
     }
 
-    private ArrayList<String> source;
+    private Array<String> source;
 
     public GraphElement(final ReadImages readImages, int row, int coll, float worldWidth, float worldHeight, final MyGdxGame game) {
         stiuationId = readImages.getId();
@@ -63,7 +64,7 @@ public class GraphElement extends Actor {
                 if(readImages.isPlayed())
                 {
                    EventType.currentId = stiuationId;
-                    game.setScreen(new GameScreen(game),false);
+                    game.setScreen(new GameScreen(game),true);
 
                 }
             }

@@ -135,7 +135,7 @@ public class MyGdxGame extends Game {
 	@Override
 	public void dispose () {
 		super.dispose();
-		Assets.unload();
+		//Assets.unload();
 
 	}
 
@@ -169,7 +169,6 @@ public class MyGdxGame extends Game {
 		Screen prevScreen = getScreen();
 		if (prevScreen!=null) {
 			if (pushToStack) {backButtonStack.push(prevScreen.getClass());
-				System.out.println(prevScreen.getClass().getSimpleName());
 			}
 			prevScreen.dispose();
 		}

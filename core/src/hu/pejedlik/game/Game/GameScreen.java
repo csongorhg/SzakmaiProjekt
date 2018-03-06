@@ -44,12 +44,8 @@ public class GameScreen extends MyScreen{
 
     @Override
     public void dispose() {
-        //gameStage.dispose();
-        for(ReadImages dat : Assets.readImages)
-        {
-            Assets.pref.putBoolean(dat.getId()+ EventType.currentEventType,dat.isPlayed());
-        }
-        Assets.pref.flush();
+        gameStage.dispose();
+
         super.dispose();
     }
 
@@ -64,6 +60,7 @@ public class GameScreen extends MyScreen{
             public void init() {
                 a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
                 a.setBounds(0,0,getViewport().getScreenWidth(),getViewport().getScreenHeight());
+                a.setAlpha(0.7f);
                 addActor(a);
             }
             @Override

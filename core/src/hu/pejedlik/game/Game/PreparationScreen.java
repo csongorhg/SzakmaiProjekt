@@ -63,8 +63,9 @@ public class PreparationScreen extends MyScreen {
         for (String name : read) {
             if(x) {
                 if(!name.trim().equals("x")) {
-                    String path = "events/" + EventType.currentEventType.toString() + "_event/" + name.trim();
-                    ReadImages readImages = new ReadImages(path, name.trim());
+                    String[] s =name.trim().split("#");
+                    String path = "events/" + EventType.currentEventType.toString() + "_event/" + s[0];
+                    ReadImages readImages = new ReadImages(path, s[0],s[1],Integer.valueOf(s[2]));
                     Assets.manager.load(readImages.getPath(), Texture.class);
                     Assets.manager.load(readImages.getPath2(), Texture.class);
                     Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;

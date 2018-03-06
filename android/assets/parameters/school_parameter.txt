@@ -19,8 +19,8 @@ abaaba#n#-1
 abb#n#1
 abba#n#0
 abbaa#n#1
-ac#?0
-aca#?-1
+ac#?#0
+aca#?#-1
 acaa#n#0
 acaaa#n#1
 acaaaa#n#-1
