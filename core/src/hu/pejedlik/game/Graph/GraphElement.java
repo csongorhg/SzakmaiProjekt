@@ -62,6 +62,7 @@ public class GraphElement extends Actor {
                 {
                     System.out.println("asd");
                 }
+                System.out.println(stiuationId);
             }
         });
         lock = new Sprite(Assets.manager.get(Assets.LOCK_TEXTURE));

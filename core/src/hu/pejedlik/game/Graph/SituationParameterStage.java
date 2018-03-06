@@ -94,10 +94,6 @@ public class SituationParameterStage extends MyStage {
 
     @Override
     public void dispose() {
-        for (ReadImages readImages: Assets.readImages) {
-            Assets.manager.unload(readImages.getPath());
-            Assets.manager.unload(readImages.getPath2());
-        }
         super.dispose();
     }
 }
