@@ -7,6 +7,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.ObjectSet;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import hu.pejedlik.game.MyGdxGame;
@@ -24,8 +25,6 @@ abstract public class MyScreen implements Screen, InitableInterface {
     public float r=0,g=0,b=0;
 
     public final MyGdxGame game;
-
-
 
     public MyScreen(MyGdxGame game) {
         this.game = game;

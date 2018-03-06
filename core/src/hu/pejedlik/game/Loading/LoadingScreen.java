@@ -81,7 +81,6 @@ public class LoadingScreen extends MyScreen {
 			music = new MusicControlClass();
 			music.playMusic();
 			//zene vége
-
 			game.setScreen(new MenuScreen(game),false);
 		}
 

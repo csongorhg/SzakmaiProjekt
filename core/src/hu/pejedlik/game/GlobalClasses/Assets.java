@@ -139,6 +139,17 @@ public class Assets {
 		Texture.setAssetManager(manager);
 		pref = Gdx.app.getPreferences("save.dat");
 	}
+	public static ReadImages getImg(String id)
+	{
+		for(ReadImages img : readImages)
+		{
+			if(img.getId().equals(id))
+			{
+				return img;
+			}
+		}
+		return null;
+	}
 
 	public static void load() {
 		FileHandleResolver resolver = new InternalFileHandleResolver();
