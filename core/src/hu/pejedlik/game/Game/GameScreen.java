@@ -18,14 +18,13 @@ import hu.pejedlik.game.MyGdxGame;
  * Created by Hegedüs Csongor on 2/14/2018.
  */
 
-public class GameScreen extends MyScreen{
+public class GameScreen extends MyScreen {
 
     protected GameStage gameStage;
     private MyStage bgStage;
 
     public GameScreen(MyGdxGame game) {
         super(game);
-
 
 
     }
@@ -53,22 +52,24 @@ public class GameScreen extends MyScreen{
 
     @Override
     public void init() {
-        gameStage = new GameStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280,720)),spriteBatch,game);
-        bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
+        gameStage = new GameStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280, 720)), spriteBatch, game);
+        bgStage = new MyStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280, 720)), spriteBatch, game) {
 
             OneSpriteStaticActor a;
+
             @Override
             public void init() {
                 setCameraResetToLeftBottomOfScreen();
-                a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
-                a.setBounds(0,0,Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+                a = new OneSpriteStaticActor((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+                a.setBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
                 a.setAlpha(0.7f);
                 addActor(a);
             }
+
             @Override
-            public void act(float delta)
-            {
-                    a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+            public void act(float delta) {
+                a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+                a.setBounds(0, 0, getViewport().getWorldWidth(), getViewport().getWorldHeight());
             }
         };
         Gdx.input.setInputProcessor(gameStage);

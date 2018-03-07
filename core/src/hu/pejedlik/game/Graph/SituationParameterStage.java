@@ -10,6 +10,7 @@ import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyGdxGame;
+
 import java.util.ArrayList;
 
 /**
@@ -45,7 +46,7 @@ public class SituationParameterStage extends MyStage {
         int[] coll = new int[Assets.longestLine];
         for (int i = 0; i < Assets.readImages.size; i++) {
             row = Assets.readImages.get(i).getId().length() - 1;
-            GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight(),game);
+            GraphElement element = new GraphElement(Assets.readImages.get(i), row, coll[row], getViewport().getWorldWidth(), getViewport().getWorldHeight(), game);
             stage.addActor(element);
             situationParameters.add(element);
             coll[row]++;
@@ -68,9 +69,9 @@ public class SituationParameterStage extends MyStage {
         sr.setProjectionMatrix(stage.getCamera().combined);
         for (GraphElement a : situationParameters) {
             for (GraphElement b : situationParameters) {
-                for(String source : b.getSource()) {
+                for (String source : b.getSource()) {
                     if (a.getStiuationId().equals(source)) {
-                        sr.rectLine(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight(),2);
+                        sr.rectLine(a.getX() + a.getWidth() / 2, a.getY(), b.getX() + b.getWidth() / 2, b.getY() + b.getHeight(), 2);
                     }
                 }
             }

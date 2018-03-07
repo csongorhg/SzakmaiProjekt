@@ -11,6 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import hu.pejedlik.game.GlobalClasses.Assets;
+import hu.pejedlik.game.Graph.SituationParameterScreen;
 import hu.pejedlik.game.MyGdxGame;
 import hu.pejedlik.game.Settings.SettingsScreen;
 
@@ -36,8 +37,9 @@ abstract public class MyStage extends Stage implements InitableInterface {
             public boolean keyDown(InputEvent event, int keycode) {
                 //System.out.println("Lenyomott gomb: "+Input.Keys.toString(keycode));
                 if(keycode == Input.Keys.BACK || keycode == Input.Keys.BACKSPACE) {
-                    //System.out.println("Vissza gomb!");
-                    dispose();
+                    if (game.getScreen() instanceof SituationParameterScreen) {
+                        Assets.unloadReadImages();
+                    }
                     game.setScreenBackByStackPop();
                 }
                 return true;

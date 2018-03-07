@@ -215,4 +215,10 @@ public class Assets {
         manager.dispose();
     }
 
+    public static void unloadReadImages() {
+        for (ReadImages readImages : Assets.readImages) {
+            Assets.manager.unload(readImages.getPath());
+            Assets.manager.unload(readImages.getPath2());
+        }
+    }
 }
