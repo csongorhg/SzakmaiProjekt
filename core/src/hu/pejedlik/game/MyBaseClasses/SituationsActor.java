@@ -1,8 +1,10 @@
 package hu.pejedlik.game.MyBaseClasses;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -19,18 +21,23 @@ import hu.pejedlik.game.Loading.EventType;
 
 public class SituationsActor extends Actor{
     private Sprite img;
-    private float f;
-    public SituationsActor(final String id)
+    private float f = 0;
+    public SituationsActor(final String id,boolean button)
     {
+        this.setDebug(true);
         final ReadImages a = Assets.getImg(id);
-        if(a.isPlayed())
+        if(!button) {
+            if (a.isPlayed()) {
+                img = new Sprite((Texture) Assets.manager.get(a.getPath()));
+            } else {
+                img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
+            }
+        }
+        else
         {
-            img = new Sprite((Texture) Assets.manager.get(a.getPath()));
+            img = new Sprite(Assets.manager.get(Assets.CLOSE_TEXTURE));
         }
-        else {
-            img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
-        }
-        img.setAlpha(0f);
+        img.setAlpha(f);
         this.addListener(new ClickListener(){
 
             @Override
@@ -58,11 +65,21 @@ public class SituationsActor extends Actor{
 
         img.setAlpha(f);
 
+
     }
 
     @Override
     public void setBounds(float x, float y, float width, float height) {
         super.setBounds(x, y, width, height);
         img.setBounds(x,y,width,height);
+    }
+
+    @Override
+    public void drawDebug(ShapeRenderer shapes) {
+        if(f==1) {
+            shapes.set(ShapeRenderer.ShapeType.Line);
+            shapes.setColor(Color.BLACK);
+            shapes.rectLine(this.getX(),this.getY(),this.getX()+this.getHeight(),this.getY()+this.getHeight(),2);
+        }
     }
 }

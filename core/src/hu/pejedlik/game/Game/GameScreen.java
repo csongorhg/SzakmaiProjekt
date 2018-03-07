@@ -3,6 +3,8 @@ package hu.pejedlik.game.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
 import hu.pejedlik.game.GlobalClasses.Assets;
@@ -58,6 +60,7 @@ public class GameScreen extends MyScreen{
             OneSpriteStaticActor b;
             @Override
             public void init() {
+                setCameraResetToLeftBottomOfScreen();
                 a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
                 a.setBounds(0,0,getViewport().getScreenWidth(),getViewport().getScreenHeight());
                 a.setAlpha(0.7f);

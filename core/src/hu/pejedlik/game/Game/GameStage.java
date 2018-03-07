@@ -8,14 +8,19 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.Event;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
+import hu.pejedlik.game.Math.RandomNumber;
 import hu.pejedlik.game.MyBaseClasses.ImgButton;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
@@ -37,10 +42,11 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
+        setCameraResetToLeftBottomOfScreen();
         addBackEventStackListener();
         table = new Table();
         table.setFillParent(true);
-        actors();
+        Newactor = true;
         this.addActor(table);
 
     }
@@ -49,8 +55,40 @@ public class GameStage extends MyStage {
         imgs = Assets.getChilderns(EventType.currentId);
         if(imgs != null) {
             for (String a : imgs) {
-                table.add(new SituationsActor(a)).size(300, 300).center().spaceLeft(50f);
+                table.add(new SituationsActor(a,false)).size(300, 300).center().spaceLeft(50f);
             }
+        }
+    }
+    private void button()
+    {
+        imgs = Assets.getChilderns(EventType.currentId);
+        if(imgs != null) {
+            String endid = "";
+            Array<String> randoms = new Array<String>();
+            Array<String> normal = new Array<String>();
+            for (String id : imgs) {
+                if (Assets.getImg(id).getType().equals("r")) {
+                    randoms.add(id);
+                } else {
+                    normal.add(id);
+                }
+            }
+            Random random = new Random();
+            if (normal.size == 0 && randoms.size != 0) {
+                int r = random.nextInt(randoms.size);
+                endid = randoms.get(r);
+            } else if (normal.size != 0 && randoms.size == 0) {
+                endid = normal.get(0);
+            } else if (normal.size != 0 && randoms.size != 0) {
+                int chance = random.nextInt(100);
+                if (chance < 30) {
+                    int c = random.nextInt(randoms.size);
+                    endid = randoms.get(c);
+                } else {
+                    endid = normal.get(0);
+                }
+            }
+            table.add(new SituationsActor(endid, true)).size(100, 100).center().spaceLeft(50f);
         }
     }
     @Override
@@ -58,14 +96,16 @@ public class GameStage extends MyStage {
         super.act(delta);
         if(Newactor)
         {
-            imgs.clear();
-            table.clear();
+            if(imgs != null) {
+                imgs.clear();
+                table.clear();
+            }
             if(Assets.getImg(EventType.currentId).getType().equals("?")) {
                 actors();
             }
             else
             {
-
+                button();
             }
             Newactor = false;
 
