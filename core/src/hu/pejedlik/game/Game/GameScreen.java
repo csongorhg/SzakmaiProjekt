@@ -57,12 +57,11 @@ public class GameScreen extends MyScreen{
         bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
 
             OneSpriteStaticActor a;
-            OneSpriteStaticActor b;
             @Override
             public void init() {
                 setCameraResetToLeftBottomOfScreen();
                 a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
-                a.setBounds(0,0,getViewport().getScreenWidth(),getViewport().getScreenHeight());
+                a.setBounds(0,0,Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
                 a.setAlpha(0.7f);
                 addActor(a);
             }

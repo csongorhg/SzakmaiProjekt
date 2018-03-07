@@ -24,9 +24,9 @@ public class SituationsActor extends Actor{
     private float f = 0;
     public SituationsActor(final String id,boolean button)
     {
-        this.setDebug(true);
         final ReadImages a = Assets.getImg(id);
         if(!button) {
+            this.setDebug(true);
             if (a.isPlayed()) {
                 img = new Sprite((Texture) Assets.manager.get(a.getPath()));
             } else {
@@ -77,9 +77,13 @@ public class SituationsActor extends Actor{
     @Override
     public void drawDebug(ShapeRenderer shapes) {
         if(f==1) {
-            shapes.set(ShapeRenderer.ShapeType.Line);
+            shapes.set(ShapeRenderer.ShapeType.Filled);
             shapes.setColor(Color.BLACK);
-            shapes.rectLine(this.getX(),this.getY(),this.getX()+this.getHeight(),this.getY()+this.getHeight(),2);
+            shapes.rectLine(this.getX(),this.getY(),this.getX()+this.getWidth(),this.getY(),2.5f);
+            shapes.rectLine(this.getX(),this.getY(),this.getX(),this.getY()+this.getHeight(),2.5f);
+            shapes.rectLine(this.getX(),this.getY()+this.getHeight(),this.getX()+this.getWidth(),this.getY()+this.getHeight(),2);
+            shapes.rectLine(this.getX()+this.getWidth(),this.getY()+this.getHeight(),this.getX()+this.getWidth(),this.getY(),2);
+
         }
     }
 }
