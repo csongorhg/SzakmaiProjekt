@@ -22,6 +22,7 @@ import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.Math.RandomNumber;
 import hu.pejedlik.game.MyBaseClasses.ImgButton;
+import hu.pejedlik.game.MyBaseClasses.MyLabel;
 import hu.pejedlik.game.MyBaseClasses.MyStage;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyBaseClasses.SituationsActor;
@@ -42,6 +43,7 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
+        System.out.println(Assets.getChilderns(EventType.currentId));
         setCameraResetToLeftBottomOfScreen();
         addBackEventStackListener();
         table = new Table();
@@ -55,7 +57,15 @@ public class GameStage extends MyStage {
         imgs = Assets.getChilderns(EventType.currentId);
         if(imgs != null) {
             for (String a : imgs) {
+                int i = 0;
+                while (!a.equals(Assets.readImages.get(i).getId())) {
+                    i++;
+                }
                 table.add(new SituationsActor(a,false)).size(300, 300).center().spaceLeft(50f);
+                MyLabel myLabel = new MyLabel(Assets.readImages.get(i).getSubtitle(), game.getSkin());
+                //myLabel.setPosition(?,?);
+                addActor(myLabel);
+
             }
         }
     }

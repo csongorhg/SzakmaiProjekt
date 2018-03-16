@@ -29,7 +29,6 @@ public class SituationParameterStage extends MyStage {
         super(viewport, batch, game);
         im.addProcessor(gt);
         im.addProcessor(stage);
-
     }
 
     @Override
@@ -58,7 +57,6 @@ public class SituationParameterStage extends MyStage {
                     float newx = x - (coll[i] * 400) / 2;
                     situationParameters.get(j).setX(newx);
                     situationParameters.get(j).resize();
-
                 }
             }
         }
