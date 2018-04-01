@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import hu.pejedlik.game.Game.GameStage;
@@ -22,7 +23,9 @@ import hu.pejedlik.game.Loading.EventType;
 public class SituationsActor extends Actor{
     private Sprite img;
     private float f = 0;
-    public SituationsActor(final String id,boolean button)
+    private boolean firstclick = true;
+    private Label label;
+    public SituationsActor(final String id,final boolean button)
     {
         final ReadImages a = Assets.getImg(id);
         if(!button) {
@@ -32,6 +35,7 @@ public class SituationsActor extends Actor{
             } else {
                 img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
             }
+            label = new Label(a.getSubtitle(),Assets.manager.get(Assets.SKIN));
         }
         else
         {
@@ -43,9 +47,9 @@ public class SituationsActor extends Actor{
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                EventType.currentId = id;
-                a.setPlayed(true);
-                GameStage.Newactor = true;
+                    EventType.currentId = id;
+                    a.setPlayed(true);
+                    GameStage.Newactor = true;
             }
         });
     }

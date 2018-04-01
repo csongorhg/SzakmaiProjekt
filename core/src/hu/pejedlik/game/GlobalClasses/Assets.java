@@ -180,8 +180,8 @@ public class Assets {
         manager.load(EMOJIS_TEXTUREATLAS);
         manager.load(HEART_TEXTURE);
         manager.load(SETTINGSBUTTON_TEXTURE);
-        manager.load(ALEGREYAREGULAR_FONT);
         manager.load(LOADINGBACKGROUND_TEXTURE);
+        manager.load(ALEGREYAREGULAR_FONT);
         manager.load(BACKGROUND_TEXTURE);
         manager.load(CONFLICT_TEXTURE);
         manager.load(INTERNET_TEXTURE);

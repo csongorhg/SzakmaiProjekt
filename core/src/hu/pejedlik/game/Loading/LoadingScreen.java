@@ -21,6 +21,7 @@ import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
 
 import static hu.pejedlik.game.GlobalClasses.Assets.CHARS;
+import static hu.pejedlik.game.GlobalClasses.Assets.SKIN;
 
 
 public class LoadingScreen extends MyScreen {
@@ -76,7 +77,7 @@ public class LoadingScreen extends MyScreen {
 
 		if (Assets.manager.update()) {
 			Assets.afterLoaded();
-
+			Assets.manager.get(SKIN).getFont("default-font").getRegion().getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
 			//zene
 			music = new MusicControlClass();
 			music.playMusic();
