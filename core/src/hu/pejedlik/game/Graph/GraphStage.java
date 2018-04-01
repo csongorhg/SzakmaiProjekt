@@ -14,6 +14,7 @@ public class GraphStage extends Stage implements GestureDetector.GestureListener
 
     public GraphStage() {
         c = (OrthographicCamera) this.getCamera();
+
     }
 
     @Override
@@ -81,4 +82,6 @@ public class GraphStage extends Stage implements GestureDetector.GestureListener
     public void pinchStop() {
 
     }
+
+
 }
