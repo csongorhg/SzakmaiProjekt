@@ -17,9 +17,9 @@
     <node id="n0">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="194.80000000000018" x="-3910.805082245948" y="-710.4585149880039"/>
+          <y:Geometry height="30.0" width="194.80000000000018" x="-4006.315904562167" y="-668.7605748617493"/>
           <y:Fill color="#00FF00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.34765625" x="79.72617187500009" y="5.6494140625">Iskola<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2063,9 +2063,9 @@ akar veled<y:LabelModel>
     <node id="n117">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="62.609124848484726" width="157.55922367201447" x="-4295.684523351158" y="-506.2667643726588"/>
+          <y:Geometry height="62.609124848484726" width="157.55922367201447" x="-4321.041378833339" y="-587.9721875930225"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.05859375" x="31.75031496100746" y="21.953976486742363">házi feladat/játék<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2221,7 +2221,7 @@ hogy hagyjon békén<y:LabelModel>
     <node id="n126">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="45.34547051693403" width="146.05012078431355" x="-4703.357478217469" y="-379.1704250883541"/>
+          <y:Geometry height="45.34547051693403" width="146.05012078431355" x="-4841.881040573833" y="-429.88413605271774"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.064453125" x="7.9928338296567745" y="5.971563383467014">megmondod neki, hogy
@@ -2239,7 +2239,7 @@ nem akarsz beszélgetni<y:LabelModel>
     <node id="n127">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="166.1910508377896" x="-4715.825673012476" y="-283.26123435751634"/>
+          <y:Geometry height="30.0" width="166.1910508377896" x="-4854.34923536884" y="-333.97494532188"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.109375" x="11.040837918894795" y="5.6494140625">a padtársad haragudni fog<y:LabelModel>
@@ -2256,9 +2256,9 @@ nem akarsz beszélgetni<y:LabelModel>
     <node id="n128">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="170.02741846702247" x="-4438.948397290553" y="-384.92497653220437"/>
+          <y:Geometry height="30.0" width="170.02741846702247" x="-4484.027251481099" y="-483.53497007402257"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="158.078125" x="5.97464673351169" y="5.6494140625">a barátaiddal kimész játszani<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2273,9 +2273,9 @@ nem akarsz beszélgetni<y:LabelModel>
     <node id="n129">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="114.4000878431375" x="-4166.566295614974" y="-390.6795279760546"/>
+          <y:Geometry height="30.0" width="114.4000878431375" x="-4155.296582067338" y="-514.6463770000546"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="71.37109375" x="21.514497046568977" y="5.6494140625">megcsinálod<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2290,9 +2290,9 @@ nem akarsz beszélgetni<y:LabelModel>
     <node id="n130">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="64.52730866310162" width="179.61833754010695" x="-4164.170704313725" y="-281.34305054289956"/>
+          <y:Geometry height="64.52730866310162" width="179.61833754010695" x="-4189.527559795908" y="-436.30161182289953"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.431640625" x="7.093348457553475" y="8.21189651905081">miután végzel a házi feladattal
 szüleid nem ki játszani, mert
 már késő van<y:LabelModel>
@@ -2309,9 +2309,9 @@ már késő van<y:LabelModel>
     <node id="n131">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="31.918183814616782" width="127.8273745454544" x="-4421.207335472371" y="-301.48398059637543"/>
+          <y:Geometry height="31.918183814616782" width="127.8273745454544" x="-4464.877475469462" y="-390.2329747840118"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.400390625" x="4.213491960226747" y="6.608505969808391">nagyon jól szórakozol<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2326,9 +2326,9 @@ már késő van<y:LabelModel>
     <node id="n132">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="42.46819479500891" width="186.33198089126472" x="-4389.557302531195" y="-224.75662801170523"/>
+          <y:Geometry height="42.46819479500891" width="186.33198089126472" x="-4396.600873498468" y="-321.9579073600689"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="173.412109375" x="6.4599357581319055" y="4.532925522504456">miután hazaérsz már nincs időd
 megcsinálni a házi feladatod<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2344,9 +2344,9 @@ megcsinálni a házi feladatod<y:LabelModel>
     <node id="n133">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="60.690941033868114" width="179.61833754010695" x="-4597.680246417112" y="-224.7566280117053"/>
+          <y:Geometry height="60.690941033868114" width="179.61833754010695" x="-4604.723817384385" y="-321.95790736006893"/>
           <y:Fill color="#00FFFF" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="177.431640625" x="1.0933484575534749" y="6.293712704434057">szerencsére kevés házi
 feladatot kaptál, ezért még
 lefekvés előtt megtudtad csinálni<y:LabelModel>
@@ -2363,9 +2363,9 @@ lefekvés előtt megtudtad csinálni<y:LabelModel>
     <node id="n134">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.55001098039213" width="188.25016470588253" x="-4391.475486345809" y="-125.97016155894232"/>
+          <y:Geometry height="40.55001098039213" width="188.25016470588253" x="-4398.519057313082" y="-223.17144090730596"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="165.4140625" x="11.418051102940808" y="3.5738336151960652">másnap a tanárnő leszid, mert
 nem csináltad meg a házidat<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2381,9 +2381,9 @@ nem csináltad meg a házidat<y:LabelModel>
     <node id="n135">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="68.36367629233507" width="174.82287800356517" x="-4608.230257397505" y="-126.92925346625077"/>
+          <y:Geometry height="68.36367629233507" width="174.82287800356517" x="-4604.004114817142" y="-226.9479612015234"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="172.10546875" x="1.3587046267821279" y="10.130080333667536">a tanárnő megdícsér és
 a barátaiddal is jót beszélgettek
 a tegnapi napról<y:LabelModel>
@@ -2400,13 +2400,13 @@ a tegnapi napról<y:LabelModel>
     <node id="n136">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="56.85457340463461" width="177.70015372549005" x="-4158.416152869875" y="-156.66110259281044"/>
+          <y:Geometry height="56.85457340463461" width="177.70015372549005" x="-4187.999150932421" y="-315.8458064531741"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="139.392578125" x="19.15378780024548" y="4.3755288898173035">a tanárnő megdícsér, de
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="10.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="139.392578125" x="19.153787800244572" y="4.3755288898173035">a tanárnő megdícsér, de
 nem lesz közös témád az
 osztálytársaiddal<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
+              <y:SmartNodeLabelModel distance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
@@ -2419,9 +2419,9 @@ osztálytársaiddal<y:LabelModel>
     <node id="n137">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="59.73184912655972" width="183.4547051693403" x="-3782.9036058467027" y="-490.5243673343432"/>
+          <y:Geometry height="59.73184912655972" width="183.4547051693403" x="-3733.598609075794" y="-610.2650737779795"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.376953125" x="59.03887602217037" y="20.51533862577986">házi feladat<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2436,9 +2436,9 @@ osztálytársaiddal<y:LabelModel>
     <node id="n138">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="55.895481497326216" width="146.05012078431355" x="-3862.508234153298" y="-364.883327476946"/>
+          <y:Geometry height="55.895481497326216" width="146.05012078431355" x="-3870.9605193140255" y="-515.6157461765824"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="101.3828125" x="22.333654142156774" y="18.59715481116308">nem csinálod meg<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2453,9 +2453,9 @@ osztálytársaiddal<y:LabelModel>
     <node id="n139">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="155.64103985739757" x="-3412.0723311603233" y="-403.8951964439164"/>
+          <y:Geometry height="30.0" width="155.64103985739757" x="-3386.715475678142" y="-492.6441906315528"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="71.37109375" x="42.13497305369856" y="5.6494140625">megcsinálod<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2470,9 +2470,9 @@ osztálytársaiddal<y:LabelModel>
     <node id="n140">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="38.631827165775405" width="123.99100691622107" x="-3930.0040670231733" y="-274.7053630747727"/>
+          <y:Geometry height="38.631827165775405" width="123.99100691622107" x="-3951.134779924992" y="-393.03735532495455"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.390625" x="9.300190958110306" y="9.965327645387703">lemásolod óra előtt<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2487,9 +2487,9 @@ osztálytársaiddal<y:LabelModel>
     <node id="n141">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="45.34547051693403" width="134.54101789661354" x="-3651.2410117972418" y="-311.22389999215176"/>
+          <y:Geometry height="45.34547051693403" width="134.54101789661354" x="-3710.4070079223325" y="-422.51232127506086"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="104.716796875" x="14.912110510806542" y="5.971563383467014">felvállalod, hogy
 nem csináltad meg<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2505,9 +2505,9 @@ nem csináltad meg<y:LabelModel>
     <node id="n142">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.4272867023173" width="118.23645547237084" x="-3810.661991854196" y="-29.88167647472733"/>
+          <y:Geometry height="43.4272867023173" width="118.23645547237084" x="-3775.4441370178324" y="-165.11823904636367"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="104.06640625" x="7.085024611185418" y="5.012471476158652">nem fogod érteni a
 a tanórai anyagot<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2523,9 +2523,9 @@ a tanórai anyagot<y:LabelModel>
     <node id="n143">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="53.97729768270938" width="186.33198089126518" x="-3789.5619698934115" y="-193.88639262445992"/>
+          <y:Geometry height="53.97729768270938" width="186.33198089126518" x="-3795.1968266672307" y="-310.80967068118713"/>
           <y:Fill color="#00FFFF" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="174.77734375" x="5.777318570632815" y="10.287476966354689">szerencsédre nem tőled
 kéri el a házi feladatot a tanárnő<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2541,9 +2541,9 @@ kéri el a házi feladatot a tanárnő<y:LabelModel>
     <node id="n144">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="36.71364335115862" width="181.5365213547234" x="-3583.3572098221107" y="-182.37728973675934"/>
+          <y:Geometry height="36.71364335115862" width="181.5365213547234" x="-3598.8530659501107" y="-299.3005677934866"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="178.767578125" x="1.3844716148619227" y="9.006235738079312">a tanár leszid és bűntetést kapsz<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2558,9 +2558,9 @@ kéri el a házi feladatot a tanárnő<y:LabelModel>
     <node id="n145">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="54.936389590017825" width="166.19105083779004" x="-3837.5165652588303" y="75.67520684491944"/>
+          <y:Geometry height="54.936389590017825" width="166.19105083779004" x="-3800.0447677129396" y="-89.98958230533503"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="142.720703125" x="11.735173856394795" y="10.767022920008912">lemaradsz és rossz jegyet
 szerzel a dolgozatnál<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2576,9 +2576,9 @@ szerzel a dolgozatnál<y:LabelModel>
     <node id="n146">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="40.55001098039213" width="143.17284506238866" x="-3364.640987131802" y="-329.7097707138512"/>
+          <y:Geometry height="40.55001098039213" width="143.17284506238866" x="-3380.1368432598024" y="-412.82390812766937"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="100.71484375" x="21.22900065619433" y="10.924419552696065">a tanár megdícsér<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2593,9 +2593,9 @@ szerzel a dolgozatnál<y:LabelModel>
     <node id="n147">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="60.69094103386806" width="181.5365213547234" x="-3358.886435687952" y="-232.84148807570506"/>
+          <y:Geometry height="60.69094103386806" width="181.5365213547234" x="-3396.9217189112255" y="-317.3643396829778"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="168.771484375" x="6.382518489861468" y="13.644298641934029">érteni fogod a tanórai anyagot
 a dolgozatban jó jegyet szerzel<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -2875,9 +2875,9 @@ jegyet szerzel<y:LabelModel>
     <node id="n163">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="46.30456242424242" width="153.72285604278068" x="-3832.1412527018083" y="179.79745425442871"/>
+          <y:Geometry height="46.30456242424242" width="153.72285604278068" x="-3794.669455155917" y="15.259636458937791"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#FF0000" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="94.71484375" x="29.504006146390566" y="13.80169527462121">szüleid leszidnak<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4942,9 +4942,9 @@ a sírás miatt rádtalálnak a szüleid<y:LabelModel>
     <node id="n282">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="39.01577083810912" width="158.47473444305433" x="-3959.4819762920733" y="-171.7891582231273"/>
+          <y:Geometry height="39.01577083810912" width="158.47473444305433" x="-3967.934261452801" y="-305.61700660130913"/>
           <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#00FF00" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#339966" raised="false" type="line" width="3.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF00FF" verticalTextPosition="bottom" visible="true" width="156.091796875" x="1.1914687840271654" y="10.15729948155456">meglesz a házi feladatod így<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -6225,7 +6225,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e124" source="n0" target="n116">
+    <edge id="e124" source="n0" target="n117">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6235,27 +6235,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e125" source="n0" target="n117">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e126" source="n0" target="n118">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e127" source="n116" target="n119">
+    <edge id="e125" source="n116" target="n119">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6265,7 +6245,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e128" source="n116" target="n120">
+    <edge id="e126" source="n116" target="n120">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6275,7 +6255,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e129" source="n119" target="n122">
+    <edge id="e127" source="n119" target="n122">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6285,7 +6265,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e130" source="n119" target="n121">
+    <edge id="e128" source="n119" target="n121">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6295,7 +6275,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e131" source="n122" target="n123">
+    <edge id="e129" source="n122" target="n123">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6305,7 +6285,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e132" source="n120" target="n124">
+    <edge id="e130" source="n120" target="n124">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6315,7 +6295,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e133" source="n116" target="n126">
+    <edge id="e131" source="n116" target="n126">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6325,7 +6305,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e134" source="n124" target="n125">
+    <edge id="e132" source="n124" target="n125">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6335,7 +6315,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e135" source="n126" target="n127">
+    <edge id="e133" source="n126" target="n127">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6345,19 +6325,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e136" source="n117" target="n129">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-4174.19810120611" y="-439.01898943767276"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta_bar"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e137" source="n117" target="n128">
+    <edge id="e134" source="n117" target="n128">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6367,7 +6335,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e138" source="n131" target="n133">
+    <edge id="e135" source="n131" target="n133">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6377,7 +6345,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e139" source="n131" target="n132">
+    <edge id="e136" source="n131" target="n132">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6387,7 +6355,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e140" source="n128" target="n131">
+    <edge id="e137" source="n128" target="n131">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6397,7 +6365,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e141" source="n129" target="n130">
+    <edge id="e138" source="n129" target="n130">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6407,7 +6375,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e142" source="n132" target="n134">
+    <edge id="e139" source="n132" target="n134">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6417,7 +6385,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e143" source="n133" target="n135">
+    <edge id="e140" source="n133" target="n135">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6427,7 +6395,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e144" source="n130" target="n136">
+    <edge id="e141" source="n130" target="n136">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6437,7 +6405,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e145" source="n0" target="n137">
+    <edge id="e142" source="n0" target="n137">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6447,7 +6415,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e146" source="n137" target="n139">
+    <edge id="e143" source="n137" target="n139">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6457,7 +6425,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e147" source="n137" target="n138">
+    <edge id="e144" source="n137" target="n138">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6467,7 +6435,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e148" source="n138" target="n140">
+    <edge id="e145" source="n138" target="n140">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6477,7 +6445,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e149" source="n138" target="n141">
+    <edge id="e146" source="n138" target="n141">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6487,7 +6455,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e150" source="n141" target="n143">
+    <edge id="e147" source="n141" target="n143">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6497,7 +6465,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e151" source="n141" target="n144">
+    <edge id="e148" source="n141" target="n144">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6507,7 +6475,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e152" source="n143" target="n142">
+    <edge id="e149" source="n143" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6517,7 +6485,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e153" source="n144" target="n142">
+    <edge id="e150" source="n144" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6527,7 +6495,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e154" source="n142" target="n145">
+    <edge id="e151" source="n142" target="n145">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6537,7 +6505,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e155" source="n139" target="n146">
+    <edge id="e152" source="n139" target="n146">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6547,7 +6515,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e156" source="n146" target="n147">
+    <edge id="e153" source="n146" target="n147">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6557,7 +6525,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e157" source="n118" target="n149">
+    <edge id="e154" source="n118" target="n149">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6567,7 +6535,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e158" source="n118" target="n150">
+    <edge id="e155" source="n118" target="n150">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6577,7 +6545,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e159" source="n118" target="n148">
+    <edge id="e156" source="n118" target="n148">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6587,7 +6555,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e160" source="n148" target="n151">
+    <edge id="e157" source="n148" target="n151">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6597,7 +6565,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e161" source="n148" target="n152">
+    <edge id="e158" source="n148" target="n152">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6607,7 +6575,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e162" source="n151" target="n154">
+    <edge id="e159" source="n151" target="n154">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6617,7 +6585,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e163" source="n151" target="n153">
+    <edge id="e160" source="n151" target="n153">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6627,7 +6595,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e164" source="n154" target="n153">
+    <edge id="e161" source="n154" target="n153">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6637,7 +6605,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e165" source="n152" target="n155">
+    <edge id="e162" source="n152" target="n155">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6647,7 +6615,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e166" source="n155" target="n156">
+    <edge id="e163" source="n155" target="n156">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6657,7 +6625,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e167" source="n158" target="n159">
+    <edge id="e164" source="n158" target="n159">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6667,7 +6635,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e168" source="n158" target="n157">
+    <edge id="e165" source="n158" target="n157">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6677,7 +6645,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e169" source="n157" target="n160">
+    <edge id="e166" source="n157" target="n160">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6687,7 +6655,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e170" source="n159" target="n161">
+    <edge id="e167" source="n159" target="n161">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6697,7 +6665,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e171" source="n161" target="n162">
+    <edge id="e168" source="n161" target="n162">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6707,7 +6675,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e172" source="n145" target="n163">
+    <edge id="e169" source="n145" target="n163">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6717,7 +6685,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e173" source="n1" target="n164">
+    <edge id="e170" source="n1" target="n164">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6727,7 +6695,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e174" source="n164" target="n165">
+    <edge id="e171" source="n164" target="n165">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6737,7 +6705,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e175" source="n164" target="n166">
+    <edge id="e172" source="n164" target="n166">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6747,7 +6715,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e176" source="n164" target="n167">
+    <edge id="e173" source="n164" target="n167">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6766,7 +6734,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e177" source="n165" target="n169">
+    <edge id="e174" source="n165" target="n169">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6776,7 +6744,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e178" source="n165" target="n168">
+    <edge id="e175" source="n165" target="n168">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6786,7 +6754,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e179" source="n166" target="n168">
+    <edge id="e176" source="n166" target="n168">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6796,7 +6764,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e180" source="n168" target="n170">
+    <edge id="e177" source="n168" target="n170">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6806,7 +6774,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e181" source="n168" target="n171">
+    <edge id="e178" source="n168" target="n171">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6816,7 +6784,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e182" source="n170" target="n169">
+    <edge id="e179" source="n170" target="n169">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6826,7 +6794,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e183" source="n170" target="n172">
+    <edge id="e180" source="n170" target="n172">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6836,7 +6804,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e184" source="n171" target="n172">
+    <edge id="e181" source="n171" target="n172">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6846,7 +6814,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e185" source="n169" target="n174">
+    <edge id="e182" source="n169" target="n174">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6856,7 +6824,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e186" source="n172" target="n175">
+    <edge id="e183" source="n172" target="n175">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6866,7 +6834,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e187" source="n167" target="n173">
+    <edge id="e184" source="n167" target="n173">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6876,7 +6844,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e188" source="n173" target="n176">
+    <edge id="e185" source="n173" target="n176">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6886,7 +6854,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e189" source="n1" target="n179">
+    <edge id="e186" source="n1" target="n179">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6896,7 +6864,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e190" source="n179" target="n177">
+    <edge id="e187" source="n179" target="n177">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6906,7 +6874,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e191" source="n179" target="n178">
+    <edge id="e188" source="n179" target="n178">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6916,7 +6884,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e192" source="n177" target="n180">
+    <edge id="e189" source="n177" target="n180">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6926,7 +6894,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e193" source="n180" target="n181">
+    <edge id="e190" source="n180" target="n181">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6936,7 +6904,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e194" source="n180" target="n182">
+    <edge id="e191" source="n180" target="n182">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6946,7 +6914,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e195" source="n180" target="n183">
+    <edge id="e192" source="n180" target="n183">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6956,7 +6924,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e196" source="n181" target="n184">
+    <edge id="e193" source="n181" target="n184">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6966,7 +6934,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e197" source="n184" target="n185">
+    <edge id="e194" source="n184" target="n185">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6976,7 +6944,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e198" source="n178" target="n187">
+    <edge id="e195" source="n178" target="n187">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6986,7 +6954,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e199" source="n187" target="n188">
+    <edge id="e196" source="n187" target="n188">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6996,7 +6964,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e200" source="n181" target="n185">
+    <edge id="e197" source="n181" target="n185">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7006,7 +6974,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e201" source="n183" target="n186">
+    <edge id="e198" source="n183" target="n186">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7016,7 +6984,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e202" source="n182" target="n186">
+    <edge id="e199" source="n182" target="n186">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7026,7 +6994,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e203" source="n186" target="n189">
+    <edge id="e200" source="n186" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7036,7 +7004,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e204" source="n189" target="n187">
+    <edge id="e201" source="n189" target="n187">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7046,7 +7014,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e205" source="n186" target="n190">
+    <edge id="e202" source="n186" target="n190">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7056,7 +7024,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e206" source="n1" target="n191">
+    <edge id="e203" source="n1" target="n191">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7066,7 +7034,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e207" source="n191" target="n194">
+    <edge id="e204" source="n191" target="n194">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7076,7 +7044,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e208" source="n191" target="n193">
+    <edge id="e205" source="n191" target="n193">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7086,7 +7054,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e209" source="n194" target="n197">
+    <edge id="e206" source="n194" target="n197">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7096,7 +7064,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e210" source="n194" target="n195">
+    <edge id="e207" source="n194" target="n195">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7106,7 +7074,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e211" source="n195" target="n198">
+    <edge id="e208" source="n195" target="n198">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7116,7 +7084,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e212" source="n197" target="n191">
+    <edge id="e209" source="n197" target="n191">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7126,7 +7094,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e213" source="n193" target="n196">
+    <edge id="e210" source="n193" target="n196">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7136,7 +7104,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e214" source="n192" target="n196">
+    <edge id="e211" source="n192" target="n196">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7146,7 +7114,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e215" source="n191" target="n192">
+    <edge id="e212" source="n191" target="n192">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7156,7 +7124,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e216" source="n193" target="n199">
+    <edge id="e213" source="n193" target="n199">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7166,7 +7134,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e217" source="n199" target="n200">
+    <edge id="e214" source="n199" target="n200">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7176,7 +7144,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e218" source="n196" target="n201">
+    <edge id="e215" source="n196" target="n201">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7186,7 +7154,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e219" source="n196" target="n200">
+    <edge id="e216" source="n196" target="n200">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7196,7 +7164,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e220" source="n201" target="n202">
+    <edge id="e217" source="n201" target="n202">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7206,7 +7174,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e221" source="n202" target="n198">
+    <edge id="e218" source="n202" target="n198">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7216,7 +7184,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e222" source="n1" target="n206">
+    <edge id="e219" source="n1" target="n206">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7226,7 +7194,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e223" source="n207" target="n208">
+    <edge id="e220" source="n207" target="n208">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7236,7 +7204,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e224" source="n208" target="n209">
+    <edge id="e221" source="n208" target="n209">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7246,7 +7214,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e225" source="n208" target="n210">
+    <edge id="e222" source="n208" target="n210">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7256,7 +7224,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e226" source="n208" target="n211">
+    <edge id="e223" source="n208" target="n211">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7266,7 +7234,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e227" source="n210" target="n212">
+    <edge id="e224" source="n210" target="n212">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7276,7 +7244,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e228" source="n212" target="n214">
+    <edge id="e225" source="n212" target="n214">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7286,7 +7254,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e229" source="n212" target="n213">
+    <edge id="e226" source="n212" target="n213">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7296,7 +7264,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e230" source="n214" target="n215">
+    <edge id="e227" source="n214" target="n215">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7306,7 +7274,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e231" source="n215" target="n216">
+    <edge id="e228" source="n215" target="n216">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7316,7 +7284,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e232" source="n209" target="n218">
+    <edge id="e229" source="n209" target="n218">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7326,7 +7294,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e233" source="n209" target="n217">
+    <edge id="e230" source="n209" target="n217">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7336,7 +7304,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e234" source="n217" target="n219">
+    <edge id="e231" source="n217" target="n219">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7346,7 +7314,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e235" source="n218" target="n220">
+    <edge id="e232" source="n218" target="n220">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7356,7 +7324,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e236" source="n220" target="n209">
+    <edge id="e233" source="n220" target="n209">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7370,7 +7338,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e237" source="n220" target="n210">
+    <edge id="e234" source="n220" target="n210">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7380,7 +7348,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e238" source="n220" target="n215">
+    <edge id="e235" source="n220" target="n215">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7390,7 +7358,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e239" source="n219" target="n221">
+    <edge id="e236" source="n219" target="n221">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7402,7 +7370,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e240" source="n213" target="n221">
+    <edge id="e237" source="n213" target="n221">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7412,7 +7380,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e241" source="n211" target="n222">
+    <edge id="e238" source="n211" target="n222">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7422,7 +7390,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e242" source="n211" target="n223">
+    <edge id="e239" source="n211" target="n223">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7432,7 +7400,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e243" source="n222" target="n220">
+    <edge id="e240" source="n222" target="n220">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7445,7 +7413,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e244" source="n223" target="n221">
+    <edge id="e241" source="n223" target="n221">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7457,7 +7425,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e245" source="n224" target="n225">
+    <edge id="e242" source="n224" target="n225">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7467,7 +7435,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e246" source="n225" target="n226">
+    <edge id="e243" source="n225" target="n226">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7477,7 +7445,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e247" source="n225" target="n227">
+    <edge id="e244" source="n225" target="n227">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7487,7 +7455,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e248" source="n226" target="n228">
+    <edge id="e245" source="n226" target="n228">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7497,7 +7465,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e249" source="n228" target="n227">
+    <edge id="e246" source="n228" target="n227">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7507,7 +7475,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e250" source="n228" target="n229">
+    <edge id="e247" source="n228" target="n229">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7517,7 +7485,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e251" source="n229" target="n230">
+    <edge id="e248" source="n229" target="n230">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7527,7 +7495,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e252" source="n229" target="n231">
+    <edge id="e249" source="n229" target="n231">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7537,7 +7505,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e253" source="n231" target="n232">
+    <edge id="e250" source="n231" target="n232">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7547,7 +7515,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e254" source="n230" target="n233">
+    <edge id="e251" source="n230" target="n233">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7557,7 +7525,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e255" source="n233" target="n234">
+    <edge id="e252" source="n233" target="n234">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7567,7 +7535,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e256" source="n233" target="n235">
+    <edge id="e253" source="n233" target="n235">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7577,7 +7545,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e257" source="n234" target="n236">
+    <edge id="e254" source="n234" target="n236">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7587,7 +7555,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e258" source="n235" target="n237">
+    <edge id="e255" source="n235" target="n237">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7597,7 +7565,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e259" source="n232" target="n238">
+    <edge id="e256" source="n232" target="n238">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7607,7 +7575,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e260" source="n232" target="n239">
+    <edge id="e257" source="n232" target="n239">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7617,7 +7585,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e261" source="n238" target="n240">
+    <edge id="e258" source="n238" target="n240">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7627,7 +7595,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e262" source="n232" target="n227">
+    <edge id="e259" source="n232" target="n227">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7637,7 +7605,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e263" source="n236" target="n241">
+    <edge id="e260" source="n236" target="n241">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7647,7 +7615,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e264" source="n237" target="n241">
+    <edge id="e261" source="n237" target="n241">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7657,7 +7625,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e265" source="n239" target="n241">
+    <edge id="e262" source="n239" target="n241">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7669,7 +7637,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e266" source="n227" target="n241">
+    <edge id="e263" source="n227" target="n241">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7681,7 +7649,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e267" source="n240" target="n242">
+    <edge id="e264" source="n240" target="n242">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7691,7 +7659,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e268" source="n206" target="n243">
+    <edge id="e265" source="n206" target="n243">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7701,7 +7669,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e269" source="n206" target="n244">
+    <edge id="e266" source="n206" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7711,7 +7679,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e270" source="n243" target="n245">
+    <edge id="e267" source="n243" target="n245">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7721,7 +7689,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e271" source="n244" target="n246">
+    <edge id="e268" source="n244" target="n246">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7731,7 +7699,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e272" source="n243" target="n246">
+    <edge id="e269" source="n243" target="n246">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7741,7 +7709,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e273" source="n246" target="n247">
+    <edge id="e270" source="n246" target="n247">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7751,7 +7719,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e274" source="n247" target="n248">
+    <edge id="e271" source="n247" target="n248">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7761,7 +7729,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e275" source="n247" target="n249">
+    <edge id="e272" source="n247" target="n249">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7771,7 +7739,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e276" source="n248" target="n250">
+    <edge id="e273" source="n248" target="n250">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7781,7 +7749,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e277" source="n250" target="n245">
+    <edge id="e274" source="n250" target="n245">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7791,7 +7759,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e278" source="n248" target="n251">
+    <edge id="e275" source="n248" target="n251">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7801,7 +7769,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e279" source="n249" target="n251">
+    <edge id="e276" source="n249" target="n251">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7811,7 +7779,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e280" source="n5" target="n203">
+    <edge id="e277" source="n5" target="n203">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7821,7 +7789,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e281" source="n5" target="n204">
+    <edge id="e278" source="n5" target="n204">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7831,7 +7799,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e282" source="n5" target="n205">
+    <edge id="e279" source="n5" target="n205">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7841,7 +7809,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e283" source="n203" target="n252">
+    <edge id="e280" source="n203" target="n252">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7851,7 +7819,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e284" source="n203" target="n253">
+    <edge id="e281" source="n203" target="n253">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7861,7 +7829,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e285" source="n254" target="n203">
+    <edge id="e282" source="n254" target="n203">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -7873,7 +7841,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e286" source="n252" target="n254">
+    <edge id="e283" source="n252" target="n254">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7883,7 +7851,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e287" source="n252" target="n255">
+    <edge id="e284" source="n252" target="n255">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7893,7 +7861,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e288" source="n257" target="n252">
+    <edge id="e285" source="n257" target="n252">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7903,7 +7871,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e289" source="n257" target="n256">
+    <edge id="e286" source="n257" target="n256">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7913,7 +7881,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e290" source="n256" target="n259">
+    <edge id="e287" source="n256" target="n259">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7923,7 +7891,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e291" source="n257" target="n258">
+    <edge id="e288" source="n257" target="n258">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7933,7 +7901,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e292" source="n259" target="n260">
+    <edge id="e289" source="n259" target="n260">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7943,7 +7911,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e293" source="n260" target="n262">
+    <edge id="e290" source="n260" target="n262">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7953,7 +7921,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e294" source="n260" target="n258">
+    <edge id="e291" source="n260" target="n258">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7963,7 +7931,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e295" source="n258" target="n263">
+    <edge id="e292" source="n258" target="n263">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7973,7 +7941,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e296" source="n259" target="n261">
+    <edge id="e293" source="n259" target="n261">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7983,7 +7951,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e297" source="n261" target="n264">
+    <edge id="e294" source="n261" target="n264">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7993,7 +7961,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e298" source="n264" target="n263">
+    <edge id="e295" source="n264" target="n263">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8003,7 +7971,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e299" source="n253" target="n257">
+    <edge id="e296" source="n253" target="n257">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8013,7 +7981,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e300" source="n204" target="n265">
+    <edge id="e297" source="n204" target="n265">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8023,7 +7991,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e301" source="n204" target="n266">
+    <edge id="e298" source="n204" target="n266">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8033,7 +8001,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e302" source="n266" target="n267">
+    <edge id="e299" source="n266" target="n267">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8043,7 +8011,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e303" source="n265" target="n268">
+    <edge id="e300" source="n265" target="n268">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8053,7 +8021,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e304" source="n266" target="n269">
+    <edge id="e301" source="n266" target="n269">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8063,7 +8031,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e305" source="n269" target="n270">
+    <edge id="e302" source="n269" target="n270">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8073,7 +8041,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e306" source="n270" target="n271">
+    <edge id="e303" source="n270" target="n271">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8083,7 +8051,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e307" source="n267" target="n265">
+    <edge id="e304" source="n267" target="n265">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8093,7 +8061,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e308" source="n205" target="n265">
+    <edge id="e305" source="n205" target="n265">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8103,7 +8071,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e309" source="n205" target="n272">
+    <edge id="e306" source="n205" target="n272">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8113,7 +8081,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e310" source="n272" target="n273">
+    <edge id="e307" source="n272" target="n273">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8123,7 +8091,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e311" source="n273" target="n274">
+    <edge id="e308" source="n273" target="n274">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8133,7 +8101,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e312" source="n149" target="n158">
+    <edge id="e309" source="n149" target="n158">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8143,7 +8111,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e313" source="n150" target="n158">
+    <edge id="e310" source="n150" target="n158">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8153,7 +8121,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e314" source="n108" target="n275">
+    <edge id="e311" source="n108" target="n275">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8163,7 +8131,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e315" source="n275" target="n276">
+    <edge id="e312" source="n275" target="n276">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8173,7 +8141,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e316" source="n276" target="n277">
+    <edge id="e313" source="n276" target="n277">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8183,7 +8151,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e317" source="n276" target="n278">
+    <edge id="e314" source="n276" target="n278">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8193,7 +8161,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e318" source="n277" target="n281">
+    <edge id="e315" source="n277" target="n281">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8203,7 +8171,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e319" source="n275" target="n279">
+    <edge id="e316" source="n275" target="n279">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8213,7 +8181,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e320" source="n280" target="n102">
+    <edge id="e317" source="n280" target="n102">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8223,7 +8191,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e321" source="n140" target="n282">
+    <edge id="e318" source="n140" target="n282">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8233,7 +8201,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e322" source="n282" target="n142">
+    <edge id="e319" source="n282" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8243,7 +8211,7 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e323" source="n279" target="n283">
+    <edge id="e320" source="n279" target="n283">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8253,7 +8221,40 @@ múlva meglesz a tárgy<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e324" source="n79" target="n86">
+    <edge id="e321" source="n79" target="n86">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e322" source="n117" target="n129">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta_bar"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e323" source="n0" target="n116">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e324" source="n0" target="n118">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
