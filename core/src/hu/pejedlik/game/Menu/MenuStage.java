@@ -49,6 +49,7 @@ public class MenuStage extends MyStage {
     public void init() {
         super.init();
         addBackEventStackListener();
+        setCameraResetToLeftBottomOfScreen();
 
         // Settings button reposition
         OneSpriteStaticActor settingsButton = super.getSettingsButton();

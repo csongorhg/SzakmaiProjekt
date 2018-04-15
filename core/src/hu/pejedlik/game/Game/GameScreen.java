@@ -68,13 +68,14 @@ public class GameScreen extends MyScreen{
             OrthographicCamera cam;
             @Override
             public void init() {
-                setCameraResetToLeftBottomOfScreen();
+                //setCameraResetToLeftBottomOfScreen();
                 table = new Table();
                 table.setFillParent(true);
                 a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
-                a.setBounds(0,0,Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+                a.setBounds(0,0, getViewport().getWorldWidth(), getViewport().getWorldHeight());
                 a.setAlpha(0.7f);
                 addActor(a);
+                setCameraResetToLeftBottomOfScreen();
                 label = new Label("asd",Assets.manager.get(Assets.SKIN)){
                     Pixmap a = new Pixmap(1,1, Pixmap.Format.RGB888);
                     Sprite text = new Sprite(new Texture(a));
@@ -93,13 +94,12 @@ public class GameScreen extends MyScreen{
                 table.row();
                 table.add(label).spaceTop(5f);
                 addActor(table);
-                cam = (OrthographicCamera)this.getCamera();
             }
+
             @Override
             public void act(float delta)
             {
                     a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
-                    a.setBounds(0,0,this.getViewport().getScreenWidth(),this.getViewport().getScreenHeight());
                     label.setText(Assets.getImg(EventType.currentId).getSubtitle());
             }
         };

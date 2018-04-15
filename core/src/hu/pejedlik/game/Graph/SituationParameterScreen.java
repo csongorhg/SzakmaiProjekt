@@ -59,5 +59,6 @@ public class SituationParameterScreen extends MyScreen {
         Gdx.input.setInputProcessor(im);
         setBackGroundColor(1f, 1f, 1f);
         sr = new ShapeRenderer();
+
     }
 }

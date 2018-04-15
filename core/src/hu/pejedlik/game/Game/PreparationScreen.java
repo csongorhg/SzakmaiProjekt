@@ -36,16 +36,13 @@ public class PreparationScreen extends MyScreen {
     private Stage stage;
     private OneSpriteStaticActor loadingImage1, loadingImage2, loadingLine;
     private float elapsedTime;
-    private MyLabel eventLabel;
+    private MyLabel eventLabel, loadingLabel;
 
 
     public PreparationScreen(MyGdxGame game) {
         super(game);
 
-        loadingLine = new OneSpriteStaticActor("load/blackline.png");
-        loadingLine.setSize(0, loadingLine.getHeight() / 2);
-        loadingLine.setPosition(0, 0);
-        stage.addActor(loadingLine);
+
     }
 
     @Override
@@ -156,9 +153,21 @@ public class PreparationScreen extends MyScreen {
                 stage.getViewport().getWorldHeight() - eventLabel.getHeight() * 2);
         eventLabel.setColor(0f, 0f, 0f, 1f);
 
+        loadingLine = new OneSpriteStaticActor("load/blackline.png");
+        loadingLine.setSize(0, loadingLine.getHeight() / 2);
+        loadingLine.setPosition(0, 0);
+
+        loadingLabel = new MyLabel("Loading...", game.getSkin());
+        loadingLabel.setPosition(stage.getViewport().getWorldWidth(
+                ) / 2 - loadingLabel.getWidth() / 2,
+                loadingLine.getY() + loadingLabel.getHeight());
+        loadingLabel.setColor(0f, 0f, 0f, 1f);
+
         stage.addActor(loadingImage1);
         stage.addActor(loadingImage2);
         stage.addActor(eventLabel);
+        stage.addActor(loadingLine);
+        stage.addActor(loadingLabel);
 
         Assets.readImages = new Array<ReadImages>();
     }

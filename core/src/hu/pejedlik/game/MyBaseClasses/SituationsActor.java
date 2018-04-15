@@ -20,36 +20,36 @@ import hu.pejedlik.game.Loading.EventType;
  * Created by Felhasznalo on 2018. 03. 06..
  */
 
-public class SituationsActor extends Actor{
+public class SituationsActor extends Actor {
     private Sprite img;
     private float f = 0;
     private boolean firstclick = true;
     private Label label;
-    public SituationsActor(final String id,final boolean button)
-    {
+
+    public SituationsActor(final String id, final boolean button) {
         final ReadImages a = Assets.getImg(id);
-        if(!button) {
+        if (!button) {
             this.setDebug(true);
             if (a.isPlayed()) {
                 img = new Sprite((Texture) Assets.manager.get(a.getPath()));
             } else {
                 img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
             }
-            label = new Label(a.getSubtitle(),Assets.manager.get(Assets.SKIN));
-        }
-        else
-        {
+            label = new Label(a.getSubtitle(), Assets.manager.get(Assets.SKIN));
+        } else {
             img = new Sprite(Assets.manager.get(Assets.CLOSE_TEXTURE));
         }
         img.setAlpha(f);
-        this.addListener(new ClickListener(){
+        this.addListener(new ClickListener() {
 
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                    EventType.currentId = id;
-                    a.setPlayed(true);
-                    GameStage.Newactor = true;
+                EventType.currentId = id;
+                a.setPlayed(true);
+                GameStage.Newactor = true;
+
+                System.out.println("Hello");
             }
         });
     }
@@ -58,11 +58,9 @@ public class SituationsActor extends Actor{
     public void draw(Batch batch, float parentAlpha) {
         super.draw(batch, parentAlpha);
         img.draw(batch);
-        if(f <1)
-        {
-            f+= 0.01f;
-            if(f > 1)
-            {
+        if (f < 1) {
+            f += 0.01f;
+            if (f > 1) {
                 f = 1;
             }
         }
@@ -75,18 +73,18 @@ public class SituationsActor extends Actor{
     @Override
     public void setBounds(float x, float y, float width, float height) {
         super.setBounds(x, y, width, height);
-        img.setBounds(x,y,width,height);
+        img.setBounds(x, y, width, height);
     }
 
     @Override
     public void drawDebug(ShapeRenderer shapes) {
-        if(f==1) {
+        if (f == 1) {
             shapes.set(ShapeRenderer.ShapeType.Filled);
             shapes.setColor(Color.BLACK);
-            shapes.rectLine(this.getX(),this.getY(),this.getX()+this.getWidth(),this.getY(),2.5f);
-            shapes.rectLine(this.getX(),this.getY(),this.getX(),this.getY()+this.getHeight(),2.5f);
-            shapes.rectLine(this.getX(),this.getY()+this.getHeight(),this.getX()+this.getWidth(),this.getY()+this.getHeight(),2);
-            shapes.rectLine(this.getX()+this.getWidth(),this.getY()+this.getHeight(),this.getX()+this.getWidth(),this.getY(),2);
+            shapes.rectLine(this.getX(), this.getY(), this.getX() + this.getWidth(), this.getY(), 2.5f);
+            shapes.rectLine(this.getX(), this.getY(), this.getX(), this.getY() + this.getHeight(), 2.5f);
+            shapes.rectLine(this.getX(), this.getY() + this.getHeight(), this.getX() + this.getWidth(), this.getY() + this.getHeight(), 2);
+            shapes.rectLine(this.getX() + this.getWidth(), this.getY() + this.getHeight(), this.getX() + this.getWidth(), this.getY(), 2);
 
         }
     }

@@ -43,7 +43,6 @@ public class GameStage extends MyStage {
     @Override
     public void init() {
         super.init();
-        System.out.println(Assets.getChilderns(EventType.currentId));
         setCameraResetToLeftBottomOfScreen();
         addBackEventStackListener();
         table = new Table();
@@ -61,13 +60,15 @@ public class GameStage extends MyStage {
                 while (!a.equals(Assets.readImages.get(i).getId())) {
                     i++;
                 }
+
                 table.add(new SituationsActor(a,false)).size(300, 300).center().spaceLeft(50f);
-                MyLabel myLabel = new MyLabel(Assets.readImages.get(i).getSubtitle(), game.getSkin());
+                /*MyLabel myLabel = new MyLabel(Assets.readImages.get(i).getSubtitle(), game.getSkin());
                 //myLabel.setPosition(?,?);
-                addActor(myLabel);
+                addActor(myLabel);*/
 
             }
         }
+
     }
     private void button()
     {
