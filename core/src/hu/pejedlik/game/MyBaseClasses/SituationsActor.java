@@ -6,8 +6,8 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
@@ -23,35 +23,59 @@ import hu.pejedlik.game.Loading.EventType;
 public class SituationsActor extends Actor {
     private Sprite img;
     private float f = 0;
-    private boolean firstclick = true;
+    public boolean firstclick = true;
+    public static boolean clicked= false;
     private Label label;
+    public String id;
+    public static String first;
 
     public SituationsActor(final String id, final boolean button) {
-        final ReadImages a = Assets.getImg(id);
-        if (!button) {
-            this.setDebug(true);
-            if (a.isPlayed()) {
-                img = new Sprite((Texture) Assets.manager.get(a.getPath()));
+        this.id = id;
+
+            final ReadImages a = Assets.getImg(id);
+            if (!button) {
+                this.setDebug(true);
+                if (a.isPlayed()) {
+                    img = new Sprite((Texture) Assets.manager.get(a.getPath()));
+                } else {
+                    img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
+                }
+                label = new Label(a.getSubtitle(), Assets.manager.get(Assets.SKIN));
             } else {
-                img = new Sprite((Texture) Assets.manager.get(a.getPath2()));
+                img = new Sprite(Assets.manager.get(Assets.CLOSE_TEXTURE));
             }
-            label = new Label(a.getSubtitle(), Assets.manager.get(Assets.SKIN));
-        } else {
-            img = new Sprite(Assets.manager.get(Assets.CLOSE_TEXTURE));
+            img.setAlpha(f);
+        if(!id.equals("END")) {
+            this.addListener(new ClickListener() {
+
+                @Override
+                public void clicked(InputEvent event, float x, float y) {
+                    super.clicked(event, x, y);
+                    EventType.currentId = id;
+                    if(!firstclick || button) {
+                        a.setPlayed(true);
+                        GameStage.Newactor = true;
+                    }
+                    else {
+                        first = id;
+                        firstclick = false;
+                        clicked = true;
+                    }
+
+                }
+            });
         }
-        img.setAlpha(f);
-        this.addListener(new ClickListener() {
+        else
+        {
+            this.addListener(new ClickListener(){
 
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                super.clicked(event, x, y);
-                EventType.currentId = id;
-                a.setPlayed(true);
-                GameStage.Newactor = true;
-
-                System.out.println("Hello");
-            }
-        });
+                @Override
+                public void clicked(InputEvent event, float x, float y) {
+                    GameStage.END = true;
+                    super.clicked(event, x, y);
+                }
+            });
+        }
     }
 
     @Override
@@ -72,8 +96,8 @@ public class SituationsActor extends Actor {
 
     @Override
     public void setBounds(float x, float y, float width, float height) {
-        super.setBounds(x, y, width, height);
-        img.setBounds(x, y, width, height);
+            super.setBounds(x, y, width, height);
+            img.setBounds(x, y, width, height);
     }
 
     @Override

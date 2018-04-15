@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Event;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Cell;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
@@ -34,6 +35,7 @@ import hu.pejedlik.game.MyGdxGame;
 
 public class GameStage extends MyStage {
     public static boolean Newactor = false;
+    public static boolean END = false;
     private Array<String> imgs;
     Table table;
     public GameStage(Viewport viewport, Batch batch, MyGdxGame game) {
@@ -68,6 +70,10 @@ public class GameStage extends MyStage {
 
             }
         }
+        else
+        {
+            table.add(new SituationsActor("END", false)).size(100, 100).center().spaceLeft(50f);
+        }
 
     }
     private void button()
@@ -101,6 +107,10 @@ public class GameStage extends MyStage {
             }
             table.add(new SituationsActor(endid, true)).size(100, 100).center().spaceLeft(50f);
         }
+        else
+        {
+            table.add(new SituationsActor("END", true)).size(100, 100).center().spaceLeft(50f);
+        }
     }
     @Override
     public void act(float delta) {
@@ -119,7 +129,23 @@ public class GameStage extends MyStage {
                 button();
             }
             Newactor = false;
+        }
+        if(SituationsActor.clicked) {
+            for (Cell a : table.getCells()) {
+                SituationsActor actor = (SituationsActor) a.getActor();
+                if(!actor.id.equals(SituationsActor.first)) {
+                    actor.firstclick = true;
+                }
 
+
+
+
+            }
+            SituationsActor.clicked = false;
+        }
+        if(END)
+        {
+            game.setScreenBackByStackPop();
         }
     }
 

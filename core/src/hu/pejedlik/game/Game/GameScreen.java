@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
@@ -43,6 +44,7 @@ public class GameScreen extends MyScreen{
         bgStage.draw();
         gameStage.act(delta);
         gameStage.draw();
+
     }
 
     @Override
@@ -68,7 +70,6 @@ public class GameScreen extends MyScreen{
             OrthographicCamera cam;
             @Override
             public void init() {
-                //setCameraResetToLeftBottomOfScreen();
                 table = new Table();
                 table.setFillParent(true);
                 a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
@@ -88,18 +89,20 @@ public class GameScreen extends MyScreen{
                     }
                 };
                 label.setColor(Color.WHITE);
-                label.setFontScale(2f);
                 label.setText(Assets.getImg(EventType.currentId).getSubtitle());
                 table.top();
                 table.row();
                 table.add(label).spaceTop(5f);
                 addActor(table);
+                ShapeRenderer sr = new ShapeRenderer();
             }
 
             @Override
             public void act(float delta)
             {
+                if(GameStage.Newactor) {
                     a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+                }
                     label.setText(Assets.getImg(EventType.currentId).getSubtitle());
             }
         };
