@@ -66,7 +66,7 @@ public class GraphStage extends Stage implements GestureDetector.GestureListener
     @Override
     public boolean zoom(float initialDistance, float distance) {
        float ratio = initialDistance / distance;
-       c.zoom *=ratio;
+       //c.zoom *=ratio;
 
 
         return false;
