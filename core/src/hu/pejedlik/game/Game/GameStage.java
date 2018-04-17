@@ -118,6 +118,7 @@ public class GameStage extends MyStage {
         super.act(delta);
         if(Newactor)
         {
+            System.out.println(EventType.currentId);
             if(imgs != null) {
                 imgs.clear();
                 table.clear();

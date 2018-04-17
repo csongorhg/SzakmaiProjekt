@@ -1,5 +1,7 @@
 package hu.pejedlik.game.Loading;
 
+import com.badlogic.gdx.utils.Array;
+
 /**
  * Created by Hegedüs Csongor on 2/14/2018.
  */
@@ -17,6 +19,7 @@ public enum EventType {
     public static EventType currentEventType;
     private final String text;
     public static String currentId;
+    public static Array<String> last = new Array<String>();
 
     EventType(final String text) {
         this.text = text;

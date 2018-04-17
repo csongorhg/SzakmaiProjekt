@@ -51,16 +51,21 @@ public class SituationsActor extends Actor {
                 @Override
                 public void clicked(InputEvent event, float x, float y) {
                     super.clicked(event, x, y);
-                    EventType.currentId = id;
                     if(!firstclick || button) {
+                        if(button)
+                        {
+                            EventType.last.add(EventType.currentId);
+                        }
                         a.setPlayed(true);
                         GameStage.Newactor = true;
                     }
                     else {
+                        EventType.last.add(EventType.currentId);
                         first = id;
                         firstclick = false;
                         clicked = true;
                     }
+                    EventType.currentId = id;
 
                 }
             });

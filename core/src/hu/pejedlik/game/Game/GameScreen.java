@@ -8,8 +8,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
+import com.badlogic.gdx.scenes.scene2d.Event;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
 import hu.pejedlik.game.GlobalClasses.Assets;
@@ -60,6 +63,26 @@ public class GameScreen extends MyScreen{
     @Override
     public void init() {
         gameStage = new GameStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280,720)),spriteBatch,game);
+        OneSpriteStaticActor a = new OneSpriteStaticActor(Assets.manager.get(Assets.CLOSE_TEXTURE));
+        a.addListener(new ClickListener(){
+
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                if(EventType.last.size != 0) {
+                    EventType.currentId = EventType.last.get(EventType.last.size - 1);
+                    EventType.last.removeIndex(EventType.last.size - 1);
+                    GameStage.Newactor = true;
+                    super.clicked(event, x, y);
+                }
+                else
+                {
+                    game.setScreenBackByStackPop();
+                }
+            }
+        });
+        a.setPosition(gameStage.getCamera().viewportWidth-a.getWidth(),0);
+        a.setSize(100,100);
+        gameStage.addActor(a);
         bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
 
             OneSpriteStaticActor a;
