@@ -50,6 +50,7 @@ public class GameStage extends MyStage {
         table = new Table();
         table.setFillParent(true);
         Newactor = true;
+        END = false;
         this.addActor(table);
 
     }
