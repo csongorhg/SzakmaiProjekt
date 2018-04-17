@@ -28,10 +28,10 @@ public class SituationsActor extends Actor {
     private Label label;
     public String id;
     public static String first;
+    private String last;
 
     public SituationsActor(final String id, final boolean button) {
         this.id = id;
-
             final ReadImages a = Assets.getImg(id);
             if (!button) {
                 this.setDebug(true);
@@ -52,20 +52,18 @@ public class SituationsActor extends Actor {
                 public void clicked(InputEvent event, float x, float y) {
                     super.clicked(event, x, y);
                     if(!firstclick || button) {
-                        if(button)
-                        {
-                            EventType.last.add(EventType.currentId);
-                        }
                         a.setPlayed(true);
                         GameStage.Newactor = true;
+                        EventType.last.add(EventType.currentId);
+                        EventType.currentId = id;
+
                     }
                     else {
-                        EventType.last.add(EventType.currentId);
                         first = id;
                         firstclick = false;
                         clicked = true;
                     }
-                    EventType.currentId = id;
+                     EventType.nextId = id;
 
                 }
             });

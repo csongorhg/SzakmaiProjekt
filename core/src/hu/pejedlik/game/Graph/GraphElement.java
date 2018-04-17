@@ -64,6 +64,7 @@ public class GraphElement extends Actor {
                 if(readImages.isPlayed())
                 {
                    EventType.currentId = stiuationId;
+                    EventType.nextId = stiuationId;
                     game.setScreen(new GameScreen(game),true);
 
                 }

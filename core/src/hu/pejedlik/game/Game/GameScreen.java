@@ -63,13 +63,14 @@ public class GameScreen extends MyScreen{
     @Override
     public void init() {
         gameStage = new GameStage(new ExtendViewport(1280, 720, new OrthographicCamera(1280,720)),spriteBatch,game);
-        OneSpriteStaticActor a = new OneSpriteStaticActor(Assets.manager.get(Assets.CLOSE_TEXTURE));
+        OneSpriteStaticActor a = new OneSpriteStaticActor(Assets.manager.get(Assets.BACK_TEXTURE));
         a.addListener(new ClickListener(){
 
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 if(EventType.last.size != 0) {
                     EventType.currentId = EventType.last.get(EventType.last.size - 1);
+                    EventType.nextId = EventType.currentId;
                     EventType.last.removeIndex(EventType.last.size - 1);
                     GameStage.Newactor = true;
                     super.clicked(event, x, y);
@@ -80,8 +81,8 @@ public class GameScreen extends MyScreen{
                 }
             }
         });
-        a.setPosition(gameStage.getCamera().viewportWidth-a.getWidth(),0);
         a.setSize(100,100);
+        a.setPosition(gameStage.getViewport().getCamera().viewportWidth-a.getWidth(),0);
         gameStage.addActor(a);
         bgStage = new MyStage(new ExtendViewport(1280,720, new OrthographicCamera(1280,720)), spriteBatch, game) {
 
@@ -93,7 +94,7 @@ public class GameScreen extends MyScreen{
             public void init() {
                 table = new Table();
                 table.setFillParent(true);
-                a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+                a = new OneSpriteStaticActor((Texture)Assets.manager.get(Assets.getImg(EventType.nextId).getPath()));
                 a.setBounds(0,0, getViewport().getWorldWidth(), getViewport().getWorldHeight());
                 a.setAlpha(0.7f);
                 addActor(a);
@@ -110,7 +111,7 @@ public class GameScreen extends MyScreen{
                     }
                 };
                 label.setColor(Color.WHITE);
-                label.setText(Assets.getImg(EventType.currentId).getSubtitle());
+                label.setText(Assets.getImg(EventType.nextId).getSubtitle());
                 table.top();
                 table.row();
                 table.add(label).spaceTop(5f);
@@ -122,9 +123,9 @@ public class GameScreen extends MyScreen{
             public void act(float delta)
             {
                 if(GameStage.Newactor) {
-                    a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.currentId).getPath()));
+                    a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.nextId).getPath()));
                 }
-                    label.setText(Assets.getImg(EventType.currentId).getSubtitle());
+                    label.setText(Assets.getImg(EventType.nextId).getSubtitle());
             }
         };
         Gdx.input.setInputProcessor(gameStage);
