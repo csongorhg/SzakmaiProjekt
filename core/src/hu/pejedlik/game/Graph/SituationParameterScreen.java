@@ -10,6 +10,7 @@ import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
 import java.util.Locale;
 
+import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.MyBaseClasses.MyScreen;
 import hu.pejedlik.game.MyGdxGame;
 

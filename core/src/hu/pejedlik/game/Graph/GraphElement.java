@@ -8,13 +8,10 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 
-import java.util.ArrayList;
-
 import hu.pejedlik.game.Game.GameScreen;
 import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Loading.EventType;
-import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyGdxGame;
 
 /**

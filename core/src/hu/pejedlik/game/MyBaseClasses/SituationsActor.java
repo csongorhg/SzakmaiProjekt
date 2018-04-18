@@ -42,7 +42,8 @@ public class SituationsActor extends Actor {
                 }
                 label = new Label(a.getSubtitle(), Assets.manager.get(Assets.SKIN));
             } else {
-                img = new Sprite(Assets.manager.get(Assets.CLOSE_TEXTURE));
+                img = new Sprite(Assets.manager.get(Assets.BACK_TEXTURE));
+                img.flip(true,false);
             }
             img.setAlpha(f);
         if(!id.equals("END")) {

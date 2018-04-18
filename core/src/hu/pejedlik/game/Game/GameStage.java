@@ -52,6 +52,7 @@ public class GameStage extends MyStage {
         Newactor = true;
         END = false;
         this.addActor(table);
+        EventType.last.clear();
 
     }
     private void actors()
