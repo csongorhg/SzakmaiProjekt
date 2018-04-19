@@ -5,6 +5,10 @@ import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 
+import hu.pejedlik.game.Game.ReadImages;
+import hu.pejedlik.game.GlobalClasses.Assets;
+import hu.pejedlik.game.Loading.EventType;
+
 /**
  * Created by Felhasznalo on 2018. 02. 26..
  */

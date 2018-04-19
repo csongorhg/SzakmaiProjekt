@@ -11,6 +11,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 import hu.pejedlik.game.Game.PreparationScreen;
+import hu.pejedlik.game.Game.ReadImages;
 import hu.pejedlik.game.GlobalClasses.Assets;
 import hu.pejedlik.game.Graph.SituationParameterScreen;
 import hu.pejedlik.game.Loading.EventType;

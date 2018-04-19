@@ -144,6 +144,10 @@ public class GameStage extends MyStage {
                 imgs.clear();
                 table.clear();
             }
+            else
+            {
+                table.clear();
+            }
             if(Assets.getImg(EventType.currentId).getType().equals("?")) {
                 actors();
             }
@@ -151,8 +155,14 @@ public class GameStage extends MyStage {
             {
                 button();
             }
+            if(EventType.currentId.equals(EventType.nextId))
             courrent.setText("Jelenleg: "+Assets.getImg(EventType.currentId).getSubtitle());
             Newactor = false;
+            for(ReadImages dat : Assets.readImages)
+            {
+                Assets.pref.putBoolean(dat.getId()+ EventType.currentEventType,dat.isPlayed());
+            }
+            Assets.pref.flush();
         }
         if(SituationsActor.clicked) {
             for (Cell a : table.getCells()) {
@@ -175,11 +185,6 @@ public class GameStage extends MyStage {
 
     @Override
     public void dispose() {
-        for(ReadImages dat : Assets.readImages)
-        {
-            Assets.pref.putBoolean(dat.getId()+ EventType.currentEventType,dat.isPlayed());
-        }
-        Assets.pref.flush();
         super.dispose();
 
     }

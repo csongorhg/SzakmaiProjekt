@@ -39,8 +39,9 @@ abstract public class MyStage extends Stage implements InitableInterface {
                 if(keycode == Input.Keys.BACK || keycode == Input.Keys.BACKSPACE) {
                     if (game.getScreen() instanceof SituationParameterScreen) {
                         Assets.unloadReadImages();
-                        System.out.println("asd");
+
                     }
+                    game.dispose();
                     game.setScreenBackByStackPop();
                 }
                 return true;

@@ -77,6 +77,7 @@ public class GameScreen extends MyScreen{
                 }
                 else
                 {
+                    dispose();
                     game.setScreenBackByStackPop();
                 }
             }
@@ -126,8 +127,13 @@ public class GameScreen extends MyScreen{
                 if(GameStage.Newactor) {
                     a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.nextId).getPath()));
                 }
-                    if(!EventType.nextId.equals(EventType.currentId))
-                    label.setText(Assets.getImg(EventType.nextId).getSubtitle());
+                    if(!EventType.nextId.equals(EventType.currentId)) {
+                        label.setText(Assets.getImg(EventType.nextId).getSubtitle());
+                    }
+                    else
+                    {
+                        label.setText("");
+                    }
             }
         };
         Gdx.input.setInputProcessor(gameStage);
