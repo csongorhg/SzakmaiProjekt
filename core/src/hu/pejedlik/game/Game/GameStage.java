@@ -4,6 +4,7 @@ import com.badlogic.gdx.assets.AssetDescriptor;
 import com.badlogic.gdx.assets.AssetLoaderParameters;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.assets.loaders.AssetLoader;
+import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -37,7 +38,9 @@ public class GameStage extends MyStage {
     public static boolean Newactor = false;
     public static boolean END = false;
     private Array<String> imgs;
-    Table table;
+    private Table table;
+    private MyLabel courrent;
+    private Table text;
     public GameStage(Viewport viewport, Batch batch, MyGdxGame game) {
         super(viewport, batch, game);
     }
@@ -49,10 +52,28 @@ public class GameStage extends MyStage {
         addBackEventStackListener();
         table = new Table();
         table.setFillParent(true);
+        text = new Table();
+        text.setFillParent(true);
         Newactor = true;
         END = false;
         this.addActor(table);
         EventType.last.clear();
+        courrent = new MyLabel("a",game.getSkin()){
+
+            Pixmap a = new Pixmap(1,1, Pixmap.Format.RGB888);
+            Sprite text = new Sprite(new Texture(a));
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                text.setAlpha(0.75f);
+                text.setBounds(this.getX(),this.getY(),this.getWidth(),this.getHeight());
+                text.draw(batch,parentAlpha);
+                super.draw(batch, parentAlpha);
+            }
+        };
+        courrent.setText("Jelenleg: "+Assets.getImg(EventType.currentId).getSubtitle());
+        text.bottom();
+        text.add(courrent);
+        this.addActor(text);
 
     }
     private void actors()
@@ -130,6 +151,7 @@ public class GameStage extends MyStage {
             {
                 button();
             }
+            courrent.setText("Jelenleg: "+Assets.getImg(EventType.currentId).getSubtitle());
             Newactor = false;
         }
         if(SituationsActor.clicked) {

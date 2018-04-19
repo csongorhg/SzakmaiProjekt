@@ -99,7 +99,7 @@ public class GameScreen extends MyScreen{
                 a.setAlpha(0.7f);
                 addActor(a);
                 setCameraResetToLeftBottomOfScreen();
-                label = new Label("asd",Assets.manager.get(Assets.SKIN)){
+                label = new Label("",Assets.manager.get(Assets.SKIN)){
                     Pixmap a = new Pixmap(1,1, Pixmap.Format.RGB888);
                     Sprite text = new Sprite(new Texture(a));
                     @Override
@@ -111,6 +111,7 @@ public class GameScreen extends MyScreen{
                     }
                 };
                 label.setColor(Color.WHITE);
+                if(!EventType.nextId.equals(EventType.currentId))
                 label.setText(Assets.getImg(EventType.nextId).getSubtitle());
                 table.top();
                 table.row();
@@ -125,6 +126,7 @@ public class GameScreen extends MyScreen{
                 if(GameStage.Newactor) {
                     a.setTexture((Texture) Assets.manager.get(Assets.getImg(EventType.nextId).getPath()));
                 }
+                    if(!EventType.nextId.equals(EventType.currentId))
                     label.setText(Assets.getImg(EventType.nextId).getSubtitle());
             }
         };

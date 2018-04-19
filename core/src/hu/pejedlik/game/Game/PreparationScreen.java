@@ -60,9 +60,9 @@ public class PreparationScreen extends MyScreen {
         for (String name : read) {
             if(x) {
                 if(!name.trim().equals("x")) {
-                    String[] s =name.trim().split("#");
-                    String path = "events/" + EventType.currentEventType.toString() + "_event/" + s[0];
-                    ReadImages readImages = new ReadImages(path, s[0],s[1],Integer.valueOf(s[2]));
+                    String[] s =name.split("#");
+                    String path = "events/" + EventType.currentEventType.toString() + "_event/" + s[0].trim();
+                    ReadImages readImages = new ReadImages(path, s[0].trim(),s[1].trim(),Integer.valueOf(s[2].trim()));
                     Assets.manager.load(readImages.getPath(), Texture.class);
                     Assets.manager.load(readImages.getPath2(), Texture.class);
                     Assets.longestLine = name.length() > Assets.longestLine ? name.length() : Assets.longestLine;
@@ -87,14 +87,17 @@ public class PreparationScreen extends MyScreen {
         }
         fileHandle = Gdx.files.internal("subtitle/" + EventType.currentEventType.toString() + "_parameter_subtitle.txt");
         read = fileHandle.readString().split("\n");
+
         for(String name : read)
         {
             String[] subtitle = name.trim().split("#");
+
             for(ReadImages images : Assets.readImages)
             {
                 if(images.getId().equals(subtitle[0]))
                 {
                     images.setSubtitle(subtitle[1]);
+                    break;
                 }
             }
         }

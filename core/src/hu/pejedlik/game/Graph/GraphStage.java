@@ -25,6 +25,8 @@ public class GraphStage extends Stage implements GestureDetector.GestureListener
     @Override
     public void act(float delta) {
         super.act(delta);
+        c.zoom = 1.4f;
+
         c.update();
     }
 

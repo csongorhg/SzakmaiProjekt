@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import javax.xml.soap.Text;
 
 import hu.pejedlik.game.Game.ReadImages;
+import hu.pejedlik.game.Loading.EventType;
 import hu.pejedlik.game.MyBaseClasses.OneSpriteStaticActor;
 import hu.pejedlik.game.MyBaseClasses.SituationsActor;
 
